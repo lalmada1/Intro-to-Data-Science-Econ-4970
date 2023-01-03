@@ -206,7 +206,7 @@ YellowDig discussion topics are used to introduce you to the data science ecosys
   - **Comments Made:** Creating a comment on another pin **(2 pts)**
   - **Likes:** Liking another pin **(1 pt)**
 
-These points automatically update on *Canvas* and are manually updated on *iCollege*. The total grade is cumulative, reflecting points contributing to 100%. **A maximum of 20 points can be earned in each week's discussions.**  
+These points are manually updated on *iCollege*. The total grade is cumulative, reflecting points contributing to 100%. **A maximum of 20 points can be earned in each week's discussions.**  
 
 *Earning an "Instructor Badge" nets an additional 5 points.*
 
