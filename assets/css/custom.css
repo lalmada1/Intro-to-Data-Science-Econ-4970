@@ -41,14 +41,14 @@ header {
 }
 
 #default_nav {
-    background-color:rgb(38, 184, 239); 
+    background-color: #0039a6 !important; 
     /* background-color: #f08d14;  #ffaf4d; */
     font-size: 1.7em;
     color: white;
 }
 
 footer {
-    background-color:rgb(38, 184, 239); 
+    background-color: #0039a6 !important; 
     /* background-color: #f08d14;  #ffaf4d; #ff8c00; */
     color: white; /* rgb(255,255,255); */
     margin-top: 0px;
