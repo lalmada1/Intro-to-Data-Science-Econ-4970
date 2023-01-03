@@ -98,7 +98,7 @@ a{
  }
 
  img#logo {
-    width: 70%; 
+    width: 50%; 
     height: 50%;
     margin-left: 2em;
     margin-right: 5em;
@@ -112,7 +112,7 @@ a{
  }
 
  li#list {
-    color: black;
+    color: white;
  }
 
 
