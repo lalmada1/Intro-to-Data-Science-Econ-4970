@@ -22,7 +22,7 @@ title:              lalmada1   # GitHub account name
 
 brand:
     image:          # logo.svg  # e.g. logo.png, upload logo image file to /assets/img/ folder
-    text:           "Intro to Data Science"    # if the above "logo:" image variable  is not set, this text logo is displayed instead
+    text:           "Intro to Data Science Econ 4970"    # if the above "logo:" image variable  is not set, this text logo is displayed instead
 
 ###
 ###  YOUR PROGRAM INFO
@@ -30,7 +30,7 @@ brand:
 
 program-logo:       "gsu-logo.png"
 
-program-website:    "https://ds4ps.org/ms-prog-eval-data-analytics/courses/"
+program-website:    "https://gsu.edu"
     
       
 ###
@@ -51,7 +51,7 @@ author:
 header:
 - title: Syllabus
   url:
-- title: Schedule-V2
+- title: Schedule
   url: schedule/
 # - title: Textbook
 #   url: https://ds4ps.org/dp4ss/#dp4ss-data-programming-for-the-social-sciences
