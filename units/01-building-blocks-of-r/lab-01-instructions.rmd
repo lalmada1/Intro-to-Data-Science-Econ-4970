@@ -23,17 +23,8 @@ library( pander )
 ```
 
 
-<br>
-<br>
 
----
 
-#### This lab offers practice with some basic R functions for summarizing vectors.
-
---- 
-
-<br>
-<br>
 
 ## Functions
 
