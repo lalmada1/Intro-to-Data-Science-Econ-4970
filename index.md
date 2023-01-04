@@ -21,7 +21,7 @@ instructor:
    title: Professor 
    email: lalmada1@gsu.edu
    office_location: 55 Park Place #682
-   office_hours_time: Thursdays 10 - 11am 
+   office_hours_time: Thursdays 10 - 11am or by appointment
 
 
 textbooks:
