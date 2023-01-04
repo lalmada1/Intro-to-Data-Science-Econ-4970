@@ -717,7 +717,7 @@ So ignoring potential problems with big and open data for now, read about two in
 
 > For your discussion topic this week, find one data-driven blog post from Ben Wellington's [I Quant NY](http://iquantny.tumblr.com/) and/or OK Cupid's [OK Trends](https://theblog.okcupid.com/tagged/data) where you discovered something cool that you did not know, and share it with the group. In your post highlight what is interesting about the example, and what data made it possible.
 
-**Please post your reflection as a new pin on iCollege.**
+**Please post your reflection as a new thread on iCollege.**
 
 <a class="uk-button uk-button-primary" href="{{page.canvas.yellowdig_url}}">Post to iCollege</a>
 
