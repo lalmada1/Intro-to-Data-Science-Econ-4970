@@ -30,20 +30,6 @@ library( pander )
 
 #### This lab offers practice with some basic R functions for summarizing vectors.
 
-I have provided you with a **LAB-01 RMD template**.  Click to download: 
-
-<center>
-
-<a href='https://raw.githubusercontent.com/Watts-College/cpp-526-template/main/labs/FlexdashboardRowOrientation.Rmd' target="_blank">
-<button type="button" class="button"> DOWNLOAD TEMPLATE </button>
-</a>
-
-</center>
-
-*You may have to right-click on the file and "save as" depending upon your browser.*
-
-Remember to name your file: **lab-##-lastname.rmd** 
-
 --- 
 
 <br>
