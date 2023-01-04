@@ -7,6 +7,7 @@ base: 'https://github.com/lalmada1/Intro-to-Data-Science-Econ-4970/'
 canvas:
   assignment_url: 'https://gastate.view.usg.edu/d2l/lms/dropbox/admin/folders_manage.d2l?ou=2749801'
   yellowdig_url: 'https://gastate.view.usg.edu/d2l/le/2749801/discussions/List'
+  templates_url: 'https://gastate.view.usg.edu/d2l/home/2749801'
 
 lab-due-dates:
   lab-01: 'WED January 25'
@@ -693,7 +694,7 @@ The following checklist will help you stay organized in your first week.
 
 - [ ] Complete Assigned Readings: [Assignment](http://ds4ps.org/dp4ss-textbook/ch-033-calculator.html), [Functions](http://ds4ps.org/dp4ss-textbook/ch-040-functions.html), & [Vectors](http://ds4ps.org/dp4ss-textbook/ch-050-vectors.html)
 - [ ] Post & Exchange on Discussion Topic, Maximum 20 Points (See Below)
-- [ ] Complete & Submit [Lab 01](../labs/lab-01-instructions.html) (See Below)
+- [ ] Complete & Submit [Lab 01](../units/01-building-blocks-of-r/lab-01-instructions.html) (See Below)
 - [ ] (Recommended) Videos
 
 <br>
@@ -744,11 +745,11 @@ You can earn up to 20 points per topic. You need to earn 100 points across the 7
 
 This lab is designed to introduce you to basic functions that explore datasets and variables.
 
-<a class="uk-button uk-button-default" onclick="window.open('../labs/lab-01-instructions.html')">LAB-01 Instructions</a>
+<a class="uk-button uk-button-default" onclick="window.open('../units/01-building-blocks-of-r/lab-01-instructions.html')">LAB-01 Instructions</a>
 
 Click to download the lab template. Modify and submit using the instructions.
 
-<a class="uk-button uk-button-default" onclick="window.open('../labs/cpp-526_reformatted-labs/Lab-01-LastName.zip')">LAB-01 Template</a>
+<a class="uk-button uk-button-default" onclick="window.open('../units/01-building-blocks-of-r/lab-01-template.Rmd')">LAB-01 Template</a>
 
 ## Submit Solutions to iCollege
 
