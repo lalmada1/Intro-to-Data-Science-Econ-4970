@@ -2,7 +2,7 @@ button {
     border-radius: 5px;
     border-color: darkgray;
     background-color: transparent;
-    color: #26b8ef;
+    color: #0039a6 !important;
 }
 
 
@@ -59,7 +59,7 @@ footer {
  button#dataset {
     border-radius: 5px;
     background-color: transparent;
-    border-color: rgb(140,29,64);
+    border-color: #0039a6 !important;
 }
 
 button#dataset:hover {
