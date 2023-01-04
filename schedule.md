@@ -2,34 +2,34 @@
 layout: schedule
 title: Schedule
 
-base: 'https://github.com/Watts-College/cpp-526-fall-2021/raw/main/'
+base: 'https://github.com/lalmada1/Intro-to-Data-Science-Econ-4970/raw/main/'
 
 canvas:
-  assignment_url: 'https://canvas.asu.edu/courses/92494/assignments'
-  yellowdig_url: 'https://canvas.asu.edu/courses/92494/assignments/2358903'
+  assignment_url: 'https://gastate.view.usg.edu/d2l/lms/dropbox/admin/folders_manage.d2l?ou=2749801'
+  yellowdig_url: 'https://gastate.view.usg.edu/d2l/le/2749801/discussions/List'
 
 lab-due-dates:
-  lab-01: 'WED August 25'
-  lab-02: 'WED September 1'
-  lab-03: 'WED September 8'
-  lab-04: 'WED September 15'
-  lab-05: 'WED September 22'
-  lab-06: 'WED September 29'
+  lab-01: 'WED January 25'
+  lab-02: 'WED February 8'
+  lab-03: 'WED February 22'
+  lab-04: 'WED March 8'
+  lab-05: 'WED March 29'
+  lab-06: 'WED April 12'
 
 discussion-dates:
-  topic-00: 'MON August 23'
-  topic-01: 'FRI August 27'
-  topic-02: 'FRI September 3'
-  topic-03: 'FRI September 10'
-  topic-04: 'FRI September 17'
-  topic-05: 'FRI September 24'
-  topic-06: 'FRI October 1'
-
-final-project:
-  due-date: 'WED October 6'
+  topic-00: 'WED January 11'
+  topic-01: 'WED January 18'
+  topic-02: 'WED February 1'
+  topic-03: 'WED February 15'
+  topic-04: 'WED March 1'
+  topic-05: 'WED March 22'
+  topic-06: 'WED April 5'
 
 code-through:
-  due-date: 'WED October 6'
+  due-date: 'WED April 19'
+  
+final-project:
+  due-date: 'WED April 26'
 
 ---
 
@@ -49,7 +49,7 @@ Unit Metadata is comprised of:
 @foldout - activate unit content (allow foldout)
 Submit Buttons -
   <a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Lab</a>
-  <a class="uk-button uk-button-primary" href="{{page.canvas.yellowdig_url}}">YELLOWDIG</a>
+  <a class="uk-button uk-button-primary" href="{{page.canvas.yellowdig_url}}">Discussion</a>
 -->
 
 
@@ -67,42 +67,6 @@ Submit Buttons -
 -->
 
 ** Welcome
-
-*** { @unit = "", @title = "Meet Your Instructor", @lecture, @foldout }
-
-<br>
-
-## About Your Instructor
-
-Play the video below to learn a bit more about your instructor for the course, YOUR NAME.
-
-* Visit his [GitHub](https://github.com/jamisoncrawford) profile
-* View his [RPubs](https://rpubs.com/jamisoncrawford) portfolio
-* Connect on [LinkedIn](https://www.linkedin.com/in/jamisoncrawford/)
-
-<br>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/C1A5x6LCDJo?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br>
-
-Visit the [video](https://youtu.be/C1A5x6LCDJo) to navigate using timestamps in the description or bookmarks in the progress bar.
-
-* (**00:00**) Introduction
-* (**00:07**) Two Universities, One Course
-* (**01:06**) My Relationship to the Course
-* (**01:38**) Teaching Experience & Course Origins
-* (**02:30**) What I Do as a Data Scientist
-* (**04:10**) Want a "Hard" Skill?  Do the Work!
-* (**05:40**) Course Resources & Assignment Tips
-* (**07:21**) Resources to Learn & Resources to Ignore
-* (**09:06**) Why the "Unofficial" YouTube Channel Is Invaluable
-* (**09:44**) Weekly To-Do Checklists
-* (**10:26**) Dispute Your Irrational Beliefs on Data Science
-* (**11:18**) First Assignment: Introduce Yourself
-* (**11:33**) Express Yourself
-
-<br>
 
 *** { @unit = "", @title = "The R Toolkit", @reading, @lecture, @foldout }
 
@@ -363,10 +327,10 @@ We are going to throw a lot at you, but also provide a lot of support. Over thes
 If you find something confusing, let us know (likely others will find it confusing as well).
 
 * Schedule a Zoom call with your instructor and screen share to walk through issues
-* Post a question to the [course discussion board](https://watts-college.github.io/cpp-526-fall-2021/help/)
+* Post a question to the [course discussion board](https://lalmada1.github.io/Intro-to-Data-Science-Econ-4970/help/)
 * Request a walk-through and your instructor will provide examples and steps
 
-As a general rule of thumb, if you are stuck on the math or code for a problem, need clarification about what the question is asking, want to make sure you understand a formula, or are having similar issues then the help discussion page is the easiest and quickest way to get help. If you are confused about concepts or having a hard time even formulating your question, then virtual office hours are your best option.
+As a general rule of thumb, if you are stuck on the math or code for a problem, need clarification about what the question is asking, want to make sure you understand a formula, or are having similar issues then the help discussion page is the easiest and quickest way to get help. If you are confused about concepts or having a hard time even formulating your question, then office hours are your best option.
 
 <br>
 
@@ -414,10 +378,10 @@ b1 = cov(x,y) / var(x)
 
 The following checklist will help you organize and prepare for success in this course.
 
-- [ ] [Read the Syllabus](https://watts-college.github.io/cpp-526-fall-2022/)
+- [ ] [Read the Syllabus](https://lalmada1.github.io/Intro-to-Data-Science-Econ-4970/)
 - [ ] [Install R](https://cran.rstudio.com/) and [R Studio Desktop](https://www.rstudio.com/products/rstudio/download/)
 - [ ] [Sign-Up for a GitHub Account](https://github.com/join)
-- [ ] Introduce Yourself on [YellowDig](https://canvas.asu.edu/courses/54986/assignments/1306428) (See Below)
+- [ ] Introduce Yourself on [iCollege](https://gastate.view.usg.edu/d2l/le/2749801/discussions/topics/3415480/View) (See Below)
 - [ ] (Recommended) Skim Readings
 - [ ] (Recommended) Videos
 
@@ -429,13 +393,13 @@ The following checklist will help you organize and prepare for success in this c
 
 ## Introduce Yourself to the Class
 
-We will be using a discussion board called **YellowDig** for this course. Introduce yourself to the class:
+We will be using the discussion board on **iCollege** for this course. Introduce yourself to the class:
 
 1. A little about yourself
 2. Your previous experience with data analytics
 3. One thing you hope to do with your new skills in data analytics
 
-<a class="uk-button uk-button-primary" href="{{page.canvas.yellowdig_url}}">Post to YellowDig</a>
+<a class="uk-button uk-button-primary" href="{{page.canvas.yellowdig_url}}">Post to iCollege</a>
 
 <br>
 <br>
