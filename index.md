@@ -17,10 +17,10 @@ info:
  class_meets_where: Classroom South CLSO Room 200
 
 instructor:
--  name: Lorenzo Almada
-   title: Professor 
+-  title: Professor 
+   name: Lorenzo Almada
    email: lalmada1@gsu.edu
-   office_location: 55 Park Place #682
+   office_location: 55 Park Place office 682
    office_hours_time: Thursdays 10 - 11am or by appointment
 
 
