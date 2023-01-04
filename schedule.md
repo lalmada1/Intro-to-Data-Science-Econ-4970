@@ -2,7 +2,7 @@
 layout: schedule
 title: Schedule
 
-base: 'https://github.com/lalmada1/Intro-to-Data-Science-Econ-4970/raw/main/'
+base: 'https://github.com/lalmada1/Intro-to-Data-Science-Econ-4970/'
 
 canvas:
   assignment_url: 'https://gastate.view.usg.edu/d2l/lms/dropbox/admin/folders_manage.d2l?ou=2749801'
