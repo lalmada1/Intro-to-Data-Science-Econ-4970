@@ -198,12 +198,11 @@ The following criteria, description, and corresponding points are used to evalua
 
 ### Discussion Topics (10%)
 
-YellowDig discussion topics are used to introduce you to the data science ecosystem. Since this course focuses on the skill of learning data programming we cannot cover go in-depth into exciting resources and developments in the broad field of data science. The weekly discussion topics are a chance to explore some resources or reflect on a specific theme or article. We will use YellowDig discussion boards for this assignment. You earn points through your activities on the board. You need to earn at least 100 points by posting topics and interacting with peers in order to earn full credit. The points are allocated as follows:
+iCollege discussion topics are used to introduce you to the data science ecosystem. Since this course focuses on the skill of learning data programming we cannot cover go in-depth into exciting resources and developments in the broad field of data science. The weekly discussion topics are a chance to explore some resources or reflect on a specific theme or article. We will use iCollege discussion boards for this assignment. You earn points through your activities on the board. You need to earn at least 100 points by posting topics and interacting with peers in order to earn full credit. The points are allocated as follows:
 
-  - **New Pins:** Creating a new pin with at least 50 words **(5 pts)**
-  - **Comments Received:** Receiving a comment on your pin **(2 pts)**
-  - **Comments Made:** Creating a comment on another pin **(2 pts)**
-  - **Likes:** Liking another pin **(1 pt)**
+  - **New Threads:** Creating a new thread with at least 50 words **(8 pts)**
+  - **Comments Received:** Receiving a comment on your thread **(2 pts)**
+  - **Comments Made:** Creating a comment on another thread **(2 pts)**
 
 These points are manually updated on *iCollege*. The total grade is cumulative, reflecting points contributing to 100%. **A maximum of 20 points can be earned in each week's discussions.**  
 
