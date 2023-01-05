@@ -1,7 +1,7 @@
 Items to update. Thank you, Jesse! 
 
 - [ ] On the main page / syllabus, can the instructor name "Lorenzo Almada" be linked to my gsu page (https://aysps.gsu.edu/profile/lorenzo-almada/)? 
-- [ ] On the main page / syllabus, can we make the black font white when the background is blue on the headers and footers?
+- [X] On the main page / syllabus, can we make the black font white when the background is blue on the headers and footers?
 
 In assets/css/custom.css add: 
 
@@ -12,7 +12,7 @@ div.uk-navbar a {
 }
 ```
 
-- [ ] On the main page / syllabus, can we turn the sun icon to a panther paw icon?
+- [X] On the main page / syllabus, can we turn the sun icon to a panther paw icon?
 
 In layouts/default.html, change: 
 
@@ -23,7 +23,7 @@ In layouts/default.html, change:
 ```
 
 
-- [ ] On the main page / syllabus, can we resize the GSU logo so it doesn't look stretched? 
+- [X] On the main page / syllabus, can we resize the GSU logo so it doesn't look stretched? 
 
 In layouts/default.html near the bottom: 
 
