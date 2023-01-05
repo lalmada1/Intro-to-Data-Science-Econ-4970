@@ -6,6 +6,10 @@ button {
 }
 
 
+/* NAVBAR TEXT COLOR */
+div.uk-navbar a {
+    color: white !important;
+}
 
 table#t02 th {
     font-size: 1.5em;
