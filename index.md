@@ -11,7 +11,7 @@ info:
  course_title: Intro to Data Science for Economists 
  course_number: Econ 4970
  course_level: Undergraduate
- course_website: 'https://gastate.view.usg.edu/d2l/home/2749801'
+ course_website: "https://gastate.view.usg.edu/d2l/home/2749801"
  course_start_end_dates: January 9 - April 24, 2023
  course_prerequisites:  
  class_meets_when:  Wednesdays 12:30pm - 3:00pm  
@@ -22,7 +22,7 @@ instructor:
    title: Clinical Assistant Professor
    email: lalmada1@gsu.edu
    office_location: 55 Park Place Room 682
-   website_url: 'https://aysps.gsu.edu/profile/lorenzo-almada/'
+   website_url: "https://aysps.gsu.edu/profile/lorenzo-almada/"
    office_hours_time: Thurs 10:00 - 11:00 am or by Appointment (email me!)  
    office_hours_location:  
 
