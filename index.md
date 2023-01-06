@@ -260,7 +260,7 @@ This course spans a fourteen week schedule. A schedule for each week of the term
 
 Please note: the course instructor may from time to time adjust assigned readings or adjust the due dates for assignment. The basic course content approach and learning objectives will not change, but slight modifications are possible if circumstances warrant an adjustment.
 
-Visit the [**Course Schedule**](../schedule).
+Visit the [**Course Schedule**](https://lalmada1.github.io/Intro-to-Data-Science-Econ-4970/schedule).
 
 <br>
 <br>
