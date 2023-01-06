@@ -203,9 +203,10 @@ The following criteria, description, and corresponding points are used to evalua
 
 Discussion Topics (10%): iCollege discussion topics are used to introduce you to the data science ecosystem. Since this course focuses on the skill of learning data programming we cannot cover exciting resources and developments in the broad field of data science. The six weekly discussion topics (plus the Code-Through) are a chance to explore some resources or reflect on a specific theme or article on your own. We will use iCollege discussion boards for this assignment. You can earn up to 100 points (out of a total of 140 points) by posting topics and interacting with peers in order to earn a perfect score on towards your final course grade. The points each week are allocated as follows:
 
-  - 7 points for a new post with at least 200 words
+  - 5 points for a new post with at least 200 words
   - 3 points for a substantive comment (> 50 words) made to another student's post
   - 2 points if you receive a comment on your post
+  - 3 points if you earn an instructor praise for an exceptionally informative and thorough post 
   - Max of 20 points can be earned each week (6 discussions plus 1 Code-Through)
 
 These points are manually updated on *iCollege*. The total grade is cumulative, reflecting points contributing to 100%. **A maximum of 20 points can be earned in each week's discussions.**  
