@@ -22,7 +22,7 @@ title:              lalmada1   # GitHub account name
 
 brand:
     image:          # e.g. logo.png, upload logo image file to /assets/img/ folder
-    text:           "Intro to Data Science Econ 4970"    # if the above "logo:" image variable  is not set, this text logo is displayed instead
+    text:           "Econ 4970 - Intro to Data Science"    # if the above "logo:" image variable  is not set, this text logo is displayed instead
 
 ###
 ###  YOUR PROGRAM INFO
