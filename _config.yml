@@ -21,7 +21,7 @@ course_url:         "https://lalmada1.github.io/Intro-to-Data-Science-Econ-4970"
 title:              lalmada1   # GitHub account name
 
 brand:
-    image:          # logo.svg  # e.g. logo.png, upload logo image file to /assets/img/ folder
+    image:          "r-logo.png"  # e.g. logo.png, upload logo image file to /assets/img/ folder
     text:           "Intro to Data Science Econ 4970"    # if the above "logo:" image variable  is not set, this text logo is displayed instead
 
 ###
