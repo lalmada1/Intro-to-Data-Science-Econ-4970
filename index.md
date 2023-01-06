@@ -17,11 +17,13 @@ info:
  class_meets_where: Classroom South CLSO Room 200
 
 instructor:
--  title: Professor 
-   name: Lorenzo Almada
+-  name: Lorenzo Almada
+   title: Clinical Assistant Professor
    email: lalmada1@gsu.edu
-   office_location: 55 Park Place office 682
-   office_hours_time: Thursdays 10 - 11am or by appointment
+   office_location: 55 Park Place Room 682
+   website_url: 'https://aysps.gsu.edu/profile/lorenzo-almada/'
+   office_hours_time: Thurs 10:00 - 11:00 am or by Appointment (email me!)  
+   office_hours_location:  
 
 
 textbooks:
@@ -198,15 +200,14 @@ The following criteria, description, and corresponding points are used to evalua
 
 ### Discussion Topics (10%)
 
-iCollege discussion topics are used to introduce you to the data science ecosystem. Since this course focuses on the skill of learning data programming we cannot cover go in-depth into exciting resources and developments in the broad field of data science. The weekly discussion topics are a chance to explore some resources or reflect on a specific theme or article. We will use iCollege discussion boards for this assignment. You earn points through your activities on the board. You need to earn at least 100 points by posting topics and interacting with peers in order to earn full credit. The points are allocated as follows:
+Discussion Topics (10%): iCollege discussion topics are used to introduce you to the data science ecosystem. Since this course focuses on the skill of learning data programming we cannot cover exciting resources and developments in the broad field of data science. The six weekly discussion topics (plus the Code-Through) are a chance to explore some resources or reflect on a specific theme or article on your own. We will use iCollege discussion boards for this assignment. You can earn up to 100 points (out of a total of 140 points) by posting topics and interacting with peers in order to earn a perfect score on towards your final course grade. The points each week are allocated as follows:
 
-  - **New Threads:** Creating a new thread with at least 50 words **(8 pts)**
-  - **Comments Received:** Receiving a comment on your thread **(2 pts)**
-  - **Comments Made:** Creating a comment on another thread **(2 pts)**
+  - 7 points for a new post with at least 200 words
+  - 3 points for a substantive comment (> 50 words) made to another student's post
+  - 2 points if you receive a comment on your post
+  - Max of 20 points can be earned each week (6 discussions plus 1 Code-Through)
 
 These points are manually updated on *iCollege*. The total grade is cumulative, reflecting points contributing to 100%. **A maximum of 20 points can be earned in each week's discussions.**  
-
-*Earning an "Instructor Badge" nets an additional 5 points.*
 
 ## D. General Grading Rubric for Written Work
 
@@ -257,7 +258,7 @@ This course spans a fourteen week schedule. A schedule for each week of the term
 
 Please note: the course instructor may from time to time adjust assigned readings or adjust the due dates for assignment. The basic course content approach and learning objectives will not change, but slight modifications are possible if circumstances warrant an adjustment.
 
-Visit the [**Course Schedule**](./schedule.html).
+Visit the [**Course Schedule**](../schedule).
 
 <br>
 <br>
