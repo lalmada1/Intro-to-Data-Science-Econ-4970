@@ -11,6 +11,19 @@ div.uk-navbar a {
     color: white !important;
 }
 
+fab.fa-github a {
+    color: white !important;
+}
+
+fab.fa-paw a {
+    color: white !important;
+}
+
+td#footer a {
+    color: white !important;
+}
+   
+
 table#t02 th {
     font-size: 1.5em;
     color: #5e5e5e;
