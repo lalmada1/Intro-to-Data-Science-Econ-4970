@@ -1,8 +1,5 @@
 ---
 layout: default
-
-raw-url: 'https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units'
-
 ---
 
 <div class = "uk-container uk-container-small">
@@ -73,6 +70,6 @@ raw-url: 'https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site
 
 .button:hover {
   background-color: #0039a6; 
-  color: white;
+  color: white !important;
 }
 </style>
