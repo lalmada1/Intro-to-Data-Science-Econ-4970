@@ -22,7 +22,7 @@ instructor:
    title: Clinical Assistant Professor
    email: lalmada1@gsu.edu
    office_location: 55 Park Place Room 682
-   website_url: "https://aysps.gsu.edu/profile/lorenzo-almada/"
+   website: "https://aysps.gsu.edu/profile/lorenzo-almada/"
    office_hours_time: Thurs 10:00 - 11:00 am or by Appointment (email me!)  
    office_hours_location:  
 
