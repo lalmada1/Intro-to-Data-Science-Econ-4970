@@ -969,7 +969,12 @@ Click to download the lab template. Modify and submit using the instructions.
 
 <a class="uk-button uk-button-default" onclick="window.open('../units/02-operators-and-descriptives/lab-02-template.rmd')">LAB-02 Template</a>
 
-## Submit Solutions to Canvas
+<a class="uk-button uk-button-default" 
+   onclick="window.open('https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/02-operators-and-descriptives/lab-02-template.rmd')">
+   LAB-02 Template
+</a>
+
+## Submit Solutions to iCollege
 
 <a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
 
@@ -1146,7 +1151,7 @@ Click to download the lab template. Modify and submit using the instructions.
 
 <a class="uk-button uk-button-default" onclick="window.open('../units/03-data-viz-static/lab-03-v2-template.Rmd')">LAB-03 Template</a>
 
-## Submit Solutions to Canvas
+## Submit Solutions to iCollege
 
 <a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
 
@@ -1336,7 +1341,7 @@ Click to download the lab template.
 
 <a class="uk-button uk-button-default" onclick="window.open('../units/04-data-viz-dynamic/lab-04a-template.rmd')">LAB-04 Template</a>
 
-## Submit Solutions to Canvas
+## Submit Solutions to iCollege
 
 <a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
 
@@ -1525,7 +1530,7 @@ Click to download the lab template. Modify and submit using the instructions.
 
 <a class="uk-button uk-button-default" href='../units/05-data-wrangling/lab-05-template.rmd' target="_blank">LAB-05 Template</a>
 
-## Submit Solutions to Canvas
+## Submit Solutions to iCollege
 
 <a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
 
@@ -1690,7 +1695,7 @@ Click to download the lab template. Modify and submit using the instructions.
 
 <a class="uk-button uk-button-default" onclick="window.open('../units/06-data-joins/lab-06-template.Rmd')">LAB-06 Template</a>
 
-## Submit Solutions to Canvas
+## Submit Solutions to iCollege
 
 <a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
 
