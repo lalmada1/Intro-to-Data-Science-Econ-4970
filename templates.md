@@ -15,31 +15,31 @@ raw-url: 'https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site
 
 # Lab Templates
 
-<a href='{{raw-url}}/01-building-blocks-of-r/lab-01-template.rmd' target="_blank">
+<a href='{{page.raw-url}}/01-building-blocks-of-r/lab-01-template.rmd' target="_blank">
 <button type="button" class="button"> LAB 01 </button>
 </a>
   
-<a href='{{raw-url}}/02-operators-and-descriptives/lab-02-template.rmd' target="_blank">
+<a href='{{page.raw-url}}/02-operators-and-descriptives/lab-02-template.rmd' target="_blank">
 <button type="button" class="button"> LAB 02 </button>
 </a>
   
-<a href='{{raw-url}}/01-building-blocks-of-r/lab-01-template.rmd' target="_blank">
+<a href='{{page.raw-url}}/01-building-blocks-of-r/lab-01-template.rmd' target="_blank">
 <button type="button" class="button"> LAB 03 </button>
 </a>
   
-<a href='{{raw-url}}/01-building-blocks-of-r/lab-01-template.rmd' target="_blank">
+<a href='{{page.raw-url}}/01-building-blocks-of-r/lab-01-template.rmd' target="_blank">
 <button type="button" class="button"> LAB 04 </button>
 </a>
   
-<a href='{{raw-url}}/01-building-blocks-of-r/lab-01-template.rmd' target="_blank">
+<a href='{{page.raw-url}}/01-building-blocks-of-r/lab-01-template.rmd' target="_blank">
 <button type="button" class="button"> LAB 05 </button>
 </a>
   
-<a href='{{raw-url}}/01-building-blocks-of-r/lab-01-template.rmd' target="_blank">
+<a href='{{page.raw-url}}/01-building-blocks-of-r/lab-01-template.rmd' target="_blank">
 <button type="button" class="button"> LAB 06 </button>
 </a>
   
-<a href='{{raw-url}}/01-building-blocks-of-r/lab-01-template.rmd' target="_blank">
+<a href='{{page.raw-url}}/01-building-blocks-of-r/lab-01-template.rmd' target="_blank">
 <button type="button" class="button"> LAB 07 </button>
 </a>
   
