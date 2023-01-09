@@ -6,12 +6,15 @@ layout: default
 
 
 <br>
-<hr>
 <br>
 
 
 # Lab Templates
 
+<br>
+<hr>
+<br>
+  
 <a href='https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/01-building-blocks-of-r/lab-01-template.rmd' target="_blank">
 <button type="button" class="button"> LAB 01 </button>
 </a>
