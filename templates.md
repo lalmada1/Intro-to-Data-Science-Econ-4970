@@ -23,7 +23,7 @@ layout: default
 <button type="button" class="button"> LAB 02 </button>
 </a>
   
-<a href='https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/03-data-viz-static/lab-01-template.rmd' target="_blank">
+<a href='https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/03-data-viz-static/lab-03-template.rmd' target="_blank">
 <button type="button" class="button"> LAB 03 </button>
 </a>
 
