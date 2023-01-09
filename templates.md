@@ -24,8 +24,12 @@ layout: default
 <button type="button" class="button"> LAB 03 </button>
 </a>
 
+<br>
 <hr>
+<br>
 
+### Dynamic Graphics 
+  
 <a href='{{page.raw-url}}/04-data-viz-dynamic/demo-shiny-01.rmd' target="_blank">
 <button type="button" class="button"> Shiny Demo 01 </button>
 </a>
@@ -54,7 +58,9 @@ layout: default
 <button type="button" class="button"> LAB 04b Shiny Plus </button>
 </a> 
 
+<br>  
 <hr>
+<br>
   
 <a href='{{page.raw-url}}/05-data-wrangling/lab-05-template.rmd' target="_blank">
 <button type="button" class="button"> LAB 05 </button>
@@ -63,8 +69,12 @@ layout: default
 <a href='{{page.raw-url}}/06-data-joins/lab-06-template.rmd' target="_blank">
 <button type="button" class="button"> LAB 06 </button>
 </a>
-  
+
+<br>  
 <hr>
+<br>
+ 
+### Final Projects 
   
 <a href='{{page.raw-url}}/07-dashboards/demo-flexdashboard-column-orientation.rmd' target="_blank">
 <button type="button" class="button"> FlexDash Demo 01 </button>
@@ -88,8 +98,8 @@ layout: default
   
 
   
-<br>
-<br>
+<br>  
+<hr>
 <br>
 
 
@@ -109,7 +119,7 @@ layout: default
   display: inline-block;
   font-size: 16px;
   border-radius: 12px;
-  width: 200px;
+  width: 300px;
 }
 
 .button {
