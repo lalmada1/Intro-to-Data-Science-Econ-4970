@@ -1515,11 +1515,11 @@ This lab offers practice analyzing traffic accident patterns using **dplyr** dat
 
 **Note:** *These data and techniques will be used for your final project in building an interactive dashboard.*
 
-<a class="uk-button uk-button-default" onclick="window.open('../units/05-data-wrangling/lab-05-instructions.rmd')">LAB-05 Instructions</a>
+<a class="uk-button uk-button-default" onclick="window.open('../units/05-data-wrangling/lab-05-instructions.html')">LAB-05 Instructions</a>
 
 Click to download the lab template. Modify and submit using the instructions.
 
-<a class="uk-button uk-button-default" onclick="window.open('../units/05-data-wrangling/lab-05-template.Rmd')">LAB-05 Template</a>
+<a class="uk-button uk-button-default" onclick="window.open('../units/05-data-wrangling/lab-05-template.rmd')">LAB-05 Template</a>
 
 ## Submit Solutions to Canvas
 
