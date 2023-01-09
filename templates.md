@@ -15,11 +15,11 @@ raw-url: 'https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site
 
 # Lab Templates
 
-<a href='{{page.raw-url}}/01-building-blocks-of-r/lab-01-template.rmd' target="_blank">
+<a href='https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/01-building-blocks-of-r/lab-01-template.rmd' target="_blank">
 <button type="button" class="button"> LAB 01 </button>
 </a>
   
-<a href='{{page.raw-url}}/02-operators-and-descriptives/lab-02-template.rmd' target="_blank">
+<a href='https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/02-operators-and-descriptives/lab-02-template.rmd' target="_blank">
 <button type="button" class="button"> LAB 02 </button>
 </a>
   
