@@ -1519,7 +1519,7 @@ This lab offers practice analyzing traffic accident patterns using **dplyr** dat
 
 Click to download the lab template. Modify and submit using the instructions.
 
-<a class="uk-button uk-button-default" onclick="window.open('../units/05-data-wrangling/lab-05-template.rmd')">LAB-05 Template</a>
+<a class="uk-button uk-button-default" href='../units/05-data-wrangling/lab-05-template.rmd' target="_blank">LAB-05 Template</a>
 
 ## Submit Solutions to Canvas
 
