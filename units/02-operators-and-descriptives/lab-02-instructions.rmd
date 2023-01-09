@@ -162,7 +162,11 @@ install.packages( "sp" )
 install.packages( "rgdal" )
 ```
 
-NOTE: do not include include install package commands in your RMD chunks. Trying to install packages while knitting can cause errors. 
+
+After installing the packages load them in RMD files using library() commands: 
+
+Do **NOT** include include the install commands in your RMD chunks. Trying to install packages while knitting will cause errors. 
+
 
 ```{r, eval=F}
 library( geojsonio )

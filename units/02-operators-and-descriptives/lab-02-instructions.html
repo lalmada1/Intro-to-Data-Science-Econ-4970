@@ -1798,8 +1798,11 @@ are recorded in the dataset.</li>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>( <span class="st">&quot;geojsonio&quot;</span> )</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>( <span class="st">&quot;sp&quot;</span> )</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>( <span class="st">&quot;rgdal&quot;</span> )</span></code></pre></div>
-<p>NOTE: do not include include install package commands in your RMD
-chunks. Trying to install packages while knitting can cause errors.</p>
+<p>After installing the packages load them in RMD files using library()
+commands:</p>
+<p>Do <strong>NOT</strong> include include the install commands in your
+RMD chunks. Trying to install packages while knitting will cause
+errors.</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>( geojsonio )</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>( sp )</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>( rgdal )</span></code></pre></div>
