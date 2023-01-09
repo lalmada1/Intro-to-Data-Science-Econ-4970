@@ -57,7 +57,7 @@ raw-url: 'https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site
 .button {
   background-color: white;
   color: black;
-  border: 2px solid #008CBA;
+  border: 2px solid #0039a6;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -72,7 +72,7 @@ raw-url: 'https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site
 }
 
 .button:hover {
-  background-color: #008CBA; 
+  background-color: #0039a6; 
   color: white;
 }
 </style>
