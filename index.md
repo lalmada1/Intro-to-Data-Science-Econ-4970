@@ -15,7 +15,7 @@ info:
  course_start_end_dates: January 9 - April 24, 2023
  course_prerequisites:  
  class_meets_when:  Wednesdays 12:30pm - 3:00pm  
- class_meets_where: Classroom South CLSO Room 200
+ class_meets_where: Classroom South CLSO Room 405
 
 instructor:
 -  name: Lorenzo Almada
