@@ -32,7 +32,7 @@ library( rgdal )
 
 There is a **LAB-02 RMD template** available: 
 
-<a href='https://raw.githubusercontent.com/DS4PS/intro-data-science-TEMPLATE/main/units/02-operators-and-descriptives/lab-02-template.rmd' target="_blank">
+<a href='lab-02-template.rmd' target="_blank">
 <button type="button" class="button"> TEMPLATE </button>
 </a>
 
