@@ -20,10 +20,6 @@ raw-url: 'https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site
 </a>
   
 <a href='{{raw-url}}/02-operators-and-descriptives/lab-02-template.rmd' target="_blank">
-   LAB-01 Template
-</a>
-  
-<a href='{{raw-url}}/01-building-blocks-of-r/lab-01-template.rmd' target="_blank">
 <button type="button" class="button"> LAB 02 </button>
 </a>
   
