@@ -1,5 +1,5 @@
 ---
-title: "CPP 526: Final Project"
+title: "Final Project"
 output: 
   flexdashboard::flex_dashboard:
     theme: spacelab

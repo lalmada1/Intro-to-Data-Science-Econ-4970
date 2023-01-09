@@ -7,7 +7,7 @@ output:
     highlight: tango
     toc: yes
     toc_float: no
-    css: '../../html/lab-instructions.css'
+    css: '../html/lab-instructions.css'
     include:
       after_body: '../html/footer.html'
 ---
@@ -23,6 +23,21 @@ library( pander )
 ```
 
 
+<hr>
+
+This lab offers practice with some basic R functions for summarizing vectors.
+
+A **LAB-01 RMD template** is provided: 
+
+<a href='../../templates/' target="_blank">
+<button type="button" class="button"> TEMPLATES </button>
+</a>
+
+You may have to right-click on the file and “save as” depending upon your browser.
+
+Remember to name your file: **lab-##-lastname.rmd**
+
+<hr>
 
 
 
@@ -45,7 +60,7 @@ table()                 # summarize factors / character vectors
 
 # Data
 
-This lab uses **city tax parcel data** from Syracuse, NY. [ [Data Dictionary](https://ds4ps.github.io/Data-Science-Class/DATA/syr_parcels.html) ]
+This lab uses **city tax parcel data** from Syracuse, NY. [ [Data Dictionary](../02-operators-and-descriptives/lab-02-data-dictionary.html) ]
 
 * Each house, business, park or empty lot in the city sits on a parcel of land, and the tax rate for that parcel is determined by the city. 
 * All of the characteristics of each parcel is stored in a central database, along with information about the land use classifications, owners, and whether the property is up-to-date on taxes and water bills.  

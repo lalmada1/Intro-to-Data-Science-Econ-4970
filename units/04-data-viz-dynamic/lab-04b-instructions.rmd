@@ -5,6 +5,12 @@ output:
     theme: readable
     df_print: paged
     highlight: tango
+    toc: yes
+    toc_float: no
+    self-contained: true
+    css: '../html/lab-instructions.css'
+    include:
+      after_body: '../html/footer.html'
 ---
 
 ```{r include = FALSE}
@@ -27,25 +33,25 @@ library(tidyverse)
 ```
 
 
-#### [Coding in R for Policy Analytics](http://ds4ps.org/ays-r-coding-sum-2022/)
 
 <br>
+<hr>
 
-*This lab gently introduces how to create an interactive dashboard in R.*
+*This lab gently introduces interactive dashboards in R.*
 
-You can create a new R Markdown file, or download the **LAB-03 RMD templates**: 
+You can create a new R Markdown file, or download the **templates**: 
 
-<center>
+<a href='../../templates/' target="_blank">
+<button type="button" class="button"> TEMPLATES </button>
+</a>
 
-[![](https://github.com/cssearcy/AYS-R-Coding-SPR-2020/blob/master/LABS/images/download.png?raw=true)](https://github.com/cssearcy/AYS-R-Coding-SPR-2020/blob/master/LABS/Lab-04-LastName-all-v3.zip?raw=true)
+You may have to right-click on the file and “save as” depending upon your browser.
 
-</center>
+Remember to name your file: **lab-##-lastname.rmd**
 
-<br>
+<hr>
 
---- 
 
-<br>
 
 # Overview
 

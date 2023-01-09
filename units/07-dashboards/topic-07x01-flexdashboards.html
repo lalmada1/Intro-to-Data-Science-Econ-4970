@@ -11,7 +11,7 @@
 
 
 
-<title>Lab 01 - Functions and Vectors</title>
+<title>Package flexdashboard</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -219,1277 +219,6 @@ window.buildTabsets = function(tocID) {
 };
 
 </script>
-<style type="text/css">.pagedtable {
-overflow: auto;
-padding-left: 8px;
-padding-right: 8px;
-}
-.pagedtable-wrapper {
-border: 1px solid #ccc;
-border-radius: 4px;
-margin-bottom: 10px;
-}
-.pagedtable table {
-width: 100%;
-max-width: 100%;
-margin: 0;
-}
-.pagedtable th {
-padding: 0 5px 0 5px;
-border: none;
-border-bottom: 2px solid #dddddd;
-min-width: 45px;
-}
-.pagedtable-empty th {
-display: none;
-}
-.pagedtable td {
-padding: 0 4px 0 4px;
-}
-.pagedtable .even {
-background-color: rgba(140, 140, 140, 0.1);
-}
-.pagedtable-padding-col {
-display: none;
-}
-.pagedtable a {
--webkit-touch-callout: none;
--webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;
-}
-.pagedtable-index-nav {
-cursor: pointer;
-padding: 0 5px 0 5px;
-float: right;
-border: 0;
-}
-.pagedtable-index-nav-disabled {
-cursor: default;
-text-decoration: none;
-color: #999;
-}
-a.pagedtable-index-nav-disabled:hover {
-text-decoration: none;
-color: #999;
-}
-.pagedtable-indexes {
-cursor: pointer;
-float: right;
-border: 0;
-}
-.pagedtable-index-current {
-cursor: default;
-text-decoration: none;
-font-weight: bold;
-color: #333;
-border: 0;
-}
-a.pagedtable-index-current:hover {
-text-decoration: none;
-font-weight: bold;
-color: #333;
-}
-.pagedtable-index {
-width: 30px;
-display: inline-block;
-text-align: center;
-border: 0;
-}
-.pagedtable-index-separator-left {
-display: inline-block;
-color: #333;
-font-size: 9px;
-padding: 0 0 0 0;
-cursor: default;
-}
-.pagedtable-index-separator-right {
-display: inline-block;
-color: #333;
-font-size: 9px;
-padding: 0 4px 0 0;
-cursor: default;
-}
-.pagedtable-footer {
-padding-top: 4px;
-padding-bottom: 5px;
-}
-.pagedtable-not-empty .pagedtable-footer {
-border-top: 2px solid #dddddd;
-}
-.pagedtable-info {
-overflow: hidden;
-color: #999;
-white-space: nowrap;
-text-overflow: ellipsis;
-}
-.pagedtable-header-name {
-overflow: hidden;
-text-overflow: ellipsis;
-}
-.pagedtable-header-type {
-color: #999;
-font-weight: 400;
-}
-.pagedtable-na-cell {
-font-style: italic;
-opacity: 0.3;
-}
-</style>
-<script>// Production steps of ECMA-262, Edition 5, 15.4.4.18
-// Reference: http://es5.github.io/#x15.4.4.18
-if (!Array.prototype.forEach) {
-
-  Array.prototype.forEach = function(callback, thisArg) {
-
-    var T, k;
-
-    if (this === null) {
-      throw new TypeError(' this is null or not defined');
-    }
-
-    // 1. Let O be the result of calling toObject() passing the
-    // |this| value as the argument.
-    var O = Object(this);
-
-    // 2. Let lenValue be the result of calling the Get() internal
-    // method of O with the argument "length".
-    // 3. Let len be toUint32(lenValue).
-    var len = O.length >>> 0;
-
-    // 4. If isCallable(callback) is false, throw a TypeError exception.
-    // See: http://es5.github.com/#x9.11
-    if (typeof callback !== "function") {
-      throw new TypeError(callback + ' is not a function');
-    }
-
-    // 5. If thisArg was supplied, let T be thisArg; else let
-    // T be undefined.
-    if (arguments.length > 1) {
-      T = thisArg;
-    }
-
-    // 6. Let k be 0
-    k = 0;
-
-    // 7. Repeat, while k < len
-    while (k < len) {
-
-      var kValue;
-
-      // a. Let Pk be ToString(k).
-      //    This is implicit for LHS operands of the in operator
-      // b. Let kPresent be the result of calling the HasProperty
-      //    internal method of O with argument Pk.
-      //    This step can be combined with c
-      // c. If kPresent is true, then
-      if (k in O) {
-
-        // i. Let kValue be the result of calling the Get internal
-        // method of O with argument Pk.
-        kValue = O[k];
-
-        // ii. Call the Call internal method of callback with T as
-        // the this value and argument list containing kValue, k, and O.
-        callback.call(T, kValue, k, O);
-      }
-      // d. Increase k by 1.
-      k++;
-    }
-    // 8. return undefined
-  };
-}
-
-// Production steps of ECMA-262, Edition 5, 15.4.4.19
-// Reference: http://es5.github.io/#x15.4.4.19
-if (!Array.prototype.map) {
-
-  Array.prototype.map = function(callback, thisArg) {
-
-    var T, A, k;
-
-    if (this == null) {
-      throw new TypeError(' this is null or not defined');
-    }
-
-    // 1. Let O be the result of calling ToObject passing the |this|
-    //    value as the argument.
-    var O = Object(this);
-
-    // 2. Let lenValue be the result of calling the Get internal
-    //    method of O with the argument "length".
-    // 3. Let len be ToUint32(lenValue).
-    var len = O.length >>> 0;
-
-    // 4. If IsCallable(callback) is false, throw a TypeError exception.
-    // See: http://es5.github.com/#x9.11
-    if (typeof callback !== 'function') {
-      throw new TypeError(callback + ' is not a function');
-    }
-
-    // 5. If thisArg was supplied, let T be thisArg; else let T be undefined.
-    if (arguments.length > 1) {
-      T = thisArg;
-    }
-
-    // 6. Let A be a new array created as if by the expression new Array(len)
-    //    where Array is the standard built-in constructor with that name and
-    //    len is the value of len.
-    A = new Array(len);
-
-    // 7. Let k be 0
-    k = 0;
-
-    // 8. Repeat, while k < len
-    while (k < len) {
-
-      var kValue, mappedValue;
-
-      // a. Let Pk be ToString(k).
-      //   This is implicit for LHS operands of the in operator
-      // b. Let kPresent be the result of calling the HasProperty internal
-      //    method of O with argument Pk.
-      //   This step can be combined with c
-      // c. If kPresent is true, then
-      if (k in O) {
-
-        // i. Let kValue be the result of calling the Get internal
-        //    method of O with argument Pk.
-        kValue = O[k];
-
-        // ii. Let mappedValue be the result of calling the Call internal
-        //     method of callback with T as the this value and argument
-        //     list containing kValue, k, and O.
-        mappedValue = callback.call(T, kValue, k, O);
-
-        // iii. Call the DefineOwnProperty internal method of A with arguments
-        // Pk, Property Descriptor
-        // { Value: mappedValue,
-        //   Writable: true,
-        //   Enumerable: true,
-        //   Configurable: true },
-        // and false.
-
-        // In browsers that support Object.defineProperty, use the following:
-        // Object.defineProperty(A, k, {
-        //   value: mappedValue,
-        //   writable: true,
-        //   enumerable: true,
-        //   configurable: true
-        // });
-
-        // For best browser support, use the following:
-        A[k] = mappedValue;
-      }
-      // d. Increase k by 1.
-      k++;
-    }
-
-    // 9. return A
-    return A;
-  };
-}
-
-var PagedTable = function (pagedTable) {
-  var me = this;
-
-  var source = function(pagedTable) {
-    var sourceElems = [].slice.call(pagedTable.children).filter(function(e) {
-      return e.hasAttribute("data-pagedtable-source");
-    });
-
-    if (sourceElems === null || sourceElems.length !== 1) {
-      throw("A single data-pagedtable-source was not found");
-    }
-
-    return JSON.parse(sourceElems[0].innerHTML);
-  }(pagedTable);
-
-  var options = function(source) {
-    var options = typeof(source.options) !== "undefined" &&
-      source.options !== null ? source.options : {};
-
-    var columns = typeof(options.columns) !== "undefined" ? options.columns : {};
-    var rows = typeof(options.rows) !== "undefined" ? options.rows : {};
-
-    var positiveIntOrNull = function(value) {
-      return parseInt(value) >= 0 ? parseInt(value) : null;
-    };
-
-    return {
-      pages: positiveIntOrNull(options.pages),
-      rows: {
-        min: positiveIntOrNull(rows.min),
-        max: positiveIntOrNull(rows.max),
-        total: positiveIntOrNull(rows.total)
-      },
-      columns: {
-        min: positiveIntOrNull(columns.min),
-        max: positiveIntOrNull(columns.max),
-        total: positiveIntOrNull(columns.total)
-      }
-    };
-  }(source);
-
-  var Measurer = function() {
-
-    // set some default initial values that will get adjusted in runtime
-    me.measures = {
-      padding: 12,
-      character: 8,
-      height: 15,
-      defaults: true
-    };
-
-    me.calculate = function(measuresCell) {
-      if (!me.measures.defaults)
-        return;
-
-      var measuresCellStyle = window.getComputedStyle(measuresCell, null);
-
-      var newPadding = parsePadding(measuresCellStyle.paddingLeft) +
-            parsePadding(measuresCellStyle.paddingRight);
-
-      var sampleString = "ABCDEFGHIJ0123456789";
-      var newCharacter = Math.ceil(measuresCell.clientWidth / sampleString.length);
-
-      if (newPadding <= 0 || newCharacter <= 0)
-        return;
-
-      me.measures.padding = newPadding;
-      me.measures.character = newCharacter;
-      me.measures.height = measuresCell.clientHeight;
-      me.measures.defaults = false;
-    };
-
-    return me;
-  };
-
-  var Page = function(data, options) {
-    var me = this;
-
-    var defaults = {
-      max: 7,
-      rows: 10
-    };
-
-    var totalPages = function() {
-      return Math.ceil(data.length / me.rows);
-    };
-
-    me.number = 0;
-    me.max = options.pages !== null ? options.pages : defaults.max;
-    me.visible = me.max;
-    me.rows = options.rows.min !== null ? options.rows.min : defaults.rows;
-    me.total = totalPages();
-
-    me.setRows = function(newRows) {
-      me.rows = newRows;
-      me.total = totalPages();
-    };
-
-    me.setPageNumber = function(newPageNumber) {
-      if (newPageNumber < 0) newPageNumber = 0;
-      if (newPageNumber >= me.total) newPageNumber = me.total - 1;
-
-      me.number = newPageNumber;
-    };
-
-    me.setVisiblePages = function(visiblePages) {
-      me.visible = Math.min(me.max, visiblePages);
-      me.setPageNumber(me.number);
-    };
-
-    me.getVisiblePageRange = function() {
-      var start = me.number - Math.max(Math.floor((me.visible - 1) / 2), 0);
-      var end = me.number + Math.floor(me.visible / 2) + 1;
-      var pageCount = me.total;
-
-      if (start < 0) {
-        var diffToStart = 0 - start;
-        start += diffToStart;
-        end += diffToStart;
-      }
-
-      if (end > pageCount) {
-        var diffToEnd = end - pageCount;
-        start -= diffToEnd;
-        end -= diffToEnd;
-      }
-
-      start = start < 0 ? 0 : start;
-      end = end >= pageCount ? pageCount : end;
-
-      var first = false;
-      var last = false;
-
-      if (start > 0 && me.visible > 1) {
-        start = start + 1;
-        first = true;
-      }
-
-      if (end < pageCount && me.visible > 2) {
-        end = end - 1;
-        last = true;
-      }
-
-      return {
-        first: first,
-        start: start,
-        end: end,
-        last: last
-      };
-    };
-
-    me.getRowStart = function() {
-      var rowStart = page.number * page.rows;
-      if (rowStart < 0)
-        rowStart = 0;
-
-      return rowStart;
-    };
-
-    me.getRowEnd = function() {
-      var rowStart = me.getRowStart();
-      return Math.min(rowStart + me.rows, data.length);
-    };
-
-    me.getPaddingRows = function() {
-      var rowStart = me.getRowStart();
-      var rowEnd = me.getRowEnd();
-      return data.length > me.rows ? me.rows - (rowEnd - rowStart) : 0;
-    };
-  };
-
-  var Columns = function(data, columns, options) {
-    var me = this;
-
-    me.defaults = {
-      min: 5
-    };
-
-    me.number = 0;
-    me.visible = 0;
-    me.total = columns.length;
-    me.subset = [];
-    me.padding = 0;
-    me.min = options.columns.min !== null ? options.columns.min : me.defaults.min;
-    me.max = options.columns.max !== null ? options.columns.max : null;
-    me.widths = {};
-
-    var widthsLookAhead = Math.max(100, options.rows.min);
-    var paddingColChars = 10;
-
-    me.emptyNames = function() {
-      columns.forEach(function(column) {
-        if (columns.label !== null && columns.label !== "")
-          return false;
-      });
-
-      return true;
-    };
-
-    var parsePadding = function(value) {
-      return parseInt(value) >= 0 ? parseInt(value) : 0;
-    };
-
-    me.calculateWidths = function(measures) {
-      columns.forEach(function(column) {
-        var maxChars = Math.max(
-          column.label.toString().length,
-          column.type.toString().length
-        );
-
-        for (var idxRow = 0; idxRow < Math.min(widthsLookAhead, data.length); idxRow++) {
-          maxChars = Math.max(maxChars, data[idxRow][column.name.toString()].length);
-        }
-
-        me.widths[column.name] = {
-          // width in characters
-          chars: maxChars,
-          // width for the inner html columns
-          inner: maxChars * measures.character,
-          // width adding outer styles like padding
-          outer: maxChars * measures.character + measures.padding
-        };
-      });
-    };
-
-    me.getWidth = function() {
-      var widthOuter = 0;
-      for (var idxCol = 0; idxCol < me.subset.length; idxCol++) {
-        var columnName = me.subset[idxCol].name;
-        widthOuter = widthOuter + me.widths[columnName].outer;
-      }
-
-      widthOuter = widthOuter + me.padding * paddingColChars * measurer.measures.character;
-
-      if (me.hasMoreLeftColumns()) {
-        widthOuter = widthOuter + columnNavigationWidthPX + measurer.measures.padding;
-      }
-
-      if (me.hasMoreRightColumns()) {
-        widthOuter = widthOuter + columnNavigationWidthPX + measurer.measures.padding;
-      }
-
-      return widthOuter;
-    };
-
-    me.updateSlice = function() {
-      if (me.number + me.visible >= me.total)
-        me.number = me.total - me.visible;
-
-      if (me.number < 0) me.number = 0;
-
-      me.subset = columns.slice(me.number, Math.min(me.number + me.visible, me.total));
-
-      me.subset = me.subset.map(function(column) {
-        Object.keys(column).forEach(function(colKey) {
-          column[colKey] = column[colKey] === null ? "" : column[colKey].toString();
-        });
-
-        column.width = null;
-        return column;
-      });
-    };
-
-    me.setVisibleColumns = function(columnNumber, newVisibleColumns, paddingCount) {
-      me.number = columnNumber;
-      me.visible = newVisibleColumns;
-      me.padding = paddingCount;
-
-      me.updateSlice();
-    };
-
-    me.incColumnNumber = function(increment) {
-      me.number = me.number + increment;
-    };
-
-    me.setColumnNumber = function(newNumber) {
-      me.number = newNumber;
-    };
-
-    me.setPaddingCount = function(newPadding) {
-      me.padding = newPadding;
-    };
-
-    me.getPaddingCount = function() {
-      return me.padding;
-    };
-
-    me.hasMoreLeftColumns = function() {
-      return me.number > 0;
-    };
-
-    me.hasMoreRightColumns = function() {
-      return me.number + me.visible < me.total;
-    };
-
-    me.updateSlice(0);
-    return me;
-  };
-
-  var data = source.data;
-  var page = new Page(data, options);
-  var measurer = new Measurer(data, options);
-  var columns = new Columns(data, source.columns, options);
-
-  var table = null;
-  var tableDiv = null;
-  var header = null;
-  var footer = null;
-  var tbody = null;
-
-  // Caches pagedTable.clientWidth, specially for webkit
-  var cachedPagedTableClientWidth = null;
-
-  var onChangeCallbacks = [];
-
-  var clearSelection = function() {
-    if(document.selection && document.selection.empty) {
-      document.selection.empty();
-    } else if(window.getSelection) {
-      var sel = window.getSelection();
-      sel.removeAllRanges();
-    }
-  };
-
-  var columnNavigationWidthPX = 5;
-
-  var renderColumnNavigation = function(increment, backwards) {
-    var arrow = document.createElement("div");
-    arrow.setAttribute("style",
-      "border-top: " + columnNavigationWidthPX + "px solid transparent;" +
-      "border-bottom: " + columnNavigationWidthPX + "px solid transparent;" +
-      "border-" + (backwards ? "right" : "left") + ": " + columnNavigationWidthPX + "px solid;");
-
-    var header = document.createElement("th");
-    header.appendChild(arrow);
-    header.setAttribute("style",
-      "cursor: pointer;" +
-      "vertical-align: middle;" +
-      "min-width: " + columnNavigationWidthPX + "px;" +
-      "width: " + columnNavigationWidthPX + "px;");
-
-    header.onclick = function() {
-      columns.incColumnNumber(backwards ? -1 : increment);
-
-      me.animateColumns(backwards);
-      renderFooter();
-
-      clearSelection();
-      triggerOnChange();
-    };
-
-    return header;
-  };
-
-  var maxColumnWidth = function(width) {
-    var padding = 80;
-    var columnMax = Math.max(cachedPagedTableClientWidth - padding, 0);
-
-    return parseInt(width) > 0 ?
-      Math.min(columnMax, parseInt(width)) + "px" :
-      columnMax + "px";
-  };
-
-  var clearHeader = function() {
-    var thead = pagedTable.querySelectorAll("thead")[0];
-    thead.innerHTML = "";
-  };
-
-  var renderHeader = function(clear) {
-    cachedPagedTableClientWidth = pagedTable.clientWidth;
-
-    var fragment = document.createDocumentFragment();
-
-    header = document.createElement("tr");
-    fragment.appendChild(header);
-
-    if (columns.number > 0)
-      header.appendChild(renderColumnNavigation(-columns.visible, true));
-
-    columns.subset = columns.subset.map(function(columnData) {
-      var column = document.createElement("th");
-      column.setAttribute("align", columnData.align);
-      column.style.textAlign = columnData.align;
-
-      column.style.maxWidth = maxColumnWidth(null);
-      if (columnData.width) {
-        column.style.minWidth =
-          column.style.maxWidth = maxColumnWidth(columnData.width);
-      }
-
-      var columnName = document.createElement("div");
-      columnName.setAttribute("class", "pagedtable-header-name");
-      if (columnData.label === "") {
-        columnName.innerHTML = "&nbsp;";
-      }
-      else {
-        columnName.appendChild(document.createTextNode(columnData.label));
-      }
-      column.appendChild(columnName);
-
-      var columnType = document.createElement("div");
-      columnType.setAttribute("class", "pagedtable-header-type");
-      if (columnData.type === "") {
-        columnType.innerHTML = "&nbsp;";
-      }
-      else {
-        columnType.appendChild(document.createTextNode("<" + columnData.type + ">"));
-      }
-      column.appendChild(columnType);
-
-      header.appendChild(column);
-
-      columnData.element = column;
-
-      return columnData;
-    });
-
-    for (var idx = 0; idx < columns.getPaddingCount(); idx++) {
-      var paddingCol = document.createElement("th");
-      paddingCol.setAttribute("class", "pagedtable-padding-col");
-      header.appendChild(paddingCol);
-    }
-
-    if (columns.number + columns.visible < columns.total)
-      header.appendChild(renderColumnNavigation(columns.visible, false));
-
-    if (typeof(clear) == "undefined" || clear) clearHeader();
-    var thead = pagedTable.querySelectorAll("thead")[0];
-    thead.appendChild(fragment);
-  };
-
-  me.animateColumns = function(backwards) {
-    var thead = pagedTable.querySelectorAll("thead")[0];
-
-    var headerOld = thead.querySelectorAll("tr")[0];
-    var tbodyOld = table.querySelectorAll("tbody")[0];
-
-    me.fitColumns(backwards);
-
-    renderHeader(false);
-
-    header.style.opacity = "0";
-    header.style.transform = backwards ? "translateX(-30px)" : "translateX(30px)";
-    header.style.transition = "transform 200ms linear, opacity 200ms";
-    header.style.transitionDelay = "0";
-
-    renderBody(false);
-
-    if (headerOld) {
-      headerOld.style.position = "absolute";
-      headerOld.style.transform = "translateX(0px)";
-      headerOld.style.opacity = "1";
-      headerOld.style.transition = "transform 100ms linear, opacity 100ms";
-      headerOld.setAttribute("class", "pagedtable-remove-head");
-      if (headerOld.style.transitionEnd) {
-        headerOld.addEventListener("transitionend", function() {
-          var headerOldByClass = thead.querySelector(".pagedtable-remove-head");
-          if (headerOldByClass) thead.removeChild(headerOldByClass);
-        });
-      }
-      else {
-        thead.removeChild(headerOld);
-      }
-    }
-
-    if (tbodyOld) table.removeChild(tbodyOld);
-
-    tbody.style.opacity = "0";
-    tbody.style.transition = "transform 200ms linear, opacity 200ms";
-    tbody.style.transitionDelay = "0ms";
-
-    // force relayout
-    window.getComputedStyle(header).opacity;
-    window.getComputedStyle(tbody).opacity;
-
-    if (headerOld) {
-      headerOld.style.transform = backwards ? "translateX(20px)" : "translateX(-30px)";
-      headerOld.style.opacity = "0";
-    }
-
-    header.style.transform = "translateX(0px)";
-    header.style.opacity = "1";
-
-    tbody.style.opacity = "1";
-  }
-
-  me.onChange = function(callback) {
-    onChangeCallbacks.push(callback);
-  };
-
-  var triggerOnChange = function() {
-    onChangeCallbacks.forEach(function(onChange) {
-      onChange();
-    });
-  };
-
-  var clearBody = function() {
-    if (tbody) {
-      table.removeChild(tbody);
-      tbody = null;
-    }
-  };
-
-  var renderBody = function(clear) {
-    cachedPagedTableClientWidth = pagedTable.clientWidth
-
-    var fragment = document.createDocumentFragment();
-
-    var pageData = data.slice(page.getRowStart(), page.getRowEnd());
-
-    pageData.forEach(function(dataRow, idxRow) {
-      var htmlRow = document.createElement("tr");
-      htmlRow.setAttribute("class", (idxRow % 2 !==0) ? "even" : "odd");
-
-      if (columns.hasMoreLeftColumns())
-        htmlRow.appendChild(document.createElement("td"));
-
-      columns.subset.forEach(function(columnData) {
-        var cellName = columnData.name;
-        var dataCell = dataRow[cellName];
-        var htmlCell = document.createElement("td");
-
-        if (dataCell === "NA") htmlCell.setAttribute("class", "pagedtable-na-cell");
-        if (dataCell === "__NA__") dataCell = "NA";
-
-        var cellText = document.createTextNode(dataCell);
-        htmlCell.appendChild(cellText);
-        if (dataCell.length > 50) {
-          htmlCell.setAttribute("title", dataCell);
-        }
-        htmlCell.setAttribute("align", columnData.align);
-        htmlCell.style.textAlign = columnData.align;
-        htmlCell.style.maxWidth = maxColumnWidth(null);
-        if (columnData.width) {
-          htmlCell.style.minWidth = htmlCell.style.maxWidth = maxColumnWidth(columnData.width);
-        }
-        htmlRow.appendChild(htmlCell);
-      });
-
-      for (var idx = 0; idx < columns.getPaddingCount(); idx++) {
-        var paddingCol = document.createElement("td");
-        paddingCol.setAttribute("class", "pagedtable-padding-col");
-        htmlRow.appendChild(paddingCol);
-      }
-
-      if (columns.hasMoreRightColumns())
-        htmlRow.appendChild(document.createElement("td"));
-
-      fragment.appendChild(htmlRow);
-    });
-
-    for (var idxPadding = 0; idxPadding < page.getPaddingRows(); idxPadding++) {
-      var paddingRow = document.createElement("tr");
-
-      var paddingCellRow = document.createElement("td");
-      paddingCellRow.innerHTML = "&nbsp;";
-      paddingCellRow.setAttribute("colspan", "100%");
-      paddingRow.appendChild(paddingCellRow);
-
-      fragment.appendChild(paddingRow);
-    }
-
-    if (typeof(clear) == "undefined" || clear) clearBody();
-    tbody = document.createElement("tbody");
-    tbody.appendChild(fragment);
-
-    table.appendChild(tbody);
-  };
-
-  var getLabelInfo = function() {
-    var pageStart = page.getRowStart();
-    var pageEnd = page.getRowEnd();
-    var totalRows = data.length;
-
-    var totalRowsLabel = options.rows.total ? options.rows.total : totalRows;
-    var totalRowsLabelFormat = totalRowsLabel.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, '$1,');
-
-    var infoText = (pageStart + 1) + "-" + pageEnd + " of " + totalRowsLabelFormat + " rows";
-    if (totalRows < page.rows) {
-      infoText = totalRowsLabel + " row" + (totalRows != 1 ? "s" : "");
-    }
-    if (columns.total > columns.visible) {
-      var totalColumnsLabel = options.columns.total ? options.columns.total : columns.total;
-
-      infoText = infoText + " | " + (columns.number + 1) + "-" +
-        (Math.min(columns.number + columns.visible, columns.total)) +
-        " of " + totalColumnsLabel + " columns";
-    }
-
-    return infoText;
-  };
-
-  var clearFooter = function() {
-    footer = pagedTable.querySelectorAll("div.pagedtable-footer")[0];
-    footer.innerHTML = "";
-
-    return footer;
-  };
-
-  var createPageLink = function(idxPage) {
-    var pageLink = document.createElement("a");
-    pageLinkClass = idxPage === page.number ? "pagedtable-index pagedtable-index-current" : "pagedtable-index";
-    pageLink.setAttribute("class", pageLinkClass);
-    pageLink.setAttribute("data-page-index", idxPage);
-    pageLink.onclick = function() {
-      page.setPageNumber(parseInt(this.getAttribute("data-page-index")));
-      renderBody();
-      renderFooter();
-
-      triggerOnChange();
-    };
-
-    pageLink.appendChild(document.createTextNode(idxPage + 1));
-
-    return pageLink;
-  }
-
-  var renderFooter = function() {
-    footer = clearFooter();
-
-    var next = document.createElement("a");
-    next.appendChild(document.createTextNode("Next"));
-    next.onclick = function() {
-      page.setPageNumber(page.number + 1);
-      renderBody();
-      renderFooter();
-
-      triggerOnChange();
-    };
-    if (data.length > page.rows) footer.appendChild(next);
-
-    var pageNumbers = document.createElement("div");
-    pageNumbers.setAttribute("class", "pagedtable-indexes");
-
-    var pageRange = page.getVisiblePageRange();
-
-    if (pageRange.first) {
-      var pageLink = createPageLink(0);
-      pageNumbers.appendChild(pageLink);
-
-      var pageSeparator = document.createElement("div");
-      pageSeparator.setAttribute("class", "pagedtable-index-separator-left");
-      pageSeparator.appendChild(document.createTextNode("..."))
-      pageNumbers.appendChild(pageSeparator);
-    }
-
-    for (var idxPage = pageRange.start; idxPage < pageRange.end; idxPage++) {
-      var pageLink = createPageLink(idxPage);
-
-      pageNumbers.appendChild(pageLink);
-    }
-
-    if (pageRange.last) {
-      var pageSeparator = document.createElement("div");
-      pageSeparator.setAttribute("class", "pagedtable-index-separator-right");
-      pageSeparator.appendChild(document.createTextNode("..."))
-      pageNumbers.appendChild(pageSeparator);
-
-      var pageLink = createPageLink(page.total - 1);
-      pageNumbers.appendChild(pageLink);
-    }
-
-    if (data.length > page.rows) footer.appendChild(pageNumbers);
-
-    var previous = document.createElement("a");
-    previous.appendChild(document.createTextNode("Previous"));
-    previous.onclick = function() {
-      page.setPageNumber(page.number - 1);
-      renderBody();
-      renderFooter();
-
-      triggerOnChange();
-    };
-    if (data.length > page.rows) footer.appendChild(previous);
-
-    var infoLabel = document.createElement("div");
-    infoLabel.setAttribute("class", "pagedtable-info");
-    infoLabel.setAttribute("title", getLabelInfo());
-    infoLabel.appendChild(document.createTextNode(getLabelInfo()));
-    footer.appendChild(infoLabel);
-
-    var enabledClass = "pagedtable-index-nav";
-    var disabledClass = "pagedtable-index-nav pagedtable-index-nav-disabled";
-    previous.setAttribute("class", page.number <= 0 ? disabledClass : enabledClass);
-    next.setAttribute("class", (page.number + 1) * page.rows >= data.length ? disabledClass : enabledClass);
-  };
-
-  var measuresCell = null;
-
-  var renderMeasures = function() {
-    var measuresTable = document.createElement("table");
-    measuresTable.style.visibility = "hidden";
-    measuresTable.style.position = "absolute";
-    measuresTable.style.whiteSpace = "nowrap";
-    measuresTable.style.height = "auto";
-    measuresTable.style.width = "auto";
-
-    var measuresRow = document.createElement("tr");
-    measuresTable.appendChild(measuresRow);
-
-    measuresCell = document.createElement("td");
-    var sampleString = "ABCDEFGHIJ0123456789";
-    measuresCell.appendChild(document.createTextNode(sampleString));
-
-    measuresRow.appendChild(measuresCell);
-
-    tableDiv.appendChild(measuresTable);
-  }
-
-  me.init = function() {
-    tableDiv = document.createElement("div");
-    pagedTable.appendChild(tableDiv);
-    var pagedTableClass = data.length > 0 ?
-      "pagedtable pagedtable-not-empty" :
-      "pagedtable pagedtable-empty";
-
-    if (columns.total == 0 || (columns.emptyNames() && data.length == 0)) {
-      pagedTableClass = pagedTableClass + " pagedtable-empty-columns";
-    }
-
-    tableDiv.setAttribute("class", pagedTableClass);
-
-    renderMeasures();
-    measurer.calculate(measuresCell);
-    columns.calculateWidths(measurer.measures);
-
-    table = document.createElement("table");
-    table.setAttribute("cellspacing", "0");
-    table.setAttribute("class", "table table-condensed");
-    tableDiv.appendChild(table);
-
-    table.appendChild(document.createElement("thead"));
-
-    var footerDiv = document.createElement("div");
-    footerDiv.setAttribute("class", "pagedtable-footer");
-    tableDiv.appendChild(footerDiv);
-
-    // if the host has not yet provided horizontal space, render hidden
-    if (tableDiv.clientWidth <= 0) {
-      tableDiv.style.opacity = "0";
-    }
-
-    me.render();
-
-    // retry seizing columns later if the host has not provided space
-    function retryFit() {
-      if (tableDiv.clientWidth <= 0) {
-        setTimeout(retryFit, 100);
-      } else {
-        me.render();
-        triggerOnChange();
-      }
-    }
-    if (tableDiv.clientWidth <= 0) {
-      retryFit();
-    }
-  };
-
-  var registerWidths = function() {
-    columns.subset = columns.subset.map(function(column) {
-      column.width = columns.widths[column.name].inner;
-      return column;
-    });
-  };
-
-  var parsePadding = function(value) {
-    return parseInt(value) >= 0 ? parseInt(value) : 0;
-  };
-
-  me.fixedHeight = function() {
-    return options.rows.max != null;
-  }
-
-  me.fitRows = function() {
-    if (me.fixedHeight())
-      return;
-
-    measurer.calculate(measuresCell);
-
-    var rows = options.rows.min !== null ? options.rows.min : 0;
-    var headerHeight = header !== null && header.offsetHeight > 0 ? header.offsetHeight : 0;
-    var footerHeight = footer !== null && footer.offsetHeight > 0 ? footer.offsetHeight : 0;
-
-    if (pagedTable.offsetHeight > 0) {
-      var availableHeight = pagedTable.offsetHeight - headerHeight - footerHeight;
-      rows = Math.floor((availableHeight) / measurer.measures.height);
-    }
-
-    rows = options.rows.min !== null ? Math.max(options.rows.min, rows) : rows;
-
-    page.setRows(rows);
-  }
-
-  // The goal of this function is to add as many columns as possible
-  // starting from left-to-right, when the right most limit is reached
-  // it tries to add columns from the left as well.
-  //
-  // When startBackwards is true columns are added from right-to-left
-  me.fitColumns = function(startBackwards) {
-    measurer.calculate(measuresCell);
-    columns.calculateWidths(measurer.measures);
-
-    if (tableDiv.clientWidth > 0) {
-      tableDiv.style.opacity = 1;
-    }
-
-    var visibleColumns = tableDiv.clientWidth <= 0 ? Math.max(columns.min, 1) : 1;
-    var columnNumber = columns.number;
-    var paddingCount = 0;
-
-    // track a list of added columns as we build the visible ones to allow us
-    // to remove columns when they don't fit anymore.
-    var columnHistory = [];
-
-    var lastTableHeight = 0;
-    var backwards = startBackwards;
-
-    var tableDivStyle = window.getComputedStyle(tableDiv, null);
-    var tableDivPadding = parsePadding(tableDivStyle.paddingLeft) +
-      parsePadding(tableDivStyle.paddingRight);
-
-    var addPaddingCol = false;
-    var currentWidth = 0;
-
-    while (true) {
-      columns.setVisibleColumns(columnNumber, visibleColumns, paddingCount);
-      currentWidth = columns.getWidth();
-
-      if (tableDiv.clientWidth - tableDivPadding < currentWidth) {
-        break;
-      }
-
-      columnHistory.push({
-        columnNumber: columnNumber,
-        visibleColumns: visibleColumns,
-        paddingCount: paddingCount
-      });
-
-      if (columnHistory.length > 100) {
-        console.error("More than 100 tries to fit columns, aborting");
-        break;
-      }
-
-      if (columns.max !== null &&
-        columns.visible + columns.getPaddingCount() >= columns.max) {
-        break;
-      }
-
-      // if we run out of right-columns
-      if (!backwards && columnNumber + columns.visible >= columns.total) {
-        // if we started adding right-columns, try adding left-columns
-        if (!startBackwards && columnNumber > 0) {
-          backwards = true;
-        }
-        else if (columns.min === null || visibleColumns + columns.getPaddingCount() >= columns.min) {
-          break;
-        }
-        else {
-          paddingCount = paddingCount + 1;
-        }
-      }
-
-      // if we run out of left-columns
-      if (backwards && columnNumber == 0) {
-        // if we started adding left-columns, try adding right-columns
-        if (startBackwards && columnNumber + columns.visible < columns.total) {
-          backwards = false;
-        }
-        else if (columns.min === null || visibleColumns + columns.getPaddingCount() >= columns.min) {
-          break;
-        }
-        else {
-          paddingCount = paddingCount + 1;
-        }
-      }
-
-      // when moving backwards try fitting left columns first
-      if (backwards && columnNumber > 0) {
-        columnNumber = columnNumber - 1;
-      }
-
-      if (columnNumber + visibleColumns < columns.total) {
-        visibleColumns = visibleColumns + 1;
-      }
-    }
-
-    var lastRenderableColumn = {
-        columnNumber: columnNumber,
-        visibleColumns: visibleColumns,
-        paddingCount: paddingCount
-    };
-
-    if (columnHistory.length > 0) {
-      lastRenderableColumn = columnHistory[columnHistory.length - 1];
-    }
-
-    columns.setVisibleColumns(
-      lastRenderableColumn.columnNumber,
-      lastRenderableColumn.visibleColumns,
-      lastRenderableColumn.paddingCount);
-
-    if (pagedTable.offsetWidth > 0) {
-      page.setVisiblePages(Math.max(Math.ceil(1.0 * (pagedTable.offsetWidth - 250) / 40), 2));
-    }
-
-    registerWidths();
-  };
-
-  me.fit = function(startBackwards) {
-    me.fitRows();
-    me.fitColumns(startBackwards);
-  }
-
-  me.render = function() {
-    me.fitColumns(false);
-
-    // render header/footer to measure height accurately
-    renderHeader();
-    renderFooter();
-
-    me.fitRows();
-    renderBody();
-
-    // re-render footer to match new rows
-    renderFooter();
-  }
-
-  var resizeLastWidth = -1;
-  var resizeLastHeight = -1;
-  var resizeNewWidth = -1;
-  var resizeNewHeight = -1;
-  var resizePending = false;
-
-  me.resize = function(newWidth, newHeight) {
-
-    function resizeDelayed() {
-      resizePending = false;
-
-      if (
-        (resizeNewWidth !== resizeLastWidth) ||
-        (!me.fixedHeight() && resizeNewHeight !== resizeLastHeight)
-      ) {
-        resizeLastWidth = resizeNewWidth;
-        resizeLastHeight = resizeNewHeight;
-
-        setTimeout(resizeDelayed, 200);
-        resizePending = true;
-      } else {
-        me.render();
-        triggerOnChange();
-
-        resizeLastWidth = -1;
-        resizeLastHeight = -1;
-      }
-    }
-
-    resizeNewWidth = newWidth;
-    resizeNewHeight = newHeight;
-
-    if (!resizePending) resizeDelayed();
-  };
-};
-
-var PagedTableDoc;
-(function (PagedTableDoc) {
-  var allPagedTables = [];
-
-  PagedTableDoc.initAll = function() {
-    allPagedTables = [];
-
-    var pagedTables = [].slice.call(document.querySelectorAll('[data-pagedtable="false"],[data-pagedtable=""]'));
-    pagedTables.forEach(function(pagedTable, idx) {
-      pagedTable.setAttribute("data-pagedtable", "true");
-      pagedTable.setAttribute("pagedtable-page", 0);
-      pagedTable.setAttribute("class", "pagedtable-wrapper");
-
-      var pagedTableInstance = new PagedTable(pagedTable);
-      pagedTableInstance.init();
-
-      allPagedTables.push(pagedTableInstance);
-    });
-  };
-
-  PagedTableDoc.resizeAll = function() {
-    allPagedTables.forEach(function(pagedTable) {
-      pagedTable.render();
-    });
-  };
-
-  window.addEventListener("resize", PagedTableDoc.resizeAll);
-
-  return PagedTableDoc;
-})(PagedTableDoc || (PagedTableDoc = {}));
-
-window.onload = function() {
-  PagedTableDoc.initAll();
-};
-</script>
 
 <style type="text/css">
 code{white-space: pre-wrap;}
@@ -1606,7 +335,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; }
 
 
 
-<style type="text/css">body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:calc(1.5em + 0.25vw);font-weight:300;line-height:1.65;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-left:20%;margin-right:20%} h1, h2 { color: #25383C; margin-top: 60px; }h3, h4, strong { color: #6D7B8D; }a { color:#AF7817; } .footer {background-color:#726e6e;height:340px;color:white;padding: 20px 3px 20px 3px;margin:0px;line-height: normal;}.footer a{ color:#AF7817; text-decoration:bold !important; } table{border-spacing:1px;margin-top:80px;margin-bottom:100px !important;margin-left: auto;margin-right: auto;align:center} td{ padding: 6px 10px 6px 10px } th{ text-align: left; } .button {background-color: white;color: black;border: 2px solid #008CBA;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;border-radius: 12px;width: 200px;}.button {transition-duration: 0.4s;}.button:hover {background-color: #008CBA; color: white;}</style>
+<style type="text/css">.powered-by-datacamp{margin-bottom: 40px;display: none !important;}div.datacamp-exercise{margin-bottom: 40px !important;}div.datacamp-exercise .dcl-btn-primary {background-color: LightSteelBlue; color: white; }.question{background-color: LightSteelBlue;border-radius: 10px;border: 1px solid lightgray;padding-top:10px;padding-bottom:10px;font-size: 85%;font-family: Verdana;color: #FFFFFF !important;padding-left:05%;padding-right:05%;margin-bottom:40px;}.quiz{background-color: #bcb2a4; border-radius: 10px;border: 1px solid lightgray;padding-top:10px;padding-bottom:10px;font-size: 87%;font-family: Verdana; color: #FFFFFF !important;padding-left:05%;padding-right:05%;margin-bottom:40px;} .tip{background-color: #153243;border-radius: 10px;border: 1px solid lightgray;padding-top:10px;padding-bottom:10px;font-size: 85%;font-family: Verdana;color: #FFFFFF !important;padding-left:05%;padding-right:05%;margin-bottom:40px;} .note{background-color: #E0E0E2;  border: 1px solid lightgray; padding-top:10px;padding-bottom:10px;font-size: 85%;font-family: Verdana;color: #3c4859 !important;padding-left:05%;padding-right:05%;margin-bottom:40px;}.caution{background-color: darkred;border: 1px solid lightgray;padding-top:10px;padding-bottom:5px;font-size: 75%;font-family: Verdana;color: #FFFFFF !important;padding-left:05%;padding-right:05%;margin-bottom:40px;}.caution code{font-size: 150% !important;}.warning{background-color: #9D8420; border: 1px solid lightgray;padding-top:10px;padding-bottom:5px;font-size: 75%;font-family: Verdana;color: #FFFFFF !important;padding-left:05%;padding-right:05%;margin-bottom:40px;}.warning code{font-size: 150% !important;}body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:calc(1.5em + 0.25vw);font-weight:300;line-height:1.65;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-left:20%;margin-right:20%} body,aside,main{flex-direction:column} body{display:flex;min-height:100vh} blockquote,figure{margin:0} #TOC {margin-top:30px;margin-bottom:80px }img {max-width: 90% !important;display: block;margin-right: auto;margin-left: auto;margin-top:30px;margin-bottom:40px;}a{color:darkred;text-decoration:inherit;transition:color .2s} a.selected,a:hover{color:#949494} article a,b,strong,th{font-weight:400} h1{font-size:2.85em; margin-top:100px !important;margin-bottom:30px;color:#153243;font-weight: 700;font-style: normal;font-family: "Quarto A", "Quarto B", Georgia, Times, "Times New Roman", "Microsoft YaHei New", "Microsoft Yahei", serif;line-height: 1.125;letter-spacing: 0.025em;} h2,h3,h4,h5,h6{font-weight:300;margin-top:60px !important;margin-bottom:30px;} p.caption {text-align: center;font-style: italic;margin-bottom:30px;}article a{color:#68f} article header a, article footer a{font-weight:inherit;color:inherit} header time{color:green}hr{border:1px solid rgba(148,148,148,0.3);margin:2em 0} blockquote{ border-left:4px solid lightgray; padding-left:1.5em} @media (prefers-color-scheme: light){body{background:#fff !important;color:#000 !important} } @media (prefers-color-scheme: dark){body{background:#282828 !important;color:#fff !important} } main,article{flex-grow:1} header,footer{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center} header nav>*,footer nav>*{margin:0 .8em} header nav>:first-child,footer nav>:first-child{margin-left:0} header nav>:last-child,footer nav>:last-child{margin-right:0} pre{background:#f7f7f7;color:black;border-radius:2px;font-size:.7em;margin:1.5em 0;padding:.8em 1.2em;white-space:pre-wrap;margin-top:30px;margin-bottom:40px }p code{opacity:.5;border-radius:4px;font-size:.8em;margin:0 .1em;padding:.2em .4em } table{border-spacing:1px;margin-top:80px;margin-bottom:100px !important;margin-left: auto;margin-right: auto;align:center} td{padding: 3px 10px 3px 10px } th{text-align:inherit} article header{flex-direction:column;align-items:inherit} article header{margin-bottom:1.5em} .footer {background-color:#726e6e;height:100px;color:white; padding: 20px 3px 20px 3px;position: absolute;left: 0;right: 0;width: 100%;margin-top:80px; }.footer a{ color:orange; text-decoration:bold !important; } body>header h1{width:100%;line-height:1.8;margin-bottom:.5em} .navbar {overflow: hidden;background-color: #f7f7f7;color: orange; top: 0; width: 100%; }.nav.navbar-nav li a {color: darkgray;}.nav.navbar-nav li a:hover {color: orange;}.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{color: black;background-color: #f7f7f7;}</style>
 
 
 
@@ -1703,343 +432,295 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">Lab 01 - Functions and Vectors</h1>
+<h1 class="title toc-ignore">Package flexdashboard</h1>
 
 </div>
 
 <div id="TOC">
 <ul>
-<li><a href="#functions" id="toc-functions">Functions</a></li>
-<li><a href="#data" id="toc-data">Data</a>
+<li><a href="#what-is-flexdashboard" id="toc-what-is-flexdashboard">What
+Is flexdashboard?</a></li>
+<li><a href="#the-flexdashboard-template" id="toc-the-flexdashboard-template">The flexdashboard Template</a></li>
+<li><a href="#dashboard-components" id="toc-dashboard-components">Dashboard Components</a>
 <ul>
-<li><a href="#loading-data-into-r" id="toc-loading-data-into-r">Loading
-Data Into R</a></li>
+<li><a href="#yaml-header" id="toc-yaml-header">YAML Header</a></li>
+<li><a href="#charts" id="toc-charts">Charts</a></li>
+<li><a href="#column-orientation" id="toc-column-orientation">Column
+Orientation</a></li>
+<li><a href="#row-orientation" id="toc-row-orientation">Row
+Orientation</a></li>
 </ul></li>
-<li><a href="#lab-instructions" id="toc-lab-instructions">Lab
-Instructions</a></li>
-<li><a href="#how-to-submit" id="toc-how-to-submit">How to Submit</a>
+<li><a href="#dashboard-tabsets" id="toc-dashboard-tabsets">Dashboard
+Tabsets</a>
 <ul>
-<li><a href="#knitting-to-html" id="toc-knitting-to-html">Knitting to
-HTML</a></li>
-<li><a href="#special-instructions" id="toc-special-instructions">Special Instructions</a></li>
-<li><a href="#before-you-submit" id="toc-before-you-submit">Before You
-Submit</a></li>
-<li><a href="#common-knitting-issues" id="toc-common-knitting-issues">Common Knitting Issues</a></li>
+<li><a href="#chart-tabsets" id="toc-chart-tabsets">Chart
+Tabsets</a></li>
+<li><a href="#page-tabsets" id="toc-page-tabsets">Page Tabsets</a></li>
+</ul></li>
+<li><a href="#shiny-implementation" id="toc-shiny-implementation">Shiny
+Implementation</a>
+<ul>
+<li><a href="#adding-a-sidebar" id="toc-adding-a-sidebar">Adding a
+Sidebar</a></li>
+<li><a href="#go-forth-with-shiny" id="toc-go-forth-with-shiny">Go Forth
+with Shiny</a></li>
 </ul></li>
 </ul>
 </div>
 
-<hr>
-<p>This lab offers practice with some basic R functions for summarizing
-vectors.</p>
-<p>A <strong>LAB-01 RMD template</strong> is provided:</p>
-<p><a href="../../templates/" target="_blank">
-<button type="button" class="button"> TEMPLATES </button> </a></p>
-<p>You may have to right-click on the file and “save as” depending upon
-your browser.</p>
-<p>Remember to name your file: <strong>lab-##-lastname.rmd</strong></p>
-<hr>
-<div id="functions" class="section level2">
-<h2>Functions</h2>
-<p>You will use the following functions for this lab:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>()                 <span class="co"># variable names</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>()                  <span class="co"># preview dataset</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">length</span>()                <span class="co"># vector length (number of elements)</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">dim</span>(), <span class="fu">nrow</span>(), <span class="fu">ncol</span>()   <span class="co"># dataset dimensions</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>(), <span class="fu">summary</span>()        <span class="co"># summarize numeric vectors</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>()                 <span class="co"># summarize factors / character vectors</span></span></code></pre></div>
-<p><br><br></p>
-</div>
-<div id="data" class="section level1">
-<h1>Data</h1>
-<p>This lab uses <strong>city tax parcel data</strong> from Syracuse,
-NY. [ <a href="../02-operators-and-descriptives/lab-02-data-dictionary.html">Data
-Dictionary</a> ]</p>
-<ul>
-<li>Each house, business, park or empty lot in the city sits on a parcel
-of land, and the tax rate for that parcel is determined by the
-city.</li>
-<li>All of the characteristics of each parcel is stored in a central
-database, along with information about the land use classifications,
-owners, and whether the property is up-to-date on taxes and water
-bills.<br />
-</li>
-<li>Each row represents one tax parcel, and all tax parcels in the city
-are recorded in the dataset.</li>
-</ul>
-<div data-pagedtable="false">
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["tax_id"],"name":[1],"type":["int"],"align":["right"]},{"label":["neighborhood"],"name":[2],"type":["chr"],"align":["left"]},{"label":["stnum"],"name":[3],"type":["chr"],"align":["left"]},{"label":["stname"],"name":[4],"type":["chr"],"align":["left"]},{"label":["zip"],"name":[5],"type":["chr"],"align":["left"]},{"label":["owner"],"name":[6],"type":["chr"],"align":["left"]},{"label":["frontfeet"],"name":[7],"type":["dbl"],"align":["right"]},{"label":["depth"],"name":[8],"type":["dbl"],"align":["right"]},{"label":["sqft"],"name":[9],"type":["dbl"],"align":["right"]},{"label":["acres"],"name":[10],"type":["dbl"],"align":["right"]},{"label":["yearbuilt"],"name":[11],"type":["int"],"align":["right"]},{"label":["age"],"name":[12],"type":["int"],"align":["right"]},{"label":["age_range"],"name":[13],"type":["chr"],"align":["left"]},{"label":["land_use"],"name":[14],"type":["chr"],"align":["left"]},{"label":["units"],"name":[15],"type":["int"],"align":["right"]},{"label":["residential"],"name":[16],"type":["lgl"],"align":["right"]},{"label":["rental"],"name":[17],"type":["lgl"],"align":["right"]},{"label":["vacantbuil"],"name":[18],"type":["lgl"],"align":["right"]},{"label":["assessedla"],"name":[19],"type":["int"],"align":["right"]},{"label":["assessedva"],"name":[20],"type":["int"],"align":["right"]},{"label":["tax.exempt"],"name":[21],"type":["lgl"],"align":["right"]},{"label":["countytxbl"],"name":[22],"type":["int"],"align":["right"]},{"label":["schooltxbl"],"name":[23],"type":["int"],"align":["right"]},{"label":["citytaxabl"],"name":[24],"type":["int"],"align":["right"]},{"label":["star"],"name":[25],"type":["lgl"],"align":["right"]},{"label":["amtdelinqu"],"name":[26],"type":["dbl"],"align":["right"]},{"label":["taxyrsdeli"],"name":[27],"type":["int"],"align":["right"]},{"label":["totint"],"name":[28],"type":["dbl"],"align":["right"]},{"label":["overduewater"],"name":[29],"type":["dbl"],"align":["right"]}],"data":[{"1":"1393130501","2":"South Valley","3":"2655","4":"VALLEY DR","5":"13215","6":"CLARMIN BUILDERS ONON COR","7":"67.20","8":"50.00","9":"2149.182","10":"0.04933843","11":"NA","12":"NA","13":"NA","14":"Vacant Land","15":"0","16":"FALSE","17":"FALSE","18":"FALSE","19":"475","20":"500","21":"TRUE","22":"500","23":"500","24":"500","25":"NA","26":"0","27":"0","28":"0","29":"0.00","_rn_":"1"},{"1":"1393130500","2":"South Valley","3":"2635","4":"VALLEY DR","5":"13120","6":"JOHNSTON LEE R","7":"104.80","8":"46.50","9":"6370.403","10":"0.14624434","11":"1925","12":"90","13":"81-90","14":"Single Family","15":"0","16":"TRUE","17":"FALSE","18":"FALSE","19":"10800","20":"69300","21":"FALSE","22":"69300","23":"69300","24":"69300","25":"TRUE","26":"0","27":"0","28":"0","29":"177.79","_rn_":"2"},{"1":"1437100600","2":"South Valley","3":"203","4":"HAYES TERR","5":"13224","6":"CHRISTO CRAIG S","7":"82.87","8":"168.28","9":"12910.006","10":"0.29637297","11":"1957","12":"58","13":"51-60","14":"Single Family","15":"0","16":"TRUE","17":"FALSE","18":"FALSE","19":"20200","20":"88300","21":"FALSE","22":"88300","23":"88300","24":"88300","25":"TRUE","26":"0","27":"0","28":"0","29":"0.00","_rn_":"3"},{"1":"1425100900","2":"South Valley","3":"100","4":"EDNA RD & CITY LINE","5":"13120","6":"HAWKINS FARMS INC","7":"65.00","8":"160.89","9":"10322.661","10":"0.23697569","11":"1958","12":"57","13":"51-60","14":"Single Family","15":"0","16":"TRUE","17":"FALSE","18":"FALSE","19":"18000","20":"70500","21":"FALSE","22":"70500","23":"70500","24":"70500","25":"NA","26":"0","27":"0","28":"0","29":"0.00","_rn_":"4"},{"1":"1425101000","2":"South Valley","3":"104","4":"EDNA RD","5":"13205","6":"PETERS LYNNETTE","7":"65.00","8":"160.89","9":"10457.843","10":"0.24007904","11":"1965","12":"50","13":"41-50","14":"Single Family","15":"0","16":"TRUE","17":"FALSE","18":"FALSE","19":"18000","20":"74000","21":"FALSE","22":"74000","23":"74000","24":"74000","25":"TRUE","26":"0","27":"0","28":"0","29":"0.00","_rn_":"5"},{"1":"1425101100","2":"South Valley","3":"108","4":"EDNA RD","5":"13205","6":"MITCHELL LOTAN G","7":"65.00","8":"160.89","9":"10457.855","10":"0.24007931","11":"1954","12":"61","13":"61-70","14":"Single Family","15":"0","16":"TRUE","17":"FALSE","18":"FALSE","19":"18000","20":"95000","21":"FALSE","22":"95000","23":"95000","24":"95000","25":"TRUE","26":"0","27":"0","28":"0","29":"0.00","_rn_":"6"},{"1":"1425101200","2":"South Valley","3":"112","4":"EDNA RD","5":"13205","6":"WHALEN GIOVANNA A","7":"65.00","8":"160.89","9":"10457.844","10":"0.24007906","11":"1953","12":"62","13":"61-70","14":"Single Family","15":"0","16":"TRUE","17":"FALSE","18":"FALSE","19":"18000","20":"72000","21":"FALSE","22":"72000","23":"72000","24":"72000","25":"TRUE","26":"0","27":"0","28":"0","29":"0.00","_rn_":"7"},{"1":"1425101300","2":"South Valley","3":"116","4":"EDNA RD","5":"13205","6":"BERGH GARY D","7":"65.00","8":"160.89","9":"10457.864","10":"0.24007952","11":"1955","12":"60","13":"51-60","14":"Single Family","15":"0","16":"TRUE","17":"FALSE","18":"FALSE","19":"18000","20":"68500","21":"FALSE","22":"67000","23":"67000","24":"67000","25":"TRUE","26":"0","27":"0","28":"0","29":"0.00","_rn_":"8"},{"1":"1323000100","2":"South Valley","3":"301","4":"DORWIN AVE & MIDLAND AVE","5":"13205","6":"CITY OF SYRACUSE TD","7":"150.00","8":"132.00","9":"19799.831","10":"0.45454157","11":"NA","12":"NA","13":"NA","14":"Vacant Land","15":"0","16":"FALSE","17":"FALSE","18":"FALSE","19":"23800","20":"23800","21":"TRUE","22":"23800","23":"23800","24":"23800","25":"NA","26":"0","27":"0","28":"0","29":"0.00","_rn_":"9"},{"1":"1425101400","2":"South Valley","3":"120","4":"EDNA RD","5":"13205","6":"DOUGHERTY ROBERT K JR","7":"65.00","8":"160.89","9":"10457.843","10":"0.24007904","11":"1955","12":"60","13":"51-60","14":"Single Family","15":"0","16":"TRUE","17":"FALSE","18":"FALSE","19":"18000","20":"86100","21":"FALSE","22":"86100","23":"86100","24":"86100","25":"TRUE","26":"0","27":"0","28":"0","29":"0.00","_rn_":"10"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-</div>
-<p><br> <br></p>
-<div id="loading-data-into-r" class="section level2">
-<h2>Loading Data Into R</h2>
-<p>You can load the dataset by including the following code chunk in
-your file:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>URL <span class="ot">&lt;-</span> <span class="st">&quot;https://raw.githubusercontent.com/DS4PS/Data-Science-Class/master/DATA/syr_parcels.csv&quot;</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>dat <span class="ot">&lt;-</span> <span class="fu">read.csv</span>( URL, <span class="at">stringsAsFactors=</span><span class="cn">FALSE</span> )</span></code></pre></div>
-<p>Note that referencing variables in R requires both the
-<strong>dataset name</strong> and <strong>variable name</strong>,
-separated by the <code>$</code> operator:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>( dat<span class="sc">$</span>acres )</span></code></pre></div>
-<p>Unlike other stats programs, you can have several datasets loaded at
-the same time in R. They will often have variables with the same name
-(if you create a subset, for example, and save it as a new object you
-will have two datasets with identical names). To avoid conflicts R
-forces you to use the <code>dataset$variable</code> convention.</p>
-<p><br><br></p>
-</div>
-</div>
-<div id="lab-instructions" class="section level1">
-<h1>Lab Instructions</h1>
-<p>Answer the following questions using the Syracuse parcels dataset and
-the functions listed.</p>
-<p>Your solution should include a written response to the question, as
-well as the code used to generate the result.</p>
-<hr />
-<div id="how-many-tax-parcels-are-in-syracuse" class="section level4">
-<h4>1. How many tax parcels are in Syracuse?</h4>
-<blockquote>
-<p>dataset dimensions: <strong>dim()</strong> or <strong>nrow()</strong>
-<br></p>
-</blockquote>
-</div>
-<div id="how-many-acres-of-land-are-in-syracuse" class="section level4">
-<h4>2. How many acres of land are in syracuse?</h4>
-<blockquote>
-<p><strong>sum()</strong> over the numeric <strong>acres</strong> vector
-<br></p>
-</blockquote>
-</div>
-<div id="how-many-vacant-buildings-are-there-in-syracuse" class="section level4">
-<h4>3. How many vacant BUILDINGS are there in Syracuse?</h4>
-<blockquote>
-<p><strong>sum()</strong> over the <strong>vacantbuil</strong> logical
-vector <br></p>
-</blockquote>
-</div>
-<div id="what-proportion-of-parcels-are-tax-exempt" class="section level4">
-<h4>4. What proportion of parcels are tax exempt?</h4>
-<blockquote>
-<p><strong>sum()</strong> plus <strong>length()</strong> functions
-withthe logical <strong>tax.exempt</strong> vector <br></p>
-</blockquote>
-</div>
-<div id="which-neighborhood-contains-the-most-tax-parcels" class="section level4">
-<h4>5. Which neighborhood contains the most tax parcels?</h4>
-<blockquote>
-<p><strong>table()</strong> with the <strong>neighborhood</strong>
-variable <br></p>
-</blockquote>
-</div>
-<div id="which-neighborhood-contains-the-most-vacant-lots" class="section level4">
-<h4>6. Which neighborhood contains the most vacant LOTS?</h4>
-<blockquote>
-<p><strong>table()</strong> with the <strong>neighborhood</strong> and
-<strong>land_use</strong> variables</p>
-</blockquote>
-<hr />
 <p><br></p>
-<p><strong>HELPFUL HINTS:</strong></p>
-<p>When you apply a <strong>sum()</strong> function to a numeric vector
-it returns the sum of all elements in the vector.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>( <span class="fu">c</span>(<span class="dv">10</span>,<span class="dv">20</span>,<span class="dv">5</span>) )  <span class="co"># 35</span></span></code></pre></div>
-<p>When you apply a <strong>sum()</strong> function to a logical vector,
-it will count all of the TRUEs:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">c</span>( <span class="cn">TRUE</span>, <span class="cn">TRUE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span> )</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>( x )                <span class="co"># number of TRUEs</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>( x ) <span class="sc">/</span> <span class="fu">length</span>( x )  <span class="co"># proportion of TRUEs</span></span></code></pre></div>
-<p>R wants to make sure you are aware of missing values, so it will
-return NA (not available) for functions performed on vectors with
-missing values.</p>
-<p>Add the ‘NA remove’ argument (<code>na.rm=TRUE</code>) to functions
-to ignore missing values:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>( dat<span class="sc">$</span>star, <span class="at">na.rm=</span>T )</span></code></pre></div>
+<div id="what-is-flexdashboard" class="section level1">
+<h1>What Is flexdashboard?</h1>
+<p>Package <code>flexdashboard</code> allows you to create Shiny
+applications using R Markdown.</p>
+<p>UI elements and user inputs, as well as all server processing tasks,
+occur in regular R Markdown code chunks, and your script is saved as a
+<code>.RMD</code> file.</p>
+<p>While <code>flexdashboard</code> builds have some limitations and
+significant structural differences from Shiny builds, they are very
+accessible to R Markdown users and Shiny learners in general.</p>
 <p><br> <br></p>
 </div>
-</div>
-<div id="how-to-submit" class="section level1">
-<h1>How to Submit</h1>
-<p>Use the following instructions to submit your assignment, which may
-vary depending on your course’s platform.</p>
-<p><br></p>
-<div id="knitting-to-html" class="section level3">
-<h3>Knitting to HTML</h3>
-<p>When you have completed your assignment, click the “Knit” button to
-render your <code>.RMD</code> file into a <code>.HTML</code> report.</p>
-<p><br></p>
-</div>
-<div id="special-instructions" class="section level3">
-<h3>Special Instructions</h3>
-<p>Perform the following depending on your course’s platform:</p>
-<ul>
-<li><strong>Canvas:</strong> Upload both your <code>.RMD</code> and
-<code>.HTML</code> files to the appropriate link</li>
-<li><strong>Blackboard or iCollege:</strong> Compress your
-<code>.RMD</code> and <code>.HTML</code> files in a <code>.ZIP</code>
-file and upload to the appropriate link</li>
-</ul>
-<p><code>.HTML</code> files are preferred but not allowed by all
-platforms.</p>
-<p><br></p>
-</div>
-<div id="before-you-submit" class="section level3">
-<h3>Before You Submit</h3>
-<p>Remember to ensure the following before submitting your
-assignment.</p>
+<div id="the-flexdashboard-template" class="section level1">
+<h1>The flexdashboard Template</h1>
+<p>Open a premade <code>flexdashboard</code> template in RStudio by
+clicking on the following:</p>
 <ol style="list-style-type: decimal">
-<li>Name your files using this format:
-<strong>Lab-##-LastName.rmd</strong> and
-<strong>Lab-##-LastName.html</strong></li>
-<li>Show both the solution for your code and write out your answers in
-the body text</li>
-<li>Do not show excessive output; truncate your output, e.g. with
-function <code>head()</code></li>
-<li>Follow appropriate styling conventions, e.g. spaces after commas,
-etc.</li>
-<li>Above all, ensure that your conventions are consistent</li>
+<li>File</li>
+<li>New File</li>
+<li>R Markdown…</li>
 </ol>
-<p>See <a href="https://google.github.io/styleguide/Rguide.xml">Google’s
-R Style Guide</a> for examples of common conventions.</p>
+<p><br></p>
+<p>In the “New R Markdown” window, use the left navigation menu to
+select:</p>
+<ol style="list-style-type: decimal">
+<li>From Template</li>
+<li>Flex Dashboard</li>
+</ol>
+<p><br></p>
+<p>This will open a pre-built <code>.Rmd</code>
+<code>flexdashboard</code> template with several <strong>charts</strong>
+and <strong>columns</strong> set up. We’ll learn more about how
+important <strong>charts</strong> are soon.</p>
 <p><br> <br></p>
 </div>
-<div id="common-knitting-issues" class="section level3">
-<h3>Common Knitting Issues</h3>
-<p><code>.RMD</code> files are knit into <code>.HTML</code> and other
-formats procedural, or line-by-line.</p>
-<ul>
-<li>An error in code when knitting will halt the process; error messages
-will tell you the specific line with the error</li>
-<li>Certain functions like <code>install.packages()</code> or
-<code>setwd()</code> are bound to cause errors in knitting</li>
-<li>Altering a dataset or variable in one chunk will affect their use in
-all later chunks</li>
-<li>If an object is “not found”, make sure it was created or loaded with
-<code>library()</code> in a previous chunk</li>
-</ul>
-<p><strong>If All Else Fails:</strong> If you cannot determine and fix
-the errors in a code chunk that’s preventing you from knitting your
-document, add <code>eval = FALSE</code> inside the brackets of
-<code>{r}</code> at the beginning of a chunk to ensure that R does not
-attempt to evaluate it, that is: <code>{r eval = FALSE}</code>. This
-will prevent an erroneous chunk of code from halting the knitting
-process.</p>
+<div id="dashboard-components" class="section level1">
+<h1>Dashboard Components</h1>
+<p><br></p>
+<div id="yaml-header" class="section level2">
+<h2>YAML Header</h2>
+<p>In order to make a <code>.Rmd</code> R Markdown script interpretable
+by <code>flexdashboard</code>, use the following basic header:</p>
+<p><br></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">&quot;My Title&quot;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>output<span class="sc">:</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  flexdashboard<span class="sc">::</span>flex_dashboard</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code></pre></div>
+<p><br></p>
+<p>This is merely the foundation on which many options for customization
+may be added and specified.</p>
 <p><br> <br></p>
-<style>
-blockquote {
-padding: 11px 22px;
-margin: 0 0 22px;
-font-size: 18px;
-border-left: 5px solid lightgray;
-}
-</style>
+</div>
+<div id="charts" class="section level2">
+<h2>Charts</h2>
+<p>In package <code>flexdashboard</code>, <strong>charts</strong> are
+the meat and potatoes of all applications. In fact, as soon as you
+peruse the <code>flexdashboard</code> <strong><a href="https://pkgs.rstudio.com/flexdashboard/articles/flexdashboard.html">documentation</a></strong>,
+you’ll quickly see that charts comprise a significant proportion of its
+contents.</p>
+<p>Charts are initialized and named in your <code>.Rmd</code> script
+with <code>###</code> and are typically followed by text and an R
+Markdown code chunk containing your app’s inputs and outputs.</p>
+<p><br></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="do">### Chart A</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>Some text...</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>Some code chunk...</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="do">### Chart B</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>Some more text...</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>Some other code chunk...</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="do">### Chart C</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>Even more text...</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>Yet another code chunk...</span></code></pre></div>
+<p><br> <br></p>
+</div>
+<div id="column-orientation" class="section level2">
+<h2>Column Orientation</h2>
+<p>In package <code>flexdashboard</code>, dashboards are comprised of
+<strong>columns</strong>. Within each column, <strong>charts</strong>
+appear in the order in which they are coded.</p>
+<p><br></p>
+<p>We can ensure that <code>flexdashboard</code> understands our column
+layout wishes by specificying as much in the YAML header:</p>
+<p><br></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">&quot;My Title&quot;</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>output<span class="sc">:</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  flexdashboard<span class="sc">::</span>flex_dashboard</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    orientation<span class="sc">:</span> columns</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code></pre></div>
+<p><br></p>
+<p>We can create a column using the word <code>Column</code> and 14 or
+more dashes (<code>-</code>).</p>
+<p><br></p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>Column</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="sc">--------------</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="do">### Chart A</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>Code...</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="do">### Chart B</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>Code...</span></code></pre></div>
+<p><br></p>
+<p>Column widths may be modified with
+<code>Column {data-width = &lt;number&gt;}</code> and the width of all
+columns must equal 1,000!</p>
+<p><br></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>Column {data<span class="sc">-</span>width <span class="ot">=</span> <span class="dv">250</span>}</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="sc">--------------</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="do">### Chart A</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>Code...</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>Column {data<span class="sc">-</span>width <span class="ot">=</span> <span class="dv">250</span>}</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="sc">--------------</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="do">### Chart B</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>Code...</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>Column {data<span class="sc">-</span>width <span class="ot">=</span> <span class="dv">500</span>}</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="sc">--------------</span></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a><span class="do">### Chart C</span></span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>Code...</span></code></pre></div>
+<p><br> <br></p>
+</div>
+<div id="row-orientation" class="section level2">
+<h2>Row Orientation</h2>
+<p>Rather than <strong>column</strong> orientation, note that we can
+specify <strong>row</strong> orientation using the YAML header.</p>
+<p><br></p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">&quot;My Title&quot;</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>output<span class="sc">:</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  flexdashboard<span class="sc">::</span>flex_dashboard</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    orientation<span class="sc">:</span> rows</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code></pre></div>
+<p><br> <br></p>
 </div>
 </div>
-
-<div class="footer">
-    <div class="footerFloatOuter"><br></div>
-    <div class="footerFloatInner1">
-
-       <a href="https://ds4ps.org/">
-         <img src="data:image/png;base64,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" alt="ds4ps" width="200" align="middle">
-         <h4 style="text-align:center;color:white;">Data Science for<br>Public Service</h4>
-       </a>
-
-    </div>
-
-    <div class="footerFloatInner2">
-
-     <br>
-     <ul style="list-style-type:none;">
-
-        <li>Labs designed by <a href="https:lecy.info" target="_blank">Jesse D. Lecy</a></li>
-        <li>Source code is available on <a href="https://github.com/DS4PS/intro-data-science-TEMPLATE" target="_blank">GitHub</a></li>
-        <br>
-        <li>Creative Common License:</li>
-        <li><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"> (CC BY-NC-SA 4.0)</a></li>
-        <br>
-        <li><p style="font-size:110%;color:#f0ead6;"><b>Solutions posted online</b><br>
-         are in violation of student policies <br>and federal copyright laws <b>©</b></li>
-     </ul>
-
-
-    </div>
-
-    <div class="footerFloatOuter"><br>
-    </div>
-
+<div id="dashboard-tabsets" class="section level1">
+<h1>Dashboard Tabsets</h1>
+<p><br></p>
+<div id="chart-tabsets" class="section level2">
+<h2>Chart Tabsets</h2>
+<p>In <code>flexdashboard</code>, <strong>tabsets</strong> allow your
+<strong>charts</strong> to have multiple dropdown tabs which may contain
+additional charts or text.</p>
+<p>Simply add <code>Column {.tabset}</code> to a column header and all
+ensuing charts will become named dropdown menu items for the existing
+chart space.</p>
+<p><br></p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>Column {.tabset}</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="sc">--------------</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="do">### Dropdown Chart 1</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>Some code...</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="do">### Dropdown Chart 2</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>Some code...</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a><span class="do">### Dropdown Chart 3</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>Some code...</span></code></pre></div>
+<p><br> <br></p>
 </div>
-
-
-
-
-<style>
-blockquote {
-padding: 11px 22px;
-margin: 0 0 22px;
-font-size: 18px;
-border-left: 5px solid lightgray;
-}
-.footer {
-color:white;
-min-height: 450px !important;
-background-color: #696969;
-padding-bottom: 3em;
-padding-top: 3em;
-margin: auto;
-}
-.footer a {
-color: orange;
-}
-.footer body{
-font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-font-size:calc(1.5em + 0.25vw);
-font-weight:300;line-height:1.65;
--webkit-font-smoothing:antialiased;
--moz-osx-font-smoothing:grayscale;
-margin-left:20%;
-margin-right:20%
-}
-footer.body{
-font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-font-size:calc(1.5em + 0.25vw);
-font-weight:300;line-height:1.65;
--webkit-font-smoothing:antialiased;
--moz-osx-font-smoothing:grayscale;
-margin-left:20%;
-margin-right:20%
-}
-.footerFloatOuter {
-width: 25%;
-float: left;
-}
-.footerFloatInner1 {
-width: 20%;
-float: left;
-align: left;
-margin-left: 0px;
-}
-.footerFloatInner2 {
-width: 50%;
-float: left;
-text-align: left;
-}
-.footer ul li {
-font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-font-size:calc(0.55em + 0.25vw) !important;
-font-weight:300;
-line-height:1.2 !important;
-color: #FFF;
-text-transform: uppercase;
-}
-
-.row:after {
-content: "";
-display: table;
-clear: both;
-}
-</style>
+<div id="page-tabsets" class="section level2">
+<h2>Page Tabsets</h2>
+<p><strong>Tabsets</strong> also allow your <strong>pages</strong> to
+have multiple tabs which may contain additional columns, charts, and
+tabsets.</p>
+<p>In order to create a page:</p>
+<ol style="list-style-type: decimal">
+<li>On the first line, write the name of your page</li>
+<li>On the secodn line, place 16 or more equal signs
+(<code>=</code>)</li>
+</ol>
+<p><br></p>
+<p>Simply add <code>Page {data-navmenu = Details}</code> to a page
+header and all ensuing charts will become named dropdown menu items for
+the existing dashboard page space, accessible in the top navigation
+bar.</p>
+<p><br></p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>Page {data-navmenu = <span class="er">&lt;</span>&quot;Sub-Page Name&quot;&gt;}</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>================</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>### Dropdown Chart 1</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>Some code...</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>### Dropdown Chart 2</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>Some code...</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>### Dropdown Chart 3</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>Some code...</span></code></pre></div>
+<p><br> <br></p>
+</div>
+</div>
+<div id="shiny-implementation" class="section level1">
+<h1>Shiny Implementation</h1>
+<p>In order to add interactivity using Shiny, you’ll need to modify the
+<strong>YAML header</strong> with <code>runtime: shiny</code>.</p>
+<p><br></p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">&quot;My Title&quot;</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>output<span class="sc">:</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  flexdashboard<span class="sc">::</span>flex_dashboard</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    orientation<span class="sc">:</span> columns</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>runtime<span class="sc">:</span> shiny</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code></pre></div>
+<p><br></p>
+<p>Once this is done, we’re able to add typical reactive elements one
+sees in Shiny.</p>
+<p><br></p>
+<div id="adding-a-sidebar" class="section level2">
+<h2>Adding a Sidebar</h2>
+<p>If you’ve made your <code>flexdashboard</code> report interactive,
+you’ll likely want a sidebar where users can interact with filters and
+other options.</p>
+<p>In this case, create a new column, albeit with <code>.sidebar</code>
+applied:</p>
+<p><br></p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>Column {data<span class="sc">-</span>width <span class="ot">=</span> <span class="dv">250</span> .sidebar}</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="sc">--------------</span></span></code></pre></div>
+<p><br> <br></p>
+</div>
+<div id="go-forth-with-shiny" class="section level2">
+<h2>Go Forth with Shiny</h2>
+<p>Using this novel approach to Shiny dashboard development, continue to
+learn about Shiny reactivity as, beyond these basic structural
+differences, package <code>flexdashboard</code> operates in the same way
+under the hood.</p>
+<p><br> <br></p>
+</div>
+</div>
 
 
 

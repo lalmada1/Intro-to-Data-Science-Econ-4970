@@ -25,26 +25,22 @@ library( rgdal )
 
 <br>
 <br>
-
----
+<hr>
 
 #### This lab offers practice with logical statements used to create groups from your data.
 
 There is a **LAB-02 RMD template** available: 
 
-<a href='lab-02-template.rmd' target="_blank">
-<button type="button" class="button"> TEMPLATE </button>
+
+<a href='../../templates/' target="_blank">
+<button type="button" class="button"> TEMPLATES </button>
 </a>
 
+*You may have to right-click on the file and “save as” depending upon your browser.*
 
+Remember to name your file: **lab-##-lastname.rmd**
 
-*You may have to right-click on the file and "save as" depending upon your browser.*
-
-Remember to name the file as follows: **lab-##-lastname.rmd** 
-
---- 
-
-<br>
+<hr>
 <br>
 
 # Getting Started 
