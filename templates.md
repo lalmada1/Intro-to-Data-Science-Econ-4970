@@ -20,25 +20,73 @@ layout: default
 <button type="button" class="button"> LAB 02 </button>
 </a>
   
-<a href='{{page.raw-url}}/01-building-blocks-of-r/lab-01-template.rmd' target="_blank">
+<a href='{{page.raw-url}}/03-data-viz-static/lab-01-template.rmd' target="_blank">
 <button type="button" class="button"> LAB 03 </button>
 </a>
-  
-<a href='{{page.raw-url}}/01-building-blocks-of-r/lab-01-template.rmd' target="_blank">
-<button type="button" class="button"> LAB 04 </button>
+
+<hr>
+
+<a href='{{page.raw-url}}/04-data-viz-dynamic/demo-shiny-01.rmd' target="_blank">
+<button type="button" class="button"> Shiny Demo 01 </button>
+</a>
+
+<a href='{{page.raw-url}}/04-data-viz-dynamic/demo-shiny-02.rmd' target="_blank">
+<button type="button" class="button"> Shiny Demo 02 </button>
 </a>
   
-<a href='{{page.raw-url}}/01-building-blocks-of-r/lab-01-template.rmd' target="_blank">
+<a href='{{page.raw-url}}/04-data-viz-dynamic/demo-shiny-03.rmd' target="_blank">
+<button type="button" class="button"> Shiny Demo 03 </button>
+</a>
+  
+<a href='{{page.raw-url}}/04-data-viz-dynamic/lab-04a-template.rmd' target="_blank">
+<button type="button" class="button"> LAB 04a FlexDash </button>
+</a>
+
+<a href='{{page.raw-url}}/04-data-viz-dynamic/lab-04b-flexdashboard-template.rmd' target="_blank">
+<button type="button" class="button"> LAB 04b FlexDash </button>
+</a> 
+
+<a href='{{page.raw-url}}/04-data-viz-dynamic/lab-04b-shiny-template.R' target="_blank">
+<button type="button" class="button"> LAB 04b Shiny </button>
+</a> 
+  
+<a href='{{page.raw-url}}/04-data-viz-dynamic/lab-04b-shiny-dashboard-plus-template.R' target="_blank">
+<button type="button" class="button"> LAB 04b Shiny Plus </button>
+</a> 
+
+<hr>
+  
+<a href='{{page.raw-url}}/05-data-wrangling/lab-05-template.rmd' target="_blank">
 <button type="button" class="button"> LAB 05 </button>
 </a>
   
-<a href='{{page.raw-url}}/01-building-blocks-of-r/lab-01-template.rmd' target="_blank">
+<a href='{{page.raw-url}}/06-data-joins/lab-06-template.rmd' target="_blank">
 <button type="button" class="button"> LAB 06 </button>
 </a>
   
-<a href='{{page.raw-url}}/01-building-blocks-of-r/lab-01-template.rmd' target="_blank">
-<button type="button" class="button"> LAB 07 </button>
+<hr>
+  
+<a href='{{page.raw-url}}/07-dashboards/demo-flexdashboard-column-orientation.rmd' target="_blank">
+<button type="button" class="button"> FlexDash Demo 01 </button>
 </a>
+
+<a href='{{page.raw-url}}/07-dashboards/demo-flexdashboard-three-window-layout.rmd' target="_blank">
+<button type="button" class="button"> FlexDash Demo 02 </button>
+</a>
+  
+<a href='{{page.raw-url}}/07-dashboards/lab-07-dashboard-template-v1.rmd' target="_blank">
+<button type="button" class="button"> DB Template 01 </button>
+</a>
+  
+<a href='{{page.raw-url}}/07-dashboards/lab-07-dashboard-template-v1.rmd' target="_blank">
+<button type="button" class="button"> DB Template 02 </button>
+</a>
+  
+<a href='{{page.raw-url}}/07-dashboards/lab-07-dashboard-template-v1.rmd' target="_blank">
+<button type="button" class="button"> DB Template 03 </button>
+</a>
+  
+
   
 <br>
 <br>
