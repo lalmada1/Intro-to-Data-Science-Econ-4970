@@ -2,18 +2,21 @@
 title: 'Lab 05 - Data Wrangling'
 output:
   html_document:
-  theme: readable
-df_print: paged
-highlight: tango
+    theme: readable
+    df_print: paged
+    highlight: tango
+    toc: yes
+    toc_float: no
+    self-contained: true
+    css: '../html/lab-instructions.css'
+    include:
+      after_body: '../html/footer.html'
 ---
   
   ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, message=F, warning=F, fig.align='center', fig.width=9 )
 ```
 
-
-
-#### [Coding in R for Policy Analytics](http://ds4ps.org/ays-r-coding-sum-2022/)
 
 <br>
   
@@ -272,14 +275,12 @@ We will define "harm" as any accident that causes at least one injury OR fatalit
 
 For each question, write down your data recipe or pseudocode. 
 
-You can create a new R Markdown file, or download the **LAB-05 RMD template**: 
+There is a **LAB-05 RMD template** available for download. 
 
-<center>
 
-[![](https://github.com/DS4PS/ays-r-coding-sum-2022/blob/main/labs/images/download.png?raw=true)](https://github.com/DS4PS/ays-r-coding-sum-2022/blob/main/labs/Lab-05-v3_LastName.zip?raw=true)
-
-</center>
-
+<a href='lab-05-template.rmd' target="_blank">
+<button type="button" class="button"> TEMPLATE </button>
+</a>
 
 <br><br>
 
@@ -311,7 +312,9 @@ Practice writing logical statements and basic data recipes for the following:
 
 
 ```r
-dat %>% group_by( factor ) %>% summarize( my.stat = formula or logical statement )
+dat %>% 
+  group_by( factor ) %>% 
+  summarize( my.stat = formula or logical statement )
 ```
 
 
@@ -343,10 +346,10 @@ dat %>%
   
   
   
-  ## PART 2: Age Groups
+## PART 2: Age Groups
   
   
-  #### 1) Create a table of counts of accidents by time of day (24 one-hour segments) and age of driver (use the factor age groups). 
+#### 1) Create a table of counts of accidents by time of day (24 one-hour segments) and age of driver (use the factor age groups). 
   
   
   Which age group has the largest number of accidents at 7am? 
@@ -359,14 +362,13 @@ dat %>%
 
 <br><br>
   
-  ## PART 3: Rates of Harm
+## PART 3: Rates of Harm
   
-  As a public health expert specializing in traffic accidents, you need to think about how to best target traffic accidents to reduce harm. 
+As a public health expert specializing in traffic accidents, you need to think about how to best target traffic accidents to reduce harm. 
 
 Should we focus on the volume of traffic accidents, or the types of accidents that are most likely to cause harm? 
   
-  
-  ```{r, echo=F}
+```{r, echo=F}
 d2 <- 
   dat %>% 
   count( hour )
@@ -412,9 +414,9 @@ plot( as.numeric(d2$hour), d2$ave.num.injuries,
 
 *Reflection point: as the analyst your job is to translate research questions into the models that are presented to decision-makers. You will likely receive a broad objective like identifying patterns in traffic accidents, and you will often have a lot of flexibility in how you operationalize the question.*
   
-  *How might strategies for addressing traffic injuries change if you switch from an emphasis on the accidents that are most common to accidents that are most likely to cause harm? These are subtle nuances in how to calculate simple statistics (counts and proportions) over groups, but they can have a big impact on policy-making!*
+*How might strategies for addressing traffic injuries change if you switch from an emphasis on the accidents that are most common to accidents that are most likely to cause harm? These are subtle nuances in how to calculate simple statistics (counts and proportions) over groups, but they can have a big impact on policy-making!*
   
-  Report your tables or graphcs. You don't have to include a written response to the reflection point. 
+Report your tables or graphcs. You don't have to include a written response to the reflection point. 
 
 
 
@@ -438,21 +440,21 @@ You can use any variables from the dataset, but you are limit to groups construc
 <br><br>
   
   
-  # Working with Dates
+# Working with Dates
   
-  So far we have worked with character, numeric, logical, and categorical (factor) vectors.
+So far we have worked with character, numeric, logical, and categorical (factor) vectors.
 
 We need to introduce a new type of vector class for this lab, a date variable. Dates are complicated because they must function simultaneously as categorical variables (months of the year) and numeric variables capable of arithmatic (time that passes between two dates). Furthermore, we often want to convert between idiosyncratic date representations, such as a day of a specific month to a day of the week. 
 
 They are also complicated because they can be represented in many ways:
   
-  * Jan-05-2012
+* Jan-05-2012
 * 01/05/2012
 * 01-05-2012 
 
 When you first read a dataset, they are typically loaded as character vectors:
   
-  ```{r, eval=F}
+```{r, eval=F}
 head( dat$DateTime )
 ```
 
@@ -462,7 +464,7 @@ head( as.character(dat$DateTime) )
 
 We can convert dates stored as characters to a special date object by specifying the format using codes understood by the **strptime()** function:
   
-  ```{r}
+```{r}
 date.vec <- strptime( dat$DateTime, format="%m/%d/%y %H:%M" )
 head( date.vec )
 ```
@@ -744,7 +746,14 @@ d4 <-
 #   geom_point() + geom_line() + 
 #   facet_wrap( d4$Collisionmanner ) +
 #   xlab("Day (Mon-Sun)") + ylab("Harm Rate") # +
-#   # scale_x_discrete( labels=c("1"="Mon","2"="Tue","3"="Wed","4"="Thu","5"="Fri","6"="Sat","7"="Sun") )
+#   # scale_x_discrete( labels=c( 
+#   "1"="Mon",
+#   "2"="Tue",
+#   "3"="Wed",
+#   "4"="Thu",
+#   "5"="Fri",
+#   "6"="Sat",
+#   "7"="Sun") )
 ```
 
 
@@ -781,34 +790,43 @@ barplot( table(dat$age) )
 
 These group labels are a little awkward, so let's improve them a bit by creating our own:
                             
-                            ```{r}
-                          age.labels <- paste0( "Age ", c(16,18,25,35,45,55,65,75), "-", c(18,25,35,45,55,65,75,100) )
-                          dat$age <- cut( dat$Age_Drv1, breaks=c(16,18,25,35,45,55,65,75,100), labels=age.labels )
-                          barplot( table(dat$age) )
-                          ```
+```{r}
+age.labels <- paste0( "Age ", 
+                      c(16,18,25,35,45,55,65,75), 
+                      "-", 
+                      c(18,25,35,45,55,65,75,100) )
+
+dat$age <- cut( dat$Age_Drv1, 
+                breaks=c(16,18,25,35,45,55,65,75,100), 
+                labels=age.labels )
+
+barplot( table(dat$age) )
+```
                           
-                          We can now analyze some trends by age group.
-                          
-                          
-                          ```{r, echo=T, fig.width=10, fig.height=6}
-                          d3 <- 
-                            dat %>% 
-                            count( hour, age )
-                          d3 <- na.omit( d3 )
-                          qplot( data=d3, x=as.numeric(as.character(hour)), y=n ) + 
-                            geom_line( size=0.8, color="firebrick4" ) + 
-                            geom_point( size=3, color="darkred" ) + 
-                            facet_wrap( ~ age, ncol=4 ) +
-                            xlab("Time of Day (24hrs)") + 
-                            ylab("Number of Accidents") +
-                            ggtitle("Number of Accidents by Time and Age Group") +
-                            # theme_minimal() 
-                            theme_wsj( base_size=10, color="gray" )
-                          ```
+We can now analyze some trends by age group.
                           
                           
+```{r, echo=T, fig.width=10, fig.height=6}
+d3 <- 
+  dat %>% 
+  count( hour, age )
+
+d3 <- na.omit( d3 )
+
+qplot( data=d3, x=as.numeric(as.character(hour)), y=n ) + 
+  geom_line( size=0.8, color="firebrick4" ) + 
+  geom_point( size=3, color="darkred" ) + 
+  facet_wrap( ~ age, ncol=4 ) +
+  xlab("Time of Day (24hrs)") + 
+  ylab("Number of Accidents") +
+  ggtitle("Number of Accidents by Time and Age Group") +
+  # theme_minimal() 
+  theme_wsj( base_size=10, color="gray" )
+```
                           
-                          ```{r, eval=F, echo=F}
+                          
+                          
+```{r, eval=F, echo=F}
                           d5 <- filter( dat, !is.na(age) )
                           qmplot( Longitude, Latitude, data=d5, geom = "blank", 
                                   zoom = 13, maptype = "toner-background", darken = .1 ) + 
@@ -847,7 +865,7 @@ These group labels are a little awkward, so let's improve them a bit by creating
                             xlab("Time of Day (24hrs)") + 
                             ylab("Number of Accidents") +
                             ggtitle("Number of Accidents by Time and Age Group")
-                          ```
+```
                           
                           
                           
@@ -856,11 +874,11 @@ These group labels are a little awkward, so let's improve them a bit by creating
                           
                           
                           
-                          <br><br>
+<br><br>
                             
-                            # How to Submit
+# How to Submit
                             
-                            Use the following instructions to submit your assignment, which may vary depending on your course's platform.
+Use the following instructions to submit your assignment, which may vary depending on your course's platform.
 
 <br>
 
@@ -873,25 +891,25 @@ When you have completed your assignment, click the "Knit" button to render your 
 ### Special Instructions
 
 Perform the following depending on your course's platform:
+
+* **Canvas:** Upload both your `.RMD` and `.HTML` files to the appropriate link
+* **Blackboard or iCollege:** Compress your `.RMD` and `.HTML` files in a `.ZIP` file and upload to the appropriate link
+                          
+`.HTML` files are preferred but not allowed by all platforms.
+                          
+<br>
                             
-                            * **Canvas:** Upload both your `.RMD` and `.HTML` files to the appropriate link
-                          * **Blackboard or iCollege:** Compress your `.RMD` and `.HTML` files in a `.ZIP` file and upload to the appropriate link
-                          
-                          `.HTML` files are preferred but not allowed by all platforms.
-                          
-                          <br>
+### Before You Submit
                             
-                            ### Before You Submit
-                            
-                            Remember to ensure the following before submitting your assignment.
+Remember to ensure the following before submitting your assignment.
                           
-                          1. Name your files using this format: **Lab-##-LastName.rmd** and **Lab-##-LastName.html**
-                            2. Show both the solution for your code and write out your answers in the body text 
-                          3. Do not show excessive output; truncate your output, e.g. with function `head()`
-                          4. Follow appropriate styling conventions, e.g. spaces after commas, etc.
-                          5. Above all, ensure that your conventions are consistent
+1. Name your files using this format: **Lab-##-LastName.rmd** and **Lab-##-LastName.html**
+2. Show both the solution for your code and write out your answers in the body text 
+ 3. Do not show excessive output; truncate your output, e.g. with function `head()`
+4. Follow appropriate styling conventions, e.g. spaces after commas, etc.
+5. Above all, ensure that your conventions are consistent
                           
-                          See [Google's R Style Guide](https://google.github.io/styleguide/Rguide.xml) for examples of common conventions.
+See [Google's R Style Guide](https://google.github.io/styleguide/Rguide.xml) for examples of common conventions.
 
 <br>
 <br>
@@ -907,6 +925,6 @@ Perform the following depending on your course's platform:
 
 **If All Else Fails:** If you cannot determine and fix the errors in a code chunk that's preventing you from knitting your document, add `eval = FALSE` inside the brackets of `{r}` at the beginning of a chunk to ensure that R does not attempt to evaluate it, that is: `{r eval = FALSE}`. This will prevent an erroneous chunk of code from halting the knitting process.  
                                
-                               <br>
-                                 <br>
-                                 <br>
+<br>
+<br>
+
