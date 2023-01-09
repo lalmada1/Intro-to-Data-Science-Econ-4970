@@ -11,6 +11,11 @@ div.uk-navbar a {
     color: white !important;
 }
 
+i#github_icon {
+    color: white; 
+    font-size: 1.2em;
+ }
+
 fab.fa-github a {
     color: white !important;
 }
@@ -67,7 +72,7 @@ header {
 footer {
     background-color: #0039a6 !important; 
     /* background-color: #f08d14;  #ffaf4d; #ff8c00; */
-    color: white; /* rgb(255,255,255); */
+    color: white !important; /* rgb(255,255,255); */
     margin-top: 0px;
 }
 
@@ -107,12 +112,6 @@ a{
     target-new: tab;
 }
 
-
-
- i#github_icon {
-    color: black; 
-    font-size: 1.2em;
- }
 
  img#logo {
     width: 50%; 
