@@ -80,7 +80,15 @@ layout: default
 <br>  
 <hr>
 <br>
- 
+  
+### Code-Through Assignment
+
+<a href='https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/99-code-through/code-through-template.rmd' target="_blank">
+<button type="button" class="button"> Code-Through Template </button>
+</a>
+  
+  
+  
 ### Final Projects 
   
 <a href='https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/07-dashboards/demo-flexdashboard-column-orientation.rmd' target="_blank">
