@@ -1751,13 +1751,13 @@ Since you are sharing your code-through with your classmates on Yellowdig, it wi
 
 If you send me your RMD and HTML files via email, I will post them to GitHub and create a link for you if you would like to share a URL instead of a file.
 
-<a class="uk-button uk-button-default" onclick="window.open('../labs/code-through-assignment.html')">Code-Through Instructions</a>
+<a class="uk-button uk-button-default" onclick="window.open('../units/99-code-through/code-through-assignment.html')">Code-Through Instructions</a>
 
 Download the recommended template for your code-through with the below link.
 
 **Note:** *This is one of many possible layouts; modify appropriately.*
 
-<a class="uk-button uk-button-default" onclick="window.open('../labs/cpp-526_reformatted-projects/cpp-526-CodeThrough-LastName.zip?raw=true')">Base Code-Through Template</a>
+<a class="uk-button uk-button-default" onclick="window.open('../units/99-code-through/code-through-template.rmd')">Base Code-Through Template</a>
 
 ## Submit to Canvas
 
