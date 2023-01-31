@@ -31,10 +31,25 @@ layout: default
 <button type="button" class="button"> LAB 03 v2 </button>
 </a>
   
+<br>  
+
+*LAB 04 Below*
+  
+<br>
+  
+<a href='https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/05-data-wrangling/lab-05-template.rmd' target="_blank">
+<button type="button" class="button"> LAB 05 </button>
+</a>
+  
+<a href='https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/06-data-joins/lab-06-template.rmd' target="_blank">
+<button type="button" class="button"> LAB 06 </button>
+</a>
+
 <br>
 <hr>
 <br>
 
+  
 ### Lab 04 Dynamic Graphics 
   
 <a href='https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/04-data-viz-dynamic/demo-shiny-01.rmd' target="_blank">
@@ -65,22 +80,6 @@ layout: default
 <button type="button" class="button"> LAB 04b Shiny Plus </button>
 </a> 
 
-<br>  
-<hr>
-<br>
-  
-<a href='https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/05-data-wrangling/lab-05-template.rmd' target="_blank">
-<button type="button" class="button"> LAB 05 </button>
-</a>
-  
-<a href='https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/06-data-joins/lab-06-template.rmd' target="_blank">
-<button type="button" class="button"> LAB 06 </button>
-</a>
-
-<br>  
-<hr>
-<br>
-  
 ### Code-Through Assignment
 
 <a href='https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/99-code-through/code-through-template.rmd' target="_blank">
