@@ -35,7 +35,7 @@ layout: default
 <hr>
 <br>
 
-### Dynamic Graphics 
+### Lab 04 Dynamic Graphics 
   
 <a href='https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/04-data-viz-dynamic/demo-shiny-01.rmd' target="_blank">
 <button type="button" class="button"> Shiny Demo 01 </button>
