@@ -23,10 +23,14 @@ layout: default
 <button type="button" class="button"> LAB 02 </button>
 </a>
   
-<a href='https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/03-data-viz-static/lab-03-template.rmd' target="_blank">
-<button type="button" class="button"> LAB 03 </button>
+<a href='https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/03-data-viz-static/lab-03-v1-template.rmd' target="_blank">
+<button type="button" class="button"> LAB 03 v1 </button>
 </a>
 
+<a href='https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/03-data-viz-static/lab-03-v12template.rmd' target="_blank">
+<button type="button" class="button"> LAB 03 v2 </button>
+</a>
+  
 <br>
 <hr>
 <br>
