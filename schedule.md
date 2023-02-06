@@ -1144,14 +1144,15 @@ We recommend you **skim** the chapters on graphing functions and custom graphics
 Code is provided to get you started, but you will have to use documentation and the web to push the boundaries of your new knowledge of these functions.
 
 <a class="uk-button uk-button-default" onclick="window.open('../units/03-data-viz-static/lab-03-v1-instructions.html')">LAB-03 v1 Instructions</a>
-
+<!--
 <a class="uk-button uk-button-default" onclick="window.open('../units/03-data-viz-static/lab-03-v2-instructions.html')">LAB-03 v2 Instructions</a>
-
+-->
 Click to download the lab template. Modify and submit using the instructions.
 
 <a class="uk-button uk-button-default" onclick="window.open('../units/03-data-viz-static/lab-03-v1-template.rmd')">LAB-03 v1 Template</a>
-
+<!--
 <a class="uk-button uk-button-default" onclick="window.open('../units/03-data-viz-static/lab-03-v2-template.rmd')">LAB-03 v2 Template</a>
+-->
 
 ## Submit Solutions to iCollege
 
