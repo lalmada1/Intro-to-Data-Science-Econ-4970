@@ -900,7 +900,7 @@ The following checklist will help you stay organized in your second week.
 - [ ] Complete Assigned Readings: [Group Construction with Logical Statements](http://ds4ps.org/dp4ss-textbook/p-050-business-logic.html)
 - [ ] Post & Exchange on Discussion Topic, 20 Points Max (See Below)
 - [ ] Complete & Submit [Lab 02](../units/02-operators-and-descriptives/lab-02-instructions.html) (See Below)
-- [ ] (Recommended) Explore Packages for [Code Through Project](../labs/code-through-assignment.html)
+- [ ] (Recommended) Explore Packages for [Code Through Project](../units/99-code-through/code-through-assignment.html)
 - [ ] (Recommended) Videos
 
 <br>
@@ -1102,7 +1102,7 @@ The following checklist will help you stay organized in your third week.
 
 - [ ] Complete Assigned Readings: [The plot() Function](http://ds4ps.org/dp4ss-textbook/p-061-plot-basics.html) & [Building Custom Graphics](http://ds4ps.org/dp4ss-textbook/p-062-customized-graphics.html)
 - [ ] Post & Exchange on Discussion Topic, 20 Points Max (See Below)
-- [ ] Complete & Submit [Lab 03](../units/03-data-viz-static/lab-03-v2-instructions.RMD) (See Below)
+- [ ] Complete & Submit [Lab 03](../units/03-data-viz-static/lab-03-v1-instructions.html) (See Below)
 - [ ] (Recommended) Read [Intro. to Data Viz](http://ds4ps.org/dp4ss-textbook/p-060-intro-to-data-viz.html)
 
 <br>
@@ -1477,7 +1477,7 @@ The following checklist will help you stay organized in your fifth week.
 - [ ] Post & Exchange on Discussion Topic, 20 Points Max (See Below)
 - [ ] Complete & Submit [Lab 05](../units/05-data-wrangling/lab-05-instructions.rmd) (See Below)
 - [ ] (Recommended) Videos
-- [ ] (Recommended) Begin Planning [Final Code-Through Project](../labs/code-through-assignment.html)
+- [ ] (Recommended) Begin Planning [Final Code-Through Project](../units/99-code-through/code-through-assignment.html)
 
 <br>
 
@@ -1619,7 +1619,7 @@ The following checklist will help you stay organized in your sixth week.
 - [ ] Complete Assigned Readings: [Merging Data](http://ds4ps.org/dp4ss-textbook/p-076-merging-data.html)
 - [ ] Post & Exchange on Discussion Topic, 20 Points Max (See Below)
 - [ ] Complete & Submit [Lab 06](../units/06-data-joins/lab-06-instructions.rmd) (See Below)
-- [ ] (Recommended) Begin [Final Code-Through Project](../labs/code-through-assignment.html)
+- [ ] (Recommended) Begin [Final Code-Through Project](../units/99-code-through/code-through-assignment.html)
 - [ ] (Recommended) Begin [Final Dashboard Project](../units/07-dashboards/lab-07-instructions.html)
 
 <br>
@@ -1735,7 +1735,7 @@ Click to download the lab template. Modify and submit using the instructions.
 
 The following checklist will help you stay organized for your final week.
 
-- [ ] Finalize & Submit Your [Final Code-Through Project](../labs/code-through-assignment.html)
+- [ ] Finalize & Submit Your [Final Code-Through Project](../units/99-code-through/code-through-assignment.html)
 - [ ] Finalize & Submit Your [Final Dashboard Project](../units/07-dashboards/lab-07-instructions.html)
 - [ ] (Recommended) Submit a Course Evaluation
 
