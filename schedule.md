@@ -1147,6 +1147,7 @@ Code is provided to get you started, but you will have to use documentation and 
 <!--
 <a class="uk-button uk-button-default" onclick="window.open('../units/03-data-viz-static/lab-03-v2-instructions.html')">LAB-03 v2 Instructions</a>
 -->
+
 Click to download the lab template. Modify and submit using the instructions.
 
 <a class="uk-button uk-button-default" onclick="window.open('../units/03-data-viz-static/lab-03-v1-template.rmd')">LAB-03 v1 Template</a>
