@@ -30,7 +30,6 @@ layout: default
 <a href='https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/03-data-viz-static/lab-03-v2-template.rmd' target="_blank">
 <button type="button" class="button"> LAB 03 v2 </button>
 --> 
-</a>
 <br>  
 
 *LAB 04 Below*
