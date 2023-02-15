@@ -1,6 +1,6 @@
 Items to update. Thank you, Jesse! 
 
-- [ ] On the main page / syllabus, can the instructor name "Lorenzo Almada" be linked to my gsu page (https://aysps.gsu.edu/profile/lorenzo-almada/)? 
+- [X] On the main page / syllabus, can the instructor name "Lorenzo Almada" be linked to my gsu page (https://aysps.gsu.edu/profile/lorenzo-almada/)? 
 - [X] On the main page / syllabus, can we make the black font white when the background is blue on the headers and footers?
 
 In assets/css/custom.css add: 
@@ -33,6 +33,6 @@ In layouts/default.html near the bottom:
 <img  id="logo" src="{{site.course_url}}/assets/img/{{site.program-logo}}" align="left" style="width:400px;height:220px;" >
 ```
 
-- [ ] On the schedule, can we render all the lab instructions to be in html? Also, please make lab instructions course agnostic. For example, labs 4 and 7 instructions (and maybe others) have references to CPP 526 with links. Please remove to avoid confusion. Also, some lab instructions contain old links for template downloads. Please remove these as well to avoid confusion. 
-- [ ] Please upload Code-Through lab instructions and template (currently not found in the Template repo). 
+- [X] On the schedule, can we render all the lab instructions to be in html? Also, please make lab instructions course agnostic. For example, labs 4 and 7 instructions (and maybe others) have references to CPP 526 with links. Please remove to avoid confusion. Also, some lab instructions contain old links for template downloads. Please remove these as well to avoid confusion. 
+- [X] Please upload Code-Through lab instructions and template (currently not found in the Template repo). 
  
