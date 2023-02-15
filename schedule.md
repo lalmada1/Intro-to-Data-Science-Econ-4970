@@ -1693,11 +1693,11 @@ Do you think open source frameworks would help open the black box and make gover
 
 This lab is designed to introduce you to primary data join functions in R.
 
-<a class="uk-button uk-button-default" onclick="window.open('../units/06-data-joins/lab-06-instructions.rmd')">LAB-06 Instructions</a>
+<a class="uk-button uk-button-default" onclick="window.open('../units/06-data-joins/lab-06-instructions.html')">LAB-06 Instructions</a>
 
 Click to download the lab template. Modify and submit using the instructions.
 
-<a class="uk-button uk-button-default" onclick="window.open('../units/06-data-joins/lab-06-template.Rmd')">LAB-06 Template</a>
+<a class="uk-button uk-button-default" onclick="window.open('../units/06-data-joins/lab-06-template.rmd')">LAB-06 Template</a>
 
 ## Submit Solutions to iCollege
 
