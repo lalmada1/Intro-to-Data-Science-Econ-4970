@@ -1343,7 +1343,7 @@ Click to download the lab template.
 
 **Note:** Rather than submitting a PDF or HTML file, please submit only the R or R Markdown file.  *Please ignore the boilerplate directions in this week's assignment*.
 
-<a class="uk-button uk-button-default" onclick="window.open('../units/04-data-viz-dynamic/lab-04a-template.rmd')">LAB-04 Template</a>
+<a class="uk-button uk-button-default" onclick="window.open('../templates')">LAB-04 Template</a>
 
 ## Submit Solutions to iCollege
 
