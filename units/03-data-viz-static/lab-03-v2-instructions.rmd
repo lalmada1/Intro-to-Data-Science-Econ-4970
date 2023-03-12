@@ -32,8 +32,6 @@ library(tidyverse)
 
 You can create a new R Markdown file, or download the **LAB-03 RMD template**: 
 
-You can create a new R Markdown file, or download the **LAB-03 RMD template**: 
-
 <a href='../../templates/' target="_blank">
 <button type="button" class="button"> TEMPLATES </button>
 </a>
