@@ -1757,9 +1757,7 @@ The following checklist will help you stay organized for your final week.
 
 ## Code-Through
 
-Since you are sharing your code-through with your classmates on Yellowdig, it will serve as your discussion topic this week.
-
-If you send me your RMD and HTML files via email, I will post them to GitHub and create a link for you if you would like to share a URL instead of a file.
+Code-through instructions: 
 
 <a class="uk-button uk-button-default" onclick="window.open('../units/99-code-through/code-through-assignment.html')">Code-Through Instructions</a>
 
@@ -1769,13 +1767,9 @@ Download the recommended template for your code-through with the below link.
 
 <a class="uk-button uk-button-default" onclick="window.open('../units/99-code-through/code-through-template.rmd')">Base Code-Through Template</a>
 
-## Submit to Canvas
+## Submit to iCollege
 
 <a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT CODE-THROUGH</a>
-
-## Post on Yellowdig
-
-<a class="uk-button uk-button-primary" href="{{page.canvas.yellowdig_url}}">iCollege</a>
 
 <br>
 <br>
