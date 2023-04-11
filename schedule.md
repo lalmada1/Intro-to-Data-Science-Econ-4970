@@ -15,7 +15,7 @@ lab-due-dates:
   lab-03: 'WED February 22'
   lab-04: 'WED March 8'
   lab-05: 'WED March 29'
-  lab-06: 'WED April 12'
+  lab-06: 'Optional'
 
 discussion-dates:
   topic-00: 'WED January 11'
