@@ -125,9 +125,9 @@ You can also create a slideshow presentation if you like:
 
 # What to Submit? 
 
-Submit your RMD and knitted HTML file on Canvas. 
+Submit your RMD and knitted HTML file in iCollege.
 
-Also post your tutorial on the course discussion board and explain your concept to your classmates. 
+Also post your tutorial on the course discussion board and briefly explain (2-3 sentences) your concept to your classmates. 
 
 
 <br>
