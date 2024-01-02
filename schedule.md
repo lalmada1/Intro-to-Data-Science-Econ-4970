@@ -18,13 +18,13 @@ lab-due-dates:
   lab-06: 'WED April 10'
 
 discussion-dates:
-  topic-00: 'WED January 11'
-  topic-01: 'WED January 18'
-  topic-02: 'WED February 1'
-  topic-03: 'WED February 15'
-  topic-04: 'WED March 1'
-  topic-05: 'WED March 22'
-  topic-06: 'WED April 5'
+  topic-00: 'WED January 10'
+  topic-01: 'WED January 17'
+  topic-02: 'WED January 31'
+  topic-03: 'WED February 14'
+  topic-04: 'WED February 28'
+  topic-05: 'WED March 20'
+  topic-06: 'WED April 3'
 
 code-through:
   due-date: 'WED April 17'
