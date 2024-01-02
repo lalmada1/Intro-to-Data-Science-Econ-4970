@@ -168,7 +168,7 @@ Below 80%   |  **C, D, F**
 
 The assigned work for the term comes in the form of four elements, described below.
 
-### Weekly Labs (50%)  
+### Weekly Labs (40%)  
 
 In each module, you will receive a short lab that will help you synthesize the lectures from the week through exercises that involve data, analysis, and important formulas from the lectures. **They are graded for completion and accuracy (100-90% = Mostly Complete and Accurate; 89-80% = Incomplete or not fully accurate; 79-70% = Incomplete/late; 0% = Not submitted).**
 
