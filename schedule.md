@@ -416,13 +416,13 @@ We will be using the discussion board on **iCollege** for this course. Introduce
 #########################################
 #########################################
 ##########
-##########         WEEK 01
+##########         Unit 01
 ##########
 #########################################
 #########################################
 -->
 
-** Week 1 - Functions and Vectors
+** Unit 1 - Functions and Vectors
 
 *** { @unit = "", @title = "Unit Overview", @reading, @foldout  }
 
@@ -688,12 +688,12 @@ Visit the [video](https://youtu.be/6TF6UuM0IbI) to navigate using timestamps in 
 
 *** { @unit = "", @title = "Checklist", @assignment, @foldout }
 
-## Your First Week
+## Your First Unit
 
-The following checklist will help you stay organized in your first week.
+The following checklist will help you stay organized for this unit.
 
 - [ ] Complete Assigned Readings: [Assignment](http://ds4ps.org/dp4ss-textbook/ch-033-calculator.html), [Functions](http://ds4ps.org/dp4ss-textbook/ch-040-functions.html), & [Vectors](http://ds4ps.org/dp4ss-textbook/ch-050-vectors.html)
-- [ ] Post & Exchange on Discussion Topic, Maximum 20 Points (See Below)
+- [ ] Post on Discussion Topic (See Below)
 - [ ] Complete & Submit [Lab 01](../units/01-building-blocks-of-r/lab-01-instructions.html) (See Below)
 - [ ] (Recommended) Videos
 
@@ -729,11 +729,6 @@ You can also check out Ben's [Ted Talk](https://www.youtube.com/watch?v=6xsvGYIx
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZTdPpoUp25w?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <br>
-
-**Note:** You get points on iCollege by interacting with content. That means creating new posts and participating in posts that your classmates create. Your iCollege posts are due on Wednesday, but you gain points throughout the week by participating in discussions.
-
-You can earn up to 20 points per topic. You need to earn 100 points across the 7 topics, which means averaging 15 points per topic.
-
 <br>
 <br>
 
@@ -775,14 +770,14 @@ Click to download the lab template. Modify and submit using the instructions.
 #########################################
 #########################################
 ##########
-##########         WEEK 02
+##########         Unit 02
 ##########
 #########################################
 #########################################
 -->
 
 
-** Week 2 - Operators and Descriptives
+** Unit 2 - Operators and Descriptives
 
 *** { @unit = "", @title = "Reflection", @reading, @foldout }
 
@@ -893,12 +888,12 @@ Visit the [video](https://youtu.be/l9WhjLMMWH4) to navigate using timestamps in 
 
 *** { @unit = "", @title = "Checklist", @assignment, @foldout }
 
-## Your Second Week
+## Your Second Unit
 
-The following checklist will help you stay organized in your second week.
+The following checklist will help you stay organized for this unit.
 
 - [ ] Complete Assigned Readings: [Group Construction with Logical Statements](http://ds4ps.org/dp4ss-textbook/p-050-business-logic.html)
-- [ ] Post & Exchange on Discussion Topic, 20 Points Max (See Below)
+- [ ] Post Discussion Topic (See Below)
 - [ ] Complete & Submit [Lab 02](../units/02-operators-and-descriptives/lab-02-instructions.html) (See Below)
 - [ ] (Recommended) Explore Packages for [Code Through Project](../units/99-code-through/code-through-assignment.html)
 - [ ] (Recommended) Videos
@@ -990,13 +985,13 @@ Click to download the lab template. Modify and submit using the instructions.
 #########################################
 #########################################
 ##########
-##########         WEEK 03
+##########         Unit 03
 ##########
 #########################################
 #########################################
 -->
 
-** Week 3 - Visualization
+** Unit 3 - Visualization
 
 *** { @unit = "", @title = "Reflection", @reading, @foldout  }
 
@@ -1096,12 +1091,12 @@ Suggested:
 
 *** { @unit = "", @title = "Checklist", @assignment, @foldout }
 
-## Your Third Week
+## Your Third Unit
 
-The following checklist will help you stay organized in your third week.
+The following checklist will help you stay organized for this unit.
 
 - [ ] Complete Assigned Readings: [The plot() Function](http://ds4ps.org/dp4ss-textbook/p-061-plot-basics.html) & [Building Custom Graphics](http://ds4ps.org/dp4ss-textbook/p-062-customized-graphics.html)
-- [ ] Post & Exchange on Discussion Topic, 20 Points Max (See Below)
+- [ ] Post on Discussion Topic (See Below)
 - [ ] Complete & Submit [Lab 03](../units/03-data-viz-static/lab-03-v1-instructions.html) (See Below)
 - [ ] (Recommended) Read [Intro. to Data Viz](http://ds4ps.org/dp4ss-textbook/p-060-intro-to-data-viz.html)
 
@@ -1173,13 +1168,13 @@ Click to download the lab template. Modify and submit using the instructions.
 #########################################
 #########################################
 ##########
-##########         WEEK 04
+##########         Unit 04
 ##########
 #########################################
 #########################################
 -->
 
-** Week 4 - Dynamic Visualization
+** Unit 4 - Dynamic Visualization
 
 *** { @unit = "", @title = "Unit Overview", @reading, @foldout }
 
@@ -1296,12 +1291,12 @@ For more widget examples visit the [R Shiny Widget Gallery](https://shiny.rstudi
 
 *** { @unit = "", @title = "Checklist", @assignment, @foldout }
 
-## Your Fourth Week
+## Your Fourth Unit
 
-The following checklist will help you stay organized in your fourth week.
+The following checklist will help you stay organized for this unit.
 
 - [ ] Complete Assigned Readings: [Notes on R Shiny](../units/04-data-viz-dynamic/topic-04x01-shiny-widgets.pdf), [Dynamic Graph Example](https://shiny.rstudio.com/gallery/kmeans-example.html), [Widgets Gallery](https://shiny.rstudio.com/gallery/widget-gallery.html)
-- [ ] Post & Exchange on Discussion Topic, 20 Points Max (See Below)
+- [ ] Post on Discussion Topic (See Below)
 - [ ] Complete & Submit [Lab 04](../units/04-data-viz-dynamic/lab-04a-instructions.html) (See Below)
 - [ ] (Recommended) Videos
 - [ ] (Recommended) Familiarize Yourself with the [Final Dashboard Project](../units/07-dashboards/lab-07-instructions.html)
@@ -1365,13 +1360,13 @@ Click to download the lab template.
 #########################################
 #########################################
 ##########
-##########         WEEK 05
+##########         Unit 05
 ##########
 #########################################
 #########################################
 -->
 
-** Week 5 - Data Wrangling
+** Unit 5 - Data Wrangling
 
 *** { @unit = "", @title = "Unit Overview", @reading, @foldout }
 
@@ -1475,12 +1470,12 @@ Visit the [video](https://youtu.be/M2QuERvxwm0) to navigate using timestamps in 
 
 *** { @unit = "", @title = "Checklist", @assignment, @foldout }
 
-## Your Fifth Week
+## Your Fifth Unit
 
-The following checklist will help you stay organized in your fifth week.
+The following checklist will help you stay organized for this unit.
 
 - [ ] Complete Assigned Readings: [Data Verbs in dplyr](http://ds4ps.org/dp4ss-textbook/p-070-data-verbs.html), [Data Recipes Using Pipes](http://ds4ps.org/dp4ss-textbook/p-072-data-recipes.html), [Efficient Use of Groups](http://ds4ps.org/dp4ss-textbook/p-073-group-structure.html)
-- [ ] Post & Exchange on Discussion Topic, 20 Points Max (See Below)
+- [ ] Post on Discussion Topic (See Below)
 - [ ] Complete & Submit [Lab 05](../units/05-data-wrangling/lab-05-instructions.rmd) (See Below)
 - [ ] (Recommended) Videos
 - [ ] (Recommended) Begin Planning [Final Code-Through Project](../units/99-code-through/code-through-assignment.html)
@@ -1554,13 +1549,13 @@ Click to download the lab template. Modify and submit using the instructions.
 #########################################
 #########################################
 ##########
-##########         WEEK 06
+##########         Unit 06
 ##########
 #########################################
 #########################################
 -->
 
-** Week 6 - Data IO and Joins
+** Unit 6 - Data IO and Joins
 
 *** { @unit = "", @title = "Unit Overview", @reading, @foldout }
 
@@ -1620,12 +1615,12 @@ Read the notes on data joins:
 
 *** { @unit = "", @title = "Checklist", @assignment, @foldout }
 
-## Your Sixth Week
+## Your Sixth Unit
 
-The following checklist will help you stay organized in your sixth week.
+The following checklist will help you stay organized for this unit.
 
 - [ ] Complete Assigned Readings: [Merging Data](http://ds4ps.org/dp4ss-textbook/p-076-merging-data.html)
-- [ ] Post & Exchange on Discussion Topic, 20 Points Max (See Below)
+- [ ] Post on Discussion Topic (See Below)
 - [ ] Complete & Submit [Lab 06](../units/06-data-joins/lab-06-instructions.rmd) (See Below)
 - [ ] (Recommended) Begin [Final Code-Through Project](../units/99-code-through/code-through-assignment.html)
 - [ ] (Recommended) Begin [Final Dashboard Project](../units/07-dashboards/lab-07-instructions.html)
@@ -1741,9 +1736,9 @@ Click to download the lab template. Modify and submit using the instructions.
 
 *** { @unit = "", @title = "Checklist", @assignment, @foldout }
 
-## Your Final Week
+## Your Final Projects Checklist
 
-The following checklist will help you stay organized for your final week.
+The following checklist will help you stay organized for the final projects.
 
 - [ ] Finalize & Submit Your [Final Code-Through Project](../units/99-code-through/code-through-assignment.html)
 - [ ] Finalize & Submit Your [Final Dashboard Project](../units/07-dashboards/lab-07-instructions.html)
