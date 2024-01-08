@@ -227,7 +227,7 @@ Grades for the course are largely based on weekly labs. Assigned work is accompa
 
 ## F. Course Communications and Instructor Feedback:
 
-**Course content** is hosted on this website. Lecture files, assignments and other course communications will be transmitted via this site and/or through the class email list. **All assignment submissions** will be made through [**iCollege**](https://gastate.view.usg.edu/d2l/home/2749801).
+**Course content** is hosted on this website. Lecture files, assignments and other course communications will be transmitted via this site and/or through the class email list. **All assignment submissions** will be made through [**iCollege**](https://gastate.view.usg.edu/d2l/home/2993244).
 
 Please post lab questions on the [**Get Help**](https://lalmada1.github.io/Intro-to-Data-Science-Econ-4970/help/) page on this site, schedule individual office hours, or email the instructor directly.
 
