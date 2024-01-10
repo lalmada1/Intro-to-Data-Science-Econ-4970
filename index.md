@@ -23,7 +23,7 @@ instructor:
    email: lalmada1@gsu.edu
    office_location: 55 Park Place Room 682
    website: "https://aysps.gsu.edu/profile/lorenzo-almada/"
-   office_hours_time: Wed 3:00 - 4:00 pm or by Appointment (email me!)  
+   office_hours_time: Tues 2:00 - 3:00 pm or by Appointment (email me!)  
    office_hours_location:  
 
 
