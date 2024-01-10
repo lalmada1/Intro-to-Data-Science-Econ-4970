@@ -168,11 +168,11 @@ Below 80%   |  **C, D, F**
 
 The assigned work for the term comes in the form of four elements, described below.
 
-### Weekly Labs (40%)  
+### Weekly Labs (30%)  
 
 In each module, you will receive a short lab that will help you synthesize the lectures from the week through exercises that involve data, analysis, and important formulas from the lectures. **They are graded for completion and accuracy (100-90% = Mostly Complete and Accurate; 89-80% = Incomplete or not fully accurate; 79-70% = Incomplete/late; 0% = Not submitted).**
 
-### Code-Through Assignment (10%)
+### Code-Through Assignment (25%)
 
 You will pick one topic from the class that you want to learn more about, or that you think might provide value to your classmates. Create a short tutorial to make your topic accessible to your peers. It can be a blog post, a video, a GIF, or a tutorial that explains an important concept from data programming, presents a helpful framework, illustrates a useful R tool or approach to data programming, or introduces classmates to a new package or function.
 
@@ -186,7 +186,7 @@ The following criteria, description, and corresponding points are used to evalua
 
 **Note:** Proper in-line and closing attribution of works cited is mandatory. See III. A. for more information.
 
-### Final Dashboard Project (30%)  
+### Final Dashboard Project (25%)  
 
 This course will close with a final project that requires you to transform data and allow the exploration of new insights using interactive mechanisms in a pre-built data dashboard. It is designed to give you practice integrating material the we have covered throughout the course with latitude to implement creativity and your own data product style.
 
@@ -199,14 +199,11 @@ The following criteria, description, and corresponding points are used to evalua
   - **Style:** Content exceeds expectations in functionality, design, layout, analysis, or insights **(3 pts)**
   - **Upload to Shinyapps.io:** Dashboard posted to Shinyapps.io and available through an active URL **(3 pts)**
 
-### Discussion Topics (10%)
-
-Discussion Topics (10%): iCollege discussion topics are used to introduce you to the data science ecosystem. Since this course focuses on the skill of learning data programming we cannot cover exciting resources and developments in the broad field of data science. The six weekly discussion topics (plus the Code-Through) are a chance to explore some resources or reflect on a specific theme or article on your own. We will use iCollege discussion boards for this assignment. Your online post is worth up to 10 points per discussion topic. 
-
-### Attendance (10%) 
+### Attendance & Discussions (20%)
 
 Weekly attendance is mandatory. We use our class time to engage in discussion, review course material, and work through labs and other coding projects together. You will learn by doing and the best way to do this is by working together in class with your instructor there available to help. You are allowed up to two excused absences before your attendance grade is adversely affected. 
 
+Discussion Topics: iCollege discussion topics are used to introduce you to the data science ecosystem. Since this course focuses on the skill of learning data programming we cannot cover exciting resources and developments in the broad field of data science. The six weekly discussion topics (plus the Code-Through) are a chance to explore some resources or reflect on a specific theme or article on your own. We will use iCollege discussion boards to facilitate these discussions in class. To earn full attendance credit students must post to the discussion board before the due date for each discussion topic.   
 
 ## D. General Grading Rubric for Written Work
 
