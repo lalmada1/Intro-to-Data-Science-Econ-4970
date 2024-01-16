@@ -5,9 +5,8 @@ title: Schedule
 base: 'https://github.com/lalmada1/Intro-to-Data-Science-Econ-4970/'
 
 canvas:
-  assignment_url: 'https://gastate.view.usg.edu/d2l/lms/dropbox/admin/folders_manage.d2l?ou=2993244'
+  assignment_url: 'https://gastate.view.usg.edu/d2l/lms/dropbox/user/folders_list.d2l?ou=2993244&isprv=0'
   yellowdig_url: 'https://gastate.view.usg.edu/d2l/le/2993244/discussions/List'
-  templates_url: 'https://gastate.view.usg.edu/d2l/home/2993244'
 
 lab-due-dates:
   lab-01: 'WED January 24'
