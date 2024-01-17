@@ -741,11 +741,11 @@ This lab is designed to introduce you to basic functions that explore datasets a
 
 <a class="uk-button uk-button-default" onclick="window.open('../units/01-building-blocks-of-r/lab-01-instructions.html')">LAB-01 Instructions</a>
 
-Click to download the lab template. Modify and submit using the instructions.
+Click to access the lab templates. Modify and submit using the instructions.
 
 <a class="uk-button uk-button-default" 
-   onclick="window.open('https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/01-building-blocks-of-r/lab-01-template.rmd')">
-   LAB-01 Template
+   onclick="window.open('https://lalmada1.github.io/Intro-to-Data-Science-Econ-4970/templates/')">
+   LAB Templates
 </a>
 
 
@@ -959,11 +959,11 @@ The rest of the chapter is useful information to come back to, but not needed fo
 
 <a class="uk-button uk-button-default" onclick="window.open('../units/02-operators-and-descriptives/lab-02-instructions.html')">LAB-02 Instructions</a>
 
-Click to download the lab template. Modify and submit using the instructions.
+Click to access the lab templates. Modify and submit using the instructions.
 
 <a class="uk-button uk-button-default" 
-   onclick="window.open('https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/02-operators-and-descriptives/lab-02-template.rmd')">
-   LAB-02 Template
+   onclick="window.open('https://lalmada1.github.io/Intro-to-Data-Science-Econ-4970/templates/')">
+   LAB Templates
 </a>
 
 ## Submit Solutions to iCollege
@@ -1142,11 +1142,12 @@ Code is provided to get you started, but you will have to use documentation and 
 <a class="uk-button uk-button-default" onclick="window.open('../units/03-data-viz-static/lab-03-v2-instructions.html')">LAB-03 v2 Instructions</a>
 -->
 
-Click to download the lab template. Modify and submit using the instructions.
+Click to access the lab templates. Modify and submit using the instructions.
 
 <a class="uk-button uk-button-default" 
-   onclick="window.open('https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/03-data-viz-static/lab-03-v1-template.rmd')">
-  LAB-03 v1 Template</a>
+   onclick="window.open('https://lalmada1.github.io/Intro-to-Data-Science-Econ-4970/templates/')">
+   LAB Templates
+</a>
 <!--
 <a class="uk-button uk-button-default" onclick="window.open('../units/03-data-viz-static/lab-03-v2-template.rmd')">LAB-03 v2 Template</a>
 -->
@@ -1335,13 +1336,15 @@ This lab is designed to introduce you to R Shiny by making last week's graphic i
 
 <a class="uk-button uk-button-default" onclick="window.open('../units/04-data-viz-dynamic/lab-04a-instructions.html')">LAB-04 Instructions</a>
 
-Click to download the lab template.
+Click to access the lab templates. Modify and submit using the instructions.
 
 **Note:** Rather than submitting a PDF or HTML file, please submit only the R or R Markdown file.  *Please ignore the boilerplate directions in this week's assignment*.
 
+
 <a class="uk-button uk-button-default" 
-   onclick="window.open('https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/04-data-viz-dynamic/lab-04a-template.rmd')">
-  LAB-04 Template</a>
+   onclick="window.open('https://lalmada1.github.io/Intro-to-Data-Science-Econ-4970/templates/')">
+   LAB Templates
+</a>
 
 ## Submit Solutions to iCollege
 
@@ -1528,10 +1531,11 @@ This lab offers practice analyzing traffic accident patterns using **dplyr** dat
 
 <a class="uk-button uk-button-default" onclick="window.open('../units/05-data-wrangling/lab-05-instructions.html')">LAB-05 Instructions</a>
 
-Click to download the lab template. Modify and submit using the instructions.
+Click to access the lab templates. Modify and submit using the instructions.
 
 <a class="uk-button uk-button-default" 
-   onclick="window.open('https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/05-data-wrangling/lab-05-template.rmd')"> LAB-05 Template
+   onclick="window.open('https://lalmada1.github.io/Intro-to-Data-Science-Econ-4970/templates/')">
+   LAB Templates
 </a>
 
 ## Submit Solutions to iCollege
@@ -1695,10 +1699,11 @@ This lab is designed to introduce you to primary data join functions in R.
 
 <a class="uk-button uk-button-default" onclick="window.open('../units/06-data-joins/lab-06-instructions.html')">LAB-06 Instructions</a>
 
-Click to download the lab template. Modify and submit using the instructions.
+Click to access the lab templates. Modify and submit using the instructions.
 
 <a class="uk-button uk-button-default" 
-   onclick="window.open('https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/06-data-joins/lab-06-template.rmd')"> LAB-06 Template
+   onclick="window.open('https://lalmada1.github.io/Intro-to-Data-Science-Econ-4970/templates/')">
+   LAB Templates
 </a>
 
 ## Submit Solutions to iCollege
