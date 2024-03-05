@@ -28,7 +28,7 @@ A code-through is a short tutorial where you explain how to do something in R. T
 
 In the R world, these often take the format of package "vignettes":
 
-* [httr](https://cran.r-project.org/web/packages/httr/vignettes/quickstart.html)  
+* [httr2](https://httr2.r-lib.org/)  
 * [docco style](https://cran.r-project.org/web/packages/knitr/vignettes/docco-linear.html) 
 * [dplyr](https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html)   
 
@@ -39,7 +39,7 @@ Code-throughs can come in many styles, sizes, and themes. Here are some examples
 * [making clever graphics](https://davidsmale.netlify.com/portfolio/happy-days/)  
 * [network visualization](https://kateto.net/network-visualization) 
 * [more maps](https://geocompr.robinlovelace.net/adv-map.html)  
-* [analysis of trees](https://mran.microsoft.com/snapshot/2017-03-18/web/packages/ForestTools/vignettes/treetopAnalysis.html) 
+
 
 <br>
 <hr>
@@ -108,7 +108,6 @@ Include anything that you need to get your ideas across. You might consider:
 This assignment provides an opportunity to explore some options to customize your R Markdown document. You can see some of the templates available here:
 
 * [RMD Gallery 01](https://bootswatch.com/3/) 
-* [RMD Gallery 02](http://www.datadreaming.org/post/r-markdown-theme-gallery/) 
 * [syntax highlighting options](https://eranraviv.com/syntax-highlighting-style-in-rmarkdown/) 
 
 And some advice on ways to customize appearance:
