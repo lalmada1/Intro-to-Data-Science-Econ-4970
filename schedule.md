@@ -13,8 +13,8 @@ lab-due-dates:
   lab-02: 'WED February 7'
   lab-03: 'WED February 21'
   lab-04: 'WED March 6'
-  lab-05: 'WED March 27'
-  lab-06: 'WED April 10'
+  lab-05: 'WED April 3'
+  lab-06: 'Ungraded'
 
 discussion-dates:
   topic-00: 'WED January 10'
