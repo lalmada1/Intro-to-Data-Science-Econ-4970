@@ -24,7 +24,7 @@ You will again use the traffic accidents dataset from the Tempe Open Data Portal
 
 # Instructions
 
-Create a dashboard with **at least six tabs**, four have already been provided for your.
+Create a dashboard with **at least four tabs**, two have already been provided for your.
 
 The template currently provides: 
 

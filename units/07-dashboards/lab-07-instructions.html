@@ -1547,11 +1547,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ef2929; } 
 code span.an { color: #8f5902; font-weight: bold; font-style: italic; } 
-code span.at { color: #c4a000; } 
+code span.at { color: #204a87; } 
 code span.bn { color: #0000cf; } 
 code span.cf { color: #204a87; font-weight: bold; } 
 code span.ch { color: #4e9a06; } 
-code span.cn { color: #000000; } 
+code span.cn { color: #8f5902; } 
 code span.co { color: #8f5902; font-style: italic; } 
 code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } 
 code span.do { color: #8f5902; font-weight: bold; font-style: italic; } 
@@ -1560,14 +1560,14 @@ code span.dv { color: #0000cf; }
 code span.er { color: #a40000; font-weight: bold; } 
 code span.ex { } 
 code span.fl { color: #0000cf; } 
-code span.fu { color: #000000; } 
+code span.fu { color: #204a87; font-weight: bold; } 
 code span.im { } 
 code span.in { color: #8f5902; font-weight: bold; font-style: italic; } 
 code span.kw { color: #204a87; font-weight: bold; } 
 code span.op { color: #ce5c00; font-weight: bold; } 
 code span.ot { color: #8f5902; } 
 code span.pp { color: #8f5902; font-style: italic; } 
-code span.sc { color: #000000; } 
+code span.sc { color: #ce5c00; font-weight: bold; } 
 code span.ss { color: #4e9a06; } 
 code span.st { color: #4e9a06; } 
 code span.va { color: #000000; } 
@@ -1716,7 +1716,7 @@ instructions.</p>
 </div>
 <div id="instructions" class="section level1">
 <h1>Instructions</h1>
-<p>Create a dashboard with <strong>at least six tabs</strong>, four have
+<p>Create a dashboard with <strong>at least four tabs</strong>, two have
 already been provided for your.</p>
 <p>The template currently provides:</p>
 <ul>
@@ -1771,21 +1771,21 @@ runtime: shiny
 users to filter and download the data they are interested in.</p>
 <p>We use the Data Table <strong>DT</strong> package to embed data in a
 dashboard.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># library( DT )</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>these.buttons <span class="ot">&lt;-</span> <span class="fu">c</span>( <span class="st">&#39;copy&#39;</span>, <span class="st">&#39;csv&#39;</span>, <span class="st">&#39;excel&#39;</span>, <span class="st">&#39;pdf&#39;</span>, <span class="st">&#39;print&#39;</span> )</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">datatable</span>( dat,</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>           <span class="at">filter=</span><span class="st">&#39;bottom&#39;</span>, <span class="at">rownames=</span><span class="cn">FALSE</span>, </span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>           <span class="co">#options=list( pageLength=5, autoWidth=TRUE ),</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>           <span class="at">fillContainer=</span><span class="cn">TRUE</span>, </span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>           <span class="at">style=</span><span class="st">&quot;bootstrap&quot;</span>,</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>           <span class="at">class=</span><span class="st">&#39;table-condensed table-striped&#39;</span>,</span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>           <span class="at">extensions =</span> <span class="st">&#39;Buttons&#39;</span>, </span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>           <span class="at">options=</span><span class="fu">list</span>( <span class="at">dom=</span><span class="st">&#39;Bfrtip&#39;</span>, </span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>                         <span class="at">buttons=</span>these.buttons  )) <span class="sc">%&gt;%</span></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">formatStyle</span>( <span class="st">&quot;name&quot;</span>, <span class="st">&quot;white-space&quot;</span><span class="ot">=</span><span class="st">&quot;nowrap&quot;</span> )</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="co"># library( DT )</span></span>
+<span id="cb2-2"><a href="#cb2-2" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" tabindex="-1"></a>these.buttons <span class="ot">&lt;-</span> <span class="fu">c</span>( <span class="st">&#39;copy&#39;</span>, <span class="st">&#39;csv&#39;</span>, <span class="st">&#39;excel&#39;</span>, <span class="st">&#39;pdf&#39;</span>, <span class="st">&#39;print&#39;</span> )</span>
+<span id="cb2-4"><a href="#cb2-4" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" tabindex="-1"></a><span class="fu">datatable</span>( dat,</span>
+<span id="cb2-6"><a href="#cb2-6" tabindex="-1"></a>           <span class="at">filter=</span><span class="st">&#39;bottom&#39;</span>, <span class="at">rownames=</span><span class="cn">FALSE</span>, </span>
+<span id="cb2-7"><a href="#cb2-7" tabindex="-1"></a>           <span class="co">#options=list( pageLength=5, autoWidth=TRUE ),</span></span>
+<span id="cb2-8"><a href="#cb2-8" tabindex="-1"></a>           <span class="at">fillContainer=</span><span class="cn">TRUE</span>, </span>
+<span id="cb2-9"><a href="#cb2-9" tabindex="-1"></a>           <span class="at">style=</span><span class="st">&quot;bootstrap&quot;</span>,</span>
+<span id="cb2-10"><a href="#cb2-10" tabindex="-1"></a>           <span class="at">class=</span><span class="st">&#39;table-condensed table-striped&#39;</span>,</span>
+<span id="cb2-11"><a href="#cb2-11" tabindex="-1"></a>           <span class="at">extensions =</span> <span class="st">&#39;Buttons&#39;</span>, </span>
+<span id="cb2-12"><a href="#cb2-12" tabindex="-1"></a>           <span class="at">options=</span><span class="fu">list</span>( <span class="at">dom=</span><span class="st">&#39;Bfrtip&#39;</span>, </span>
+<span id="cb2-13"><a href="#cb2-13" tabindex="-1"></a>                         <span class="at">buttons=</span>these.buttons  )) <span class="sc">%&gt;%</span></span>
+<span id="cb2-14"><a href="#cb2-14" tabindex="-1"></a>  </span>
+<span id="cb2-15"><a href="#cb2-15" tabindex="-1"></a>  <span class="fu">formatStyle</span>( <span class="st">&quot;name&quot;</span>, <span class="st">&quot;white-space&quot;</span><span class="ot">=</span><span class="st">&quot;nowrap&quot;</span> )</span></code></pre></div>
 <p><br><br></p>
 </div>
 </div>
@@ -1823,12 +1823,12 @@ data source, your contact info, and the intended use of the
 dashboard.</p>
 <p>The data dictionary is included in this tab. The data dictionary was
 created as follows:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># pseudo-code only</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>data.dictionary <span class="ot">&lt;-</span> <span class="fu">read.csv</span>()</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>dd.simple <span class="ot">&lt;-</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  data.dictionary <span class="sc">%&gt;%</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>( variableNames, variableDescriptions )</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu">pander</span>( dd.simple ) <span class="co"># html table, from pander package</span></span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="co"># pseudo-code only</span></span>
+<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a>data.dictionary <span class="ot">&lt;-</span> <span class="fu">read.csv</span>()</span>
+<span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a>dd.simple <span class="ot">&lt;-</span></span>
+<span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a>  data.dictionary <span class="sc">%&gt;%</span></span>
+<span id="cb3-5"><a href="#cb3-5" tabindex="-1"></a>  <span class="fu">select</span>( variableNames, variableDescriptions )</span>
+<span id="cb3-6"><a href="#cb3-6" tabindex="-1"></a><span class="fu">pander</span>( dd.simple ) <span class="co"># html table, from pander package</span></span></code></pre></div>
 <p><br><br></p>
 </div>
 <div id="bonus-principles-of-dashboard-design" class="section level2">
@@ -1873,42 +1873,42 @@ three steps:</p>
 <p>I suggest that you develop each analytical step outside of the
 dashboard, then add the code in the appropriate dashboard buckets. Start
 with static versions of your parameters.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># parameters</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>days.of.week <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;Sat&quot;</span>,<span class="st">&quot;Sun&quot;</span>)</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>start.time <span class="ot">&lt;-</span> <span class="dv">3</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>end.time <span class="ot">&lt;-</span> <span class="dv">6</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co"># filter data</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>d2 <span class="ot">&lt;-</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  dat <span class="sc">%&gt;%</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>( day <span class="sc">%in%</span> days.of.week, hour <span class="sc">&gt;=</span> start.time <span class="sc">&amp;</span> hour <span class="sc">&lt;=</span> end.time )</span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="co"># analyze data</span></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>d2 <span class="sc">%&gt;%</span></span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>( Collisionmanner ) <span class="sc">%&gt;%</span></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>( <span class="sc">-</span>n ) <span class="sc">%&gt;%</span></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pander</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="co"># parameters</span></span>
+<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a>days.of.week <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;Sat&quot;</span>,<span class="st">&quot;Sun&quot;</span>)</span>
+<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a>start.time <span class="ot">&lt;-</span> <span class="dv">3</span></span>
+<span id="cb4-4"><a href="#cb4-4" tabindex="-1"></a>end.time <span class="ot">&lt;-</span> <span class="dv">6</span></span>
+<span id="cb4-5"><a href="#cb4-5" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" tabindex="-1"></a><span class="co"># filter data</span></span>
+<span id="cb4-7"><a href="#cb4-7" tabindex="-1"></a>d2 <span class="ot">&lt;-</span></span>
+<span id="cb4-8"><a href="#cb4-8" tabindex="-1"></a>  dat <span class="sc">%&gt;%</span></span>
+<span id="cb4-9"><a href="#cb4-9" tabindex="-1"></a>  <span class="fu">filter</span>( day <span class="sc">%in%</span> days.of.week, hour <span class="sc">&gt;=</span> start.time <span class="sc">&amp;</span> hour <span class="sc">&lt;=</span> end.time )</span>
+<span id="cb4-10"><a href="#cb4-10" tabindex="-1"></a></span>
+<span id="cb4-11"><a href="#cb4-11" tabindex="-1"></a><span class="co"># analyze data</span></span>
+<span id="cb4-12"><a href="#cb4-12" tabindex="-1"></a>d2 <span class="sc">%&gt;%</span></span>
+<span id="cb4-13"><a href="#cb4-13" tabindex="-1"></a>  <span class="fu">count</span>( Collisionmanner ) <span class="sc">%&gt;%</span></span>
+<span id="cb4-14"><a href="#cb4-14" tabindex="-1"></a>  <span class="fu">arrange</span>( <span class="sc">-</span>n ) <span class="sc">%&gt;%</span></span>
+<span id="cb4-15"><a href="#cb4-15" tabindex="-1"></a>  <span class="fu">pander</span>()</span></code></pre></div>
 <p>Now to link to your shiny widgets, you just need to grab the user
 inputs:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># shiny widgets</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">checkboxGroupInput</span>(<span class="st">&quot;days&quot;</span>, <span class="at">label =</span> <span class="fu">h3</span>(<span class="st">&quot;Day of Week&quot;</span>), </span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">choices =</span> <span class="fu">list</span>(<span class="st">&quot;Monday&quot;</span>    <span class="ot">=</span> <span class="st">&quot;Mon&quot;</span>, </span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>                   <span class="st">&quot;Tuesday&quot;</span>   <span class="ot">=</span> <span class="st">&quot;Tue&quot;</span>, </span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>                   <span class="st">&quot;Wednesday&quot;</span> <span class="ot">=</span> <span class="st">&quot;Wed&quot;</span>, </span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>                   <span class="st">&quot;Thursday&quot;</span>  <span class="ot">=</span> <span class="st">&quot;Thu&quot;</span>,</span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>                   <span class="st">&quot;Friday&quot;</span>    <span class="ot">=</span> <span class="st">&quot;Fri&quot;</span>,</span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>                   <span class="st">&quot;Saturday&quot;</span>  <span class="ot">=</span> <span class="st">&quot;Sat&quot;</span>,</span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>                   <span class="st">&quot;Sunday&quot;</span>    <span class="ot">=</span> <span class="st">&quot;Sun&quot;</span> ),</span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">selected =</span> <span class="fu">c</span>(<span class="st">&quot;Mon&quot;</span>,<span class="st">&quot;Tue&quot;</span>,<span class="st">&quot;Wed&quot;</span>,<span class="st">&quot;Thu&quot;</span>,<span class="st">&quot;Fri&quot;</span>,<span class="st">&quot;Sat&quot;</span>,<span class="st">&quot;Sun&quot;</span>),</span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="fu">sliderInput</span>(<span class="st">&quot;hour&quot;</span>, <span class="at">label =</span> <span class="fu">h3</span>(<span class="st">&quot;Time of Day&quot;</span>), </span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>            <span class="at">min =</span> <span class="dv">0</span>, <span class="at">max =</span> <span class="dv">23</span>, <span class="at">value =</span> <span class="fu">c</span>(<span class="dv">6</span>, <span class="dv">12</span>))</span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="co"># parameters</span></span>
-<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>days.of.week <span class="ot">&lt;-</span> input<span class="sc">$</span>days    <span class="co"># vector will all checked values</span></span>
-<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>start.time <span class="ot">&lt;-</span> input<span class="sc">$</span>hour[<span class="dv">1</span>]   <span class="co"># sliderInput lower value</span></span>
-<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>end.time  <span class="ot">&lt;-</span>  input<span class="sc">$</span>hour[<span class="dv">2</span>]   <span class="co"># sliderInput upper value</span></span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="co"># shiny widgets</span></span>
+<span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" tabindex="-1"></a><span class="fu">checkboxGroupInput</span>(<span class="st">&quot;days&quot;</span>, <span class="at">label =</span> <span class="fu">h3</span>(<span class="st">&quot;Day of Week&quot;</span>), </span>
+<span id="cb5-4"><a href="#cb5-4" tabindex="-1"></a>    <span class="at">choices =</span> <span class="fu">list</span>(<span class="st">&quot;Monday&quot;</span>    <span class="ot">=</span> <span class="st">&quot;Mon&quot;</span>, </span>
+<span id="cb5-5"><a href="#cb5-5" tabindex="-1"></a>                   <span class="st">&quot;Tuesday&quot;</span>   <span class="ot">=</span> <span class="st">&quot;Tue&quot;</span>, </span>
+<span id="cb5-6"><a href="#cb5-6" tabindex="-1"></a>                   <span class="st">&quot;Wednesday&quot;</span> <span class="ot">=</span> <span class="st">&quot;Wed&quot;</span>, </span>
+<span id="cb5-7"><a href="#cb5-7" tabindex="-1"></a>                   <span class="st">&quot;Thursday&quot;</span>  <span class="ot">=</span> <span class="st">&quot;Thu&quot;</span>,</span>
+<span id="cb5-8"><a href="#cb5-8" tabindex="-1"></a>                   <span class="st">&quot;Friday&quot;</span>    <span class="ot">=</span> <span class="st">&quot;Fri&quot;</span>,</span>
+<span id="cb5-9"><a href="#cb5-9" tabindex="-1"></a>                   <span class="st">&quot;Saturday&quot;</span>  <span class="ot">=</span> <span class="st">&quot;Sat&quot;</span>,</span>
+<span id="cb5-10"><a href="#cb5-10" tabindex="-1"></a>                   <span class="st">&quot;Sunday&quot;</span>    <span class="ot">=</span> <span class="st">&quot;Sun&quot;</span> ),</span>
+<span id="cb5-11"><a href="#cb5-11" tabindex="-1"></a>    <span class="at">selected =</span> <span class="fu">c</span>(<span class="st">&quot;Mon&quot;</span>,<span class="st">&quot;Tue&quot;</span>,<span class="st">&quot;Wed&quot;</span>,<span class="st">&quot;Thu&quot;</span>,<span class="st">&quot;Fri&quot;</span>,<span class="st">&quot;Sat&quot;</span>,<span class="st">&quot;Sun&quot;</span>),</span>
+<span id="cb5-12"><a href="#cb5-12" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" tabindex="-1"></a><span class="fu">sliderInput</span>(<span class="st">&quot;hour&quot;</span>, <span class="at">label =</span> <span class="fu">h3</span>(<span class="st">&quot;Time of Day&quot;</span>), </span>
+<span id="cb5-14"><a href="#cb5-14" tabindex="-1"></a>            <span class="at">min =</span> <span class="dv">0</span>, <span class="at">max =</span> <span class="dv">23</span>, <span class="at">value =</span> <span class="fu">c</span>(<span class="dv">6</span>, <span class="dv">12</span>))</span>
+<span id="cb5-15"><a href="#cb5-15" tabindex="-1"></a></span>
+<span id="cb5-16"><a href="#cb5-16" tabindex="-1"></a><span class="co"># parameters</span></span>
+<span id="cb5-17"><a href="#cb5-17" tabindex="-1"></a>days.of.week <span class="ot">&lt;-</span> input<span class="sc">$</span>days    <span class="co"># vector will all checked values</span></span>
+<span id="cb5-18"><a href="#cb5-18" tabindex="-1"></a>start.time <span class="ot">&lt;-</span> input<span class="sc">$</span>hour[<span class="dv">1</span>]   <span class="co"># sliderInput lower value</span></span>
+<span id="cb5-19"><a href="#cb5-19" tabindex="-1"></a>end.time  <span class="ot">&lt;-</span>  input<span class="sc">$</span>hour[<span class="dv">2</span>]   <span class="co"># sliderInput upper value</span></span></code></pre></div>
 <p>Pay attention to the return values of each widget:</p>
 <p><a href="https://shiny.rstudio.com/gallery/widget-gallery.html">Shiny
 Widget Gallery</a></p>
@@ -1917,7 +1917,7 @@ characters, not numeric values, so you may need to recast as the correct
 value type to use in the filters. For example, if you use a check box
 for hours of the day, the return value will be a character and the
 greater than or less than operators would not work.</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">filter</span>( day <span class="sc">%in%</span> days.of.week, hour <span class="sc">&gt;=</span> start.time <span class="sc">&amp;</span> hour <span class="sc">&lt;=</span> end.time )</span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a><span class="fu">filter</span>( day <span class="sc">%in%</span> days.of.week, hour <span class="sc">&gt;=</span> start.time <span class="sc">&amp;</span> hour <span class="sc">&lt;=</span> end.time )</span></code></pre></div>
 <p><br><br></p>
 <div id="practice-with-dplyr" class="section level2">
 <h2>Practice with dplyr</h2>
