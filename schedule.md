@@ -5,8 +5,8 @@ title: Schedule
 base: 'https://github.com/lalmada1/Intro-to-Data-Science-Econ-4970/'
 
 canvas:
-  assignment_url: 'https://gastate.view.usg.edu/d2l/lms/dropbox/user/folders_list.d2l?ou=2993244&isprv=0'
-  yellowdig_url: 'https://gastate.view.usg.edu/d2l/le/2993244/discussions/List'
+  assignment_url: 'https://gastate.view.usg.edu/d2l/lms/dropbox/user/folders_list.d2l?ou=3255559&isprv=0'
+  yellowdig_url: 'https://gastate.view.usg.edu/d2l/le/3255559/discussions/List'
 
 lab-due-dates:
   lab-01: 'WED January 29'
@@ -853,46 +853,9 @@ Visit the [video](https://youtu.be/l9WhjLMMWH4) to navigate using timestamps in 
 The following checklist will help you stay organized for this unit.
 
 - [ ] Complete Assigned Readings: [Group Construction with Logical Statements](http://ds4ps.org/dp4ss-textbook/p-050-business-logic.html)
-- [ ] Post Discussion Topic (See Below)
 - [ ] Complete & Submit [Lab 02](../units/02-operators-and-descriptives/lab-02-instructions.html) (See Below)
 - [ ] (Recommended) Explore Packages for [Code Through Project](../units/99-code-through/code-through-assignment.html)
 - [ ] (Recommended) Videos
-
-<br>
-
-*** { @unit = "{{page.discussion-dates.topic-02}}", @title = "Discussion Topic", @assignment, @foldout  }
-
-<br>
-
-## A Tour of R Packages
-
-You might not have heard, but [nerd is the new black](https://www.wsj.com/articles/SB10001424127887323478304578332850293360468), data science is the [sexiest job of the 21st century](https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century), and there is nothing hotter than learning R.
-
-But what is R, and what are the ~~nerds~~ cool kids using it for?
-
-**This week, your task is to explore a few blogs about tools in R and find one package or application that you are excited about. It can be an analytics package, a graphics package, a specific application, or a tutorial on a topic that interests you. I don't expect you use of understand the package or tutorial, rather just identify a tool that would be useful given your interests.**
-
-Mine, personally, was the package that allows you to create comic strip graphics in R:
-
-[xkcd comics](https://stackoverflow.com/questions/12675147/how-can-we-make-xkcd-style-graphs)
-
-Take note, this assignment asks you to explore a new community where the technical language is unfamiliar and the volume of information vast. There are currently over 18,000 packages available in R! Part of the goal of the assignment is to recognize the sheer volume of creativity in the R community and the scope of work that can be done with the language. But the immediate learning objective is to find some sources that make the content accessible. Here are a few to get you started:
-
-[awesome r](https://github.com/qinwf/awesome-R)
-
-[cran views](https://cran.r-project.org/web/views/)
-
-[best of r blogs](https://blog.feedspot.com/r_programming_blogs/)
-
-[r-bloggers](https://www.r-bloggers.com/)
-
-[data science podcasts](https://ds4ps.org/careers/#data-science-podcasts)
-
-<br>
-
-**Please post your reflection as a new thread on iCollege:**
-
-<a class="uk-button uk-button-primary" href="{{page.canvas.yellowdig_url}}">iCollege</a>
 
 <br>
 <br>
@@ -1056,28 +1019,8 @@ Suggested:
 The following checklist will help you stay organized for this unit.
 
 - [ ] Complete Assigned Readings: [The plot() Function](http://ds4ps.org/dp4ss-textbook/p-061-plot-basics.html) & [Building Custom Graphics](http://ds4ps.org/dp4ss-textbook/p-062-customized-graphics.html)
-- [ ] Post on Discussion Topic (See Below)
 - [ ] Complete & Submit [Lab 03](../units/03-data-viz-static/lab-03-v1-instructions.html) (See Below)
 - [ ] (Recommended) Read [Intro. to Data Viz](http://ds4ps.org/dp4ss-textbook/p-060-intro-to-data-viz.html)
-
-<br>
-
-*** { @unit = "{{page.discussion-dates.topic-03}}", @title = "Discussion Topic", @assignment, @foldout  }
-
-<br>
-<br>
-
-## R Graphics Packages
-
-This week you will begin working in the core R graphics engine. This discussion topic offers an opportunity to explore some of the myriad graphics packages in R.
-
-Your task is to select a specialized graphic that you could use in your own (hypothetical) research or professional life, then describe what data or topic from your own work the visualization would be useful for. Reference the R package you would need for the task.
-
-For example, I might say that I work creating budgets for a government organization. I could use a [Sankey Diagram](https://www.getrichslowly.org/sankey-diagrams/) from the [D3 Package](https://www.r-graph-gallery.com/sankey-diagram/) to visualize our budget.
-
-You will find sites like the [R Graphs Gallery](https://www.r-graph-gallery.com/) and [The Data Viz Project](https://datavizproject.com/) helpful.
-
-<a class="uk-button uk-button-primary" href="{{page.canvas.yellowdig_url}}">iCollege</a>
 
 <br>
 <br>
@@ -1257,31 +1200,9 @@ For more widget examples visit the [R Shiny Widget Gallery](https://shiny.rstudi
 The following checklist will help you stay organized for this unit.
 
 - [ ] Complete Assigned Readings: [Notes on R Shiny](../units/04-data-viz-dynamic/topic-04x01-shiny-widgets.pdf), [Dynamic Graph Example](https://shiny.rstudio.com/gallery/kmeans-example.html), [Widgets Gallery](https://shiny.rstudio.com/gallery/widget-gallery.html)
-- [ ] Post on Discussion Topic (See Below)
 - [ ] Complete & Submit [Lab 04](../units/04-data-viz-dynamic/lab-04a-instructions.html) (See Below)
 - [ ] (Recommended) Videos
 - [ ] (Recommended) Familiarize Yourself with the [Final Dashboard Project](../units/07-dashboards/lab-07-instructions.html)
-
-<br>
-
-*** { @unit = "{{page.discussion-dates.topic-04}}", @title = "Discussion Topic", @assignment, @foldout  }
-
-<br>
-<br>
-
-#### Bad Graphs
-
-There is a lot of science behind data visualization, but the art to storytelling with data can be hard to distill into a few basic principles. As a result, it takes time to learn how to do it well. The best way to develop data visualization skill is to regularly consume interesting graphics. David McCandless is one of the best ambassadors for the field of graphic design and visualization. Check out his TED Talk,  and some excerpts from his book [*Information is Beautiful*]( https://github.com/DS4PS/Data-Science-Class/raw/master/READINGS/mccandless_information_is_beautiful.pdf).
-
-<div style="max-width:560px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/david_mccandless_the_beauty_of_data_visualization" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
-
-Unfortunately, it is much easier to create tragically bad graphics than it is to create good graphics. For your blog this week, read the *Calling Bullshit* overview on [proportional ink](https://callingbullshit.org/tools/tools_proportional_ink.html) and [misleading axes](https://callingbullshit.org/tools/tools_misleading_axes.html) to develop some sensitivity about misleading graphics.
-
-Find a graph that violates one of these principles, or commits an equally egregious visualization crime. Share the graph and explain what offense has been committed. You might start by searching for "bad graphs" on google images.
-
-This use of [clowns](https://peltiertech.com/bad-bar-chart-practices-or-send-in-the-clowns/) in bar charts is one of my favorites. You might also enjoy [pizza charts](http://getdolphins.com/blog/the-worst-graphs-of-2017/) or [these gems](https://www.distractify.com/humor/2017/05/26/cszBB/hilariously-bad-graphs).
-
-<a class="uk-button uk-button-primary" href="{{page.canvas.yellowdig_url}}">iCollege</a>
 
 <br>
 <br>
@@ -1438,43 +1359,9 @@ Visit the [video](https://youtu.be/M2QuERvxwm0) to navigate using timestamps in 
 The following checklist will help you stay organized for this unit.
 
 - [ ] Complete Assigned Readings: [Data Verbs in dplyr](http://ds4ps.org/dp4ss-textbook/p-070-data-verbs.html), [Data Recipes Using Pipes](http://ds4ps.org/dp4ss-textbook/p-072-data-recipes.html), [Efficient Use of Groups](http://ds4ps.org/dp4ss-textbook/p-073-group-structure.html)
-- [ ] Post on Discussion Topic (See Below)
 - [ ] Complete & Submit [Lab 05](../units/05-data-wrangling/lab-05-instructions.rmd) (See Below)
 - [ ] (Recommended) Videos
 - [ ] (Recommended) Begin Planning [Final Code-Through Project](../units/99-code-through/code-through-assignment.html)
-
-<br>
-
-*** { @unit = "{{page.discussion-dates.topic-05}}", @title = "Discussion Topic", @assignment, @foldout  }
-
-<br>
-<br>
-
-### Data APIs
-
-Part of the reason data science has grown so much as a field in recent years is because of advances in computing technologies that allows us to run powerful programs and to work with large datasets on personal computers. But just as important, data has become so ubiquitous, cheap, and valuable for organizations.
-
-Your skill level in data science can be measured by how quickly you can take a real-world problem and produce analysis that offers better solutions than the status quo. Analyzing the data is important, but the process of obtaining data is not a trivial step. Having knowledge about where to look for data, or how to augment your existing data, will help you be more effective as an analyst.
-
-Next week we will discuss some ways to get data into R. You can always download data from a website in its current format (CSV, SPSS, or Stata, etc.) then import it into R. Alternatively, it is typically more efficient to use an API.
-
-API stands for "Application Programming Interface", which is computer science jargon for the protocols that allow two applications to speak to each other. If you are using your mobile phone and you want to log into your bank using an app, an API will send your user credential and password to your bank, and will return information about your balances and transactions. In other words, APIs are structured ways of sending requests back and fourth between systems. The provide permission for external users to query some parts of internal databases (e.g. what is my checking account balance?), and control what information will be returned.
-
-In some cases, organizations that host public datasets have created data APIs to make it easier to request and share the data. In some cases you give some search parameters (such as a zip code), and it returns a new dataset (census data). In other cases, you send data (raw text), and the API sends you a processed version of the data (a sentiment score based upon words in the text). Thus APIs can be used both to access new data sources, as well as to clean or process your current data as part of your project.
-
-The R community has made a lot of APIs easier to use by creating packages that allow you to access data directly in R using custom functions. For example, the Twitter package allows you to request tweets from specific dates and users, and sends back a dataset of all tweets that meet your criteria (with limits on how much you can access at a time).
-
-R packages translate the API into functions that will translate your request into the correct API format, send the request, return the data directly into R, and often convert it into an easy to use format like a data frame. In this way, you can quickly access thousands of datasets in real time through R, and you can also store your requests in scripts for future use.
-
-For the discussion topic this week find an example of an API that could be useful for your work. For example, I use a lot of federal data. I was excited to learn that the website [Data USA](https://datausa.io/) has created a public API that allows users to access over a dozen federal datasets:
-
-[Tutorial on Data USA API](https://gist.github.com/lecy/0aa782a873cd174573f32d243233ca5b)
-
-You can find APIs through a Google search, or browse datasets on the [DS4PS Open Data](https://ds4ps.org/data/) page. Alternatively you can report on a package in R that uses a data API and describe what kinds of data the package allows you to access.
-
-*Note, you do not have to show how to use the API for the post, just identify what information is accessible and how it might be used.*
-
-<a class="uk-button uk-button-primary" href="{{page.canvas.yellowdig_url}}">iCollege</a>
 
 <br>
 <br>
@@ -1584,67 +1471,9 @@ Read the notes on data joins:
 The following checklist will help you stay organized for this unit.
 
 - [ ] Complete Assigned Readings: [Merging Data](http://ds4ps.org/dp4ss-textbook/p-076-merging-data.html)
-- [ ] Post on Discussion Topic (See Below)
 - [ ] Complete & Submit [Lab 06](../units/06-data-joins/lab-06-instructions.rmd) (See Below)
 - [ ] (Recommended) Begin [Final Code-Through Project](../units/99-code-through/code-through-assignment.html)
 - [ ] (Recommended) Begin [Final Dashboard Project](../units/07-dashboards/lab-07-instructions.html)
-
-<br>
-
-*** { @unit = "{{page.discussion-dates.topic-06}}", @title = "Discussion Topic", @assignment, @foldout  }
-
-<br>
-
-## GitHub for Government
-
-Hear me out. The government is just one big open-source project.
-
-Except currently the source code is only edited irregularly by one giant team, and they debate every single change, and then vote on it.
-
-The code is now millions of lines long, and most of it doesn't do what it was originally designed for, but it is too exhausting to make changes so they just leave it. There are lots of bugs, and many features do not work.
-
-Despite the flaws, the code somehow still functions (albeit very slowly now, like really slow), and the fan is making funny noises, and sometimes we get a blue screen during the budget process and it shuts down for a few weeks. But when it is re-started, it still kinda works.
-
----
-
-It's an imperfect metaphor, but many people have theorized that government can learn a lot from how open source projects are managed (or governed if we are being precise).
-
-<br>
-<div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/clay_shirky_how_the_internet_will_one_day_transform_government" width="854" height="480" style="position:absolute;center:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
-<br>
-
-There's been some uptake of these ideas:
-
-[http://open.innovatesf.com/openlaw/](http://open.innovatesf.com/openlaw/)
-
-### GitHub’s Official Government Evangelist
-
-> Ben Balter wants to get all up in the U.S. government’s code, and he thinks you should be able to as well. Balter, a Washington, D.C.-based lawyer, is GitHub’s official Government Evangelist. His purpose: to educate government agencies about adopting open-source software.
-
-My favorite Ben Balter project was something simple. GIS files are notoriously large and hard to work with (for some reason GIS shapefiles still split data into five separate files that you have to keep together for them to work properly).
-
-The open source community has created some better data structures that are more efficient and easier to share (geoJSON files), but the geographers that work for cities were all trained on ArcGIS products so it's all they know! Ben wrote a script that downloaded all of Washington DC's open data files, converted them to better formats, then uploaded them to GitHub so others have access.
-
-https://github.com/benbalter/dc-maps
-
-It might seem trivial - but geoJSON files can be read into R directly from GitHub, making it easy to deploy the data for a wide variety of purposes:
-
-```r
-library( geojsonio )
-library( sp )
-github <- "https://raw.githubusercontent.com/benbalter/dc-maps/master/maps/2006-traffic-volume.geojson"
-traffic <- geojson_read( x=github, method="local", what="sp" )
-plot( traffic, col="steelblue" )
-```
-**traffic data from dc**
-
-![](assets/img/dc-traffic.png)
-
-For this week, read about how [GitHub has evolved to support government](https://readwrite.com/2014/08/14/github-government-ben-balter-open-source/).
-
-Do you think open source frameworks would help open the black box and make government more accessible? Would government become more accessible, or alienate regular citizens that are not computer scientists? Would it make influence from special interests more transparent, or would it make it easier for them to hijack the process of shaping local laws?
-
-<a class="uk-button uk-button-primary" href="{{page.canvas.yellowdig_url}}">iCollege</a>
 
 <br>
 <br>
