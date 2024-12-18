@@ -11,11 +11,11 @@ info:
  course_title: Intro to Data Science for Economists 
  course_number: Econ 4970
  course_level: Undergraduate
- course_website: "https://gastate.view.usg.edu/d2l/home/2993244"
- course_start_end_dates: January 8 - April 22, 2024
+ course_website: "https://gastate.view.usg.edu/d2l/home/3255559"
+ course_start_end_dates: January 13 - May 6, 2025
  course_prerequisites:  
  class_meets_when:  Wednesdays 12:30pm - 3:00pm  
- class_meets_where: Classroom South CLSO Room 200
+ class_meets_where: Classroom South CLSO Room 300
 
 instructor:
 -  name: Lorenzo Almada
@@ -23,7 +23,7 @@ instructor:
    email: lalmada1@gsu.edu
    office_location: 55 Park Place Room 682
    website: "https://aysps.gsu.edu/profile/lorenzo-almada/"
-   office_hours_time: Tues 2:00 - 3:00 pm or by Appointment (email me!)  
+   office_hours_time: By Appointment (email me!)  
    office_hours_location:  
 
 
@@ -199,11 +199,9 @@ The following criteria, description, and corresponding points are used to evalua
   - **Style:** Content exceeds expectations in functionality, design, layout, analysis, or insights **(3 pts)**
   - **Upload to Shinyapps.io:** Dashboard posted to Shinyapps.io and available through an active URL **(3 pts)**
 
-### Attendance & Discussions (20%)
+### Attendance (20%)
 
-Weekly attendance is mandatory. We use our class time to engage in discussion, review course material, and work through labs and other coding projects together. You will learn by doing and the best way to do this is by working together in class with your instructor there available to help. You are allowed up to two excused absences before your attendance grade is adversely affected. 
-
-Discussion Topics: iCollege discussion topics are used to introduce you to the data science ecosystem. Since this course focuses on the skill of learning data programming we cannot cover exciting resources and developments in the broad field of data science. The six weekly discussion topics (plus the Code-Through) are a chance to explore some resources or reflect on a specific theme or article on your own. We will use iCollege discussion boards to facilitate these discussions in class. To earn full attendance credit students must post to the discussion board before the due date for each discussion topic.   
+Weekly attendance is mandatory. We use our class time to engage in discussion, review course material, and work through labs and other coding projects together. You will learn by doing and the best way to do this is by working together in class with your instructor there available to help. You are allowed one excused absence before your attendance grade is adversely affected. 
 
 ## D. General Grading Rubric for Written Work
 
@@ -222,11 +220,11 @@ The final projects will be accompanied by a rubric describing the allocation of 
 
 Grades for the course are largely based on weekly labs. Assigned work is accompanied by detailed instructions, adequate time for completion and opportunities to consult the instructor with questions. As a result, each assignment element in the course is expected to be completed in a timely fashion by the due date. Once solutions are posted it is no longer possible to receive points for assignments.
 
-## F. Course Communications and Instructor Feedback:
+## F. Course Communications and Instructor Feedback: 
 
-**Course content** is hosted on this website. Lecture files, assignments and other course communications will be transmitted via this site and/or through the class email list. **All assignment submissions** will be made through [**iCollege**](https://gastate.view.usg.edu/d2l/home/2993244).
+**Course content** is hosted on this website. Lecture files, assignments, and other course communications will be transmitted via this site and/or through the class email list. **All assignment submissions** will be made through [**iCollege**](https://gastate.view.usg.edu/d2l/home/3255559).
 
-Please post lab questions on the [**Get Help**](https://lalmada1.github.io/Intro-to-Data-Science-Econ-4970/help/) page on this site, schedule individual office hours, or email the instructor directly.
+Please schedule individual office hours, meet with the course GTA, or email the instructor directly if you need outside-class assistance.
 
 Students should be aware that the course instructor will attempt to respond to any course-related email as quickly as possible. Students are asked to allow between 24 and 48 hours for replies to direct instructor emails, generally, as a reasonable time to reply to questions or other issues posed in an email. Additionally, the general timeline for instructor grading or other feedback on assignments, either writer work or online discussion work, is between 5 and 10 work days.
 
