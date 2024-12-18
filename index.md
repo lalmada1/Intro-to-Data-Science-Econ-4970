@@ -12,7 +12,7 @@ info:
  course_number: Econ 4970
  course_level: Undergraduate
  course_website: "https://gastate.view.usg.edu/d2l/home/3255559"
- course_start_end_dates: January 13 - May 6, 2025
+ course_start_end_dates: January 13 - April 28, 2025
  course_prerequisites:  
  class_meets_when:  Wednesdays 12:30pm - 3:00pm  
  class_meets_where: Classroom South CLSO Room 300
@@ -128,12 +128,6 @@ Similar to immersion in a language, the best way to learn the material is to be 
 
 You will be much better off spending a small amount of time each day on the material instead of trying to cram everything into a couple of days a week.
 
-### Discussion
-
-Online discussion boards are designed for students to engage with the material together. The purpose of online discussion sessions is threefold: (1) the online discussion sessions allow students to interact with their peers and share ideas and interpretations of the assigned material, (2) such peer-to-peer discussion online helps build professional relationships with potential future colleagues in the field, and (3) the discussions permit the instructor to assess student engagement with the assigned material.
-
-The online discussions are explicitly intended to meet the objectives stated above. They are not intended as another form of &quot;lecture&quot; where the instructor provides commentary and students simply react to that. Rather, the discussions are a chance for peer-to-peer interaction and proactive engagement by each individual student.
-
 ### Video Lectures
 
 Several videos are provided throughout the course. They are not mandatory viewing, however, we have recently integrated them into the Course Schedule and elsewhere to provide an additional medium for audio-visual learning in demonstrating core concepts. We recommend reproducing the data analytic tasks you see while watching each in order to ensure retention. Video lectures are designed as a supplement and not intended for use in lieu of assigned reading. Take advantage of the bookmarks and timestamps to quickly navigate to topics of interest in each video and consider subscribing as new course content is published frequently.
@@ -153,7 +147,18 @@ A variety of free e-books are also available on [**LeanPub**](https://leanpub.co
 
 In addition to the required reading, the instructor will supplement these with video overviews, journal articles, policy reports, or other related material. These will be made available in the course shell.
 
-## C. Course Grading System for Assigned Work & Final Projects
+## C. General Grading Rubric for Written Work
+
+In general, any submitted work is assessed on these evaluative criteria:
+
+- **Completeness:** All elements of the assignment are addressed
+- **Quality of Analysis:** Substantively rigorous in addressing the assignment
+- **Understanding:** Demonstrated synthesis and application of core lecture concepts
+- **Appearance:** Consistent formatting, style, spelling, grammar, and conventions in code/text
+
+The final projects will be accompanied by a rubric describing the allocation of points and criteria for evaluation.
+
+## D. Course Grading System for Assigned Work & Final Projects
 
 Letter grades comport with a traditional set of intervals:
 
@@ -203,22 +208,9 @@ The following criteria, description, and corresponding points are used to evalua
 
 Weekly attendance is mandatory. We use our class time to engage in discussion, review course material, and work through labs and other coding projects together. You will learn by doing and the best way to do this is by working together in class with your instructor there available to help. You are allowed one excused absence before your attendance grade is adversely affected. 
 
-## D. General Grading Rubric for Written Work
-
-In general, any submitted work is assessed on these evaluative criteria:
-
-- **Completeness:** All elements of the assignment are addressed
-- **Quality of Analysis:** Substantively rigorous in addressing the assignment
-- **Understanding:** Demonstrated synthesis and application of core lecture concepts
-- **Appearance:** Consistent formatting, style, spelling, grammar, and conventions in code/text
-
-Most assignments in this course are labs that are graded pass-fail based upon completeness and correctness of responses (every attempt must be made to complete labs, and they must be more than 50% correct to receive credit). Discussion boards that accumulate points through each activity on the board.
-
-The final projects will be accompanied by a rubric describing the allocation of points and criteria for evaluation.
-
 ## E. Late and Missing Assignments
 
-Grades for the course are largely based on weekly labs. Assigned work is accompanied by detailed instructions, adequate time for completion and opportunities to consult the instructor with questions. As a result, each assignment element in the course is expected to be completed in a timely fashion by the due date. Once solutions are posted it is no longer possible to receive points for assignments.
+Grades for the course are largely based on weekly labs and projects. Assigned work is accompanied by detailed instructions, adequate time for completion and opportunities to consult the instructor with questions. As a result, each assignment element in the course is expected to be completed in a timely fashion by the due date. Once solutions are posted it is no longer possible to receive points for assignments.
 
 ## F. Course Communications and Instructor Feedback: 
 
