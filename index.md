@@ -107,7 +107,7 @@ Students will demonstrate competency in understanding, producing and communicati
 3. Discussion topics on broad data science concepts, news, and trends
 4. Final projects that integrate several skills  
 
-Assigned work, including the final course projects as well as regular, active participation in online discussion sessions (a critical part of the course learning strategy) are the tools the instructor will use to measure comprehension and skill; the student&#39;s course grade is a direct reflection of demonstrated performance. Students should take stated expectations seriously regarding preparation, conduct, and academic honesty in order to receive a grade reflecting outstanding performance.  
+Assigned work, including the final course projects as well as regular, active participation in the classroom are the tools the instructor will use to measure comprehension and skill; the student&#39;s course grade is a direct reflection of demonstrated performance. Students should take stated expectations seriously regarding preparation, conduct, and academic honesty in order to receive a grade reflecting outstanding performance.  
 
 **Note:** Students should be aware that merely completing assigned work in no way guarantees an outstanding grade in the course. To receive an outstanding course grade (using the grading scheme described below and the performance assessment approach noted above), all assigned work should completed on time with careful attention to assignment details.
 
@@ -218,7 +218,7 @@ Grades for the course are largely based on weekly labs and projects. Assigned wo
 
 Please schedule individual office hours, meet with the course GTA, or email the instructor directly if you need outside-class assistance.
 
-Students should be aware that the course instructor will attempt to respond to any course-related email as quickly as possible. Students are asked to allow between 24 and 48 hours for replies to direct instructor emails, generally, as a reasonable time to reply to questions or other issues posed in an email. Additionally, the general timeline for instructor grading or other feedback on assignments, either writer work or online discussion work, is between 5 and 10 work days.
+Students should be aware that the course instructor will attempt to respond to any course-related email as quickly as possible. Students are asked to allow between 24 and 48 hours for replies to direct instructor emails, generally, as a reasonable time to reply to questions or other issues posed in an email. Additionally, the general timeline for instructor grading or other feedback on assignments is between 5 and 10 work days.
 
 ## F.  Student Conduct
 
