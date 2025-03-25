@@ -1277,7 +1277,7 @@ Read the notes on data wrangling in R:
 * [Data Recipes Using Pipes](http://ds4ps.org/dp4ss-textbook/p-072-data-recipes.html)  
 * [Efficient Use of Groups](http://ds4ps.org/dp4ss-textbook/p-073-group-structure.html)   
 
-You may also find the [Data Wrangling Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf) useful.
+You may also find the [Data Wrangling Cheatsheet](https://rstudio.github.io/cheatsheets/html/data-transformation.html?_gl=1*hlmqwa*_ga*NTU4OTI2Mzc3LjE3NDA2ODQzNjg.*_ga_2C0WZ1JHG0*MTc0MjkwNzE3Ni4zLjEuMTc0MjkwNzQ1OC4wLjAuMA..) useful.
 
 <br>
 
