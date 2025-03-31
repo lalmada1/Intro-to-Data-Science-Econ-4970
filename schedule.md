@@ -13,14 +13,14 @@ lab-due-dates:
   lab-02: 'WED February 12'
   lab-03: 'WED February 26'
   lab-04: 'WED March 12'
-  lab-05: 'WED April 2'
-  lab-06: 'Ungraded'
+  lab-05: 'WED April 9'
+  lab-06: 'Extra Credit April 16'
 
 code-through:
-  due-date: 'WED April 16'
+  due-date: 'WED April 23'
   
 final-project:
-  due-date: 'WED April 28'
+  due-date: 'WED April 30'
 
 ---
 
