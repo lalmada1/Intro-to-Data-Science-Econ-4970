@@ -197,11 +197,11 @@ This course will close with a final project that requires you to transform data 
 
 The following criteria, description, and corresponding points are used to evaluate the project (30 points total):
 
-  - **New Tabs Added:** Custom tabs successfully integrated; runs without errors **(10 pts)**
-  - **Widget Integration:** Widgets correctly linked; visual output is reactive **(8 pts)**
-  - **Data Reporting:** Value boxes, tables, graphics, or other reporting is provided, functional **(4 pts)**
-  - **Documentation:** Sufficient documentation provided on "About" tab **(2 pts)**
-  - **Style:** Content exceeds expectations in functionality, design, layout, analysis, or insights **(3 pts)**
+  - **New Tabs Added:** Custom tabs successfully integrated; runs without errors **(7 pts)**
+  - **Widget Integration:** Widgets correctly linked; visual output is reactive **(7 pts)**
+  - **Data Reporting:** Value boxes, tables, graphics, or other reporting is provided, functional **(3 pts)**
+  - **Documentation:** Sufficient documentation provided on "About" tab **(3 pts)**
+  - **Style:** Content exceeds expectations in functionality, design, layout, analysis, or insights **(7 pts)**
   - **Upload to Shinyapps.io:** Dashboard posted to Shinyapps.io and available through an active URL **(3 pts)**
 
 ### Attendance (20%)
