@@ -179,7 +179,7 @@ In each module, you will receive a short lab that will help you synthesize the l
 
 ### Code-Through Assignment (25%)
 
-You will pick one topic from the class that you want to learn more about, or that you think might provide value to your classmates. Create a short tutorial to make your topic accessible to your peers. It can be a blog post, a video, a GIF, or a tutorial that explains an important concept from data programming, presents a helpful framework, illustrates a useful R tool or approach to data programming, or introduces classmates to a new package or function.
+You will pick one topic from the class that you want to learn more about, or that you think might provide value to your classmates. Create a short tutorial to make your topic accessible to your peers. It can be a blog post, a recorded video, or an in-class presentation that explains an important concept from data science as it relates to economics. The purpose of the code-through tutorial is to demonstrate how data science tools can be used in economic applications. These tutorials can demonstrate how to use R tools to work with economic datasets or introduce classmates to a new package or function commonly used in economics research.
 
 The following criteria, description, and corresponding points are used to evaluate the project (30 points total):
 
@@ -206,7 +206,7 @@ The following criteria, description, and corresponding points are used to evalua
 
 ### Attendance (20%)
 
-Weekly attendance is mandatory. We use our class time to engage in discussion, review course material, and work through labs and other coding projects together. You will learn by doing and the best way to do this is by working together in class with your instructor there available to help. You are allowed one excused absence before your attendance grade is adversely affected. 
+Weekly attendance is mandatory. We use our class time to engage in discussion, review course material, and work through labs and other coding projects together. You will learn by doing, and the best way to do this is by working together in class with your instructor there available to help. You are allowed one excused absence before your attendance grade is adversely affected. 
 
 ## E. Late and Missing Assignments
 
@@ -214,7 +214,7 @@ Grades for the course are largely based on weekly labs and projects. Assigned wo
 
 ## F. Course Communications and Instructor Feedback: 
 
-**Course content** is hosted on this website. Lecture files, assignments, and other course communications will be transmitted via this site and/or through the class email list. **All assignment submissions** will be made through [**iCollege**](https://gastate.view.usg.edu/d2l/home/3255559).
+**Course content** is hosted on this website. Lecture files, assignments, and other course communications will be transmitted via this site and/or through the class email list. **All assignment submissions** will be made through [**iCollege**](https://gastate.view.usg.edu/d2l/home/3414105).
 
 Please schedule individual office hours, meet with the course GTA, or email the instructor directly if you need outside-class assistance.
 
