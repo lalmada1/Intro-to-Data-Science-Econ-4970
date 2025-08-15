@@ -5,8 +5,8 @@ title: Schedule
 base: 'https://github.com/lalmada1/Intro-to-Data-Science-Econ-4970/'
 
 canvas:
-  assignment_url: 'https://gastate.view.usg.edu/d2l/lms/dropbox/user/folders_list.d2l?ou=3255559&isprv=0'
-  yellowdig_url: 'https://gastate.view.usg.edu/d2l/le/3255559/discussions/List'
+  assignment_url: 'https://gastate.view.usg.edu/d2l/lms/dropbox/user/folders_list.d2l?ou=3414105&isprv=0'
+  yellowdig_url: 'https://gastate.view.usg.edu/d2l/le/3414105/discussions/List'
 
 lab-due-dates:
   lab-01: 'WED January 29'
@@ -216,48 +216,6 @@ Visit the [video](https://youtu.be/oXgFrUq6btQ) to navigate using timestamps in 
 <br>
 <br>
 
-## Understanding GitHub Issues
-
-GitHub Issues allow you to quickly troubleshoot issues with instructors and peers by sharing code, reproducing errors, and thoroughly explaining complications as you learn R.
-
-<br>
-
-#### GitHub Issues: A Tutorial
-
-The following video provides a tutorial for using GitHub Issues.
-
-* Locating the Issues page
-* Exploring previously posted Issues
-* Creating, labeling, and assigning collaborators
-
-<br>
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/cHBFusiPyLw??rel=0&modestbranding=1&autohide=1&showinfo=0"
-frameborder="0" allow="accelerometer;
-autoplay; encrypted-media; gyroscope;
-picture-in-picture" allowfullscreen></iframe>
-
-<br>
-
-Visit the [video](https://youtu.be/cHBFusiPyLw) to navigate using timestamps in the description or bookmarks in the progress bar.
-
-* (**00:00**) Introduction
-* (**00:55**) Getting to the Issues Page: A Shortcut
-* (**01:42**) The Issues Page
-* (**02:08**) Exploring Posted Issues
-* (**02:40**) Viewing an Example Issue
-* (**03:24**) Recommended: Browse Issues Before Posting
-* (**03:46**) Creating a New Issue: The Title
-* (**04:18**) Labeling Issues & Assigning Collaborators
-* (**04:46**) The Body Text: Explaining Your Issue
-* (**05:45**) Examples of Best Practices
-* (**06:19**) Formatting with Markdown
-* (**07:15**) Conclusion
-
-<br>
-<br>
-
 ## What Is R Markdown?
 
 R Markdown is one of the most powerful tools you'll learn. It allows the synthesis of human language and code to perform processing and analysis tasks while explaining them to broad audiences.
@@ -296,69 +254,6 @@ Visit the [video](https://youtu.be/ALwHaNzQub0) to navigate using timestamps in 
 * (**09:55**) Lab Templates
 * (**12:25**) Discussion
 
-<br>
-<br>
-
-*** { @unit = "", @title = "Getting Help", @reading, @foldout  }
-
-## Understand Your Resources
-
-Data analytics is a very social endeavor and real-world analytics projects are almost always collaborative.
-
-These courses are designed to be interactive, and a lot of learning occurs by practicing the technical jargon from the field and learning how to talk about data and models.
-
-Learning how to seek help and use discussion boards will accelerate learning and facilitate collaboration. Social coding tools like GitHub use these features extensively.
-
-We are going to throw a lot at you, but also provide a lot of support. Over these first couple of weeks feel free to reach out for anything you might need.
-
-<br>
-
-### Troubleshooting & Clarification
-
-If you find something confusing, let us know (likely others will find it confusing as well).
-
-* Schedule a Zoom call with your instructor and screen share to walk through issues
-* Post a question to the [course discussion board](https://lalmada1.github.io/Intro-to-Data-Science-Econ-4970/help/)
-* Request a walk-through and your instructor will provide examples and steps
-
-As a general rule of thumb, if you are stuck on the math or code for a problem, need clarification about what the question is asking, want to make sure you understand a formula, or are having similar issues then the help discussion page is the easiest and quickest way to get help. If you are confused about concepts or having a hard time even formulating your question, then office hours are your best option.
-
-<br>
-
-![](https://i.imgur.com/FNGjWce.png)
-
-Adapted from **[SRGRAFO](https://www.srgrafo.com/)**.
-
-<br>
-
-### The Benefits of GitHub Issues
-
-Note that the discussion board is hosted by the GitHub issues feature. It is a great forum because:
-
-* You can format code and math using standard markdown syntax
-* You can cut and paste images directly into the message
-* You can direction responses using @username mentions
-
-Please preview your responses before posting to ensure proper formatting. Note that you format code by placing fences around the code:
-
-````
-```
-# your code here
-lm( y ~ x1 + x2 )
-```
-````
-
-The fences are made of three back-ticks. These look like quotation marks, but are actually the character at the top left of your keyboard (if you have a US or European keyboard) and shared with the *tilde* (`~`).
-
-````
-```
-y = b0 + b1•X1 + b2•X2 + e
-
-b1 = cov(x,y) / var(x)
-```
-````
-
-----
 
 <br>
 <br>
@@ -372,7 +267,7 @@ The following checklist will help you organize and prepare for success in this c
 - [ ] [Read the Syllabus](https://lalmada1.github.io/Intro-to-Data-Science-Econ-4970/)
 - [ ] [Install R](https://cran.rstudio.com/) and [R Studio Desktop](https://www.rstudio.com/products/rstudio/download/)
 - [ ] [Sign-Up for a GitHub Account](https://github.com/join)
-- [ ] Introduce Yourself in [iCollege](https://gastate.view.usg.edu/d2l/le/3255559/discussions/topics/4020693/View) (See Below)
+- [ ] Introduce Yourself in [iCollege](https://gastate.view.usg.edu/d2l/le/3414105/discussions/topics/4020693/View) (See Below)
 - [ ] (Recommended) Skim Readings
 - [ ] (Recommended) Videos
 
