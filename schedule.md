@@ -266,8 +266,7 @@ The following checklist will help you organize and prepare for success in this c
 
 - [ ] [Read the Syllabus](https://lalmada1.github.io/Intro-to-Data-Science-Econ-4970/)
 - [ ] [Install R](https://cran.rstudio.com/) and [R Studio Desktop](https://www.rstudio.com/products/rstudio/download/)
-- [ ] [Sign-Up for a GitHub Account](https://github.com/join)
-- [ ] Introduce Yourself in [iCollege](https://gastate.view.usg.edu/d2l/le/3414105/discussions/topics/4020693/View) (See Below)
+- [ ] Introduce Yourself in iCollege (See Below)
 - [ ] (Recommended) Skim Readings
 - [ ] (Recommended) Videos
 
