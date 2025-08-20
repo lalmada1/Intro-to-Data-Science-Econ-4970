@@ -1428,8 +1428,8 @@ Click to access the lab templates. Modify and submit using the instructions.
 
 The following checklist will help you stay organized for the final projects.
 
-- [ ] Finalize & Submit Your [Final Code-Through Project](../units/99-code-through/code-through-assignment.html)
 - [ ] Finalize & Submit Your [Final Dashboard Project](../units/07-dashboards/lab-07-instructions.html)
+- [ ] Finalize & Submit Your [Final Code-Through Project](../units/99-code-through/code-through-assignment.html)
 - [ ] (Recommended) Submit a Course Evaluation
 
 <br>
