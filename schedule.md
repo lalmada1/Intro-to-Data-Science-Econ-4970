@@ -17,10 +17,10 @@ lab-due-dates:
   lab-06: 'Extra Credit Nov 11'
 
 code-through:
-  due-date: 'TUES Nov 11'
+  due-date: 'TUES Dec 2'
   
 final-project:
-  due-date: 'TUES Dec 2'
+  due-date: 'TUES Nov 11'
 
 ---
 
@@ -1434,28 +1434,6 @@ The following checklist will help you stay organized for the final projects.
 
 <br>
 
-*** { @unit = "{{page.code-through.due-date}}", @title = "Code-Through Project", @assignment, @foldout  }
-
-<br>
-
-## Code-Through
-
-Code-through instructions: 
-
-<a class="uk-button uk-button-default" onclick="window.open('../units/99-code-through/code-through-assignment.html')">Code-Through Instructions</a>
-
-Download the recommended template for your code-through with the below link.
-
-**Note:** *This is one of many possible layouts; modify appropriately.*
-
-<a class="uk-button uk-button-default" onclick="window.open('../units/99-code-through/code-through-template.rmd')">Base Code-Through Template</a>
-
-## Submit to iCollege
-
-<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT CODE-THROUGH</a>
-
-<br>
-<br>
 
 *** { @unit = "{{page.final-project.due-date}}", @title = "Final Dashboard Project", @assignment, @foldout  }
 
@@ -1483,7 +1461,28 @@ We recommended creating new tabs independently, then incorporating them into the
 <br>
 <br>
 
+*** { @unit = "{{page.code-through.due-date}}", @title = "Code-Through Project", @assignment, @foldout  }
 
+<br>
+
+## Code-Through
+
+Code-through instructions: 
+
+<a class="uk-button uk-button-default" onclick="window.open('../units/99-code-through/code-through-assignment.html')">Code-Through Instructions</a>
+
+Download the recommended template for your code-through with the below link.
+
+**Note:** *This is one of many possible layouts; modify appropriately.*
+
+<a class="uk-button uk-button-default" onclick="window.open('../units/99-code-through/code-through-template.rmd')">Base Code-Through Template</a>
+
+## Submit to iCollege
+
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT CODE-THROUGH</a>
+
+<br>
+<br>
 
 
 <style>
