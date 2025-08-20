@@ -177,32 +177,32 @@ The assigned work for the term comes in the form of four elements, described bel
 
 In each module, you will receive a short lab that will help you synthesize the lectures from the week through exercises that involve data, analysis, and important formulas from the lectures. **They are graded for completion and accuracy (100-90% = Mostly Complete and Accurate; 89-80% = Incomplete or not fully accurate; 79-70% = Incomplete/late; 0% = Not submitted).**
 
-### Code-Through Assignment (25%)
+### Code-Through Project (30%)
 
-You will pick one topic from the class that you want to learn more about, or that you think might provide value to your classmates. Create a short tutorial to make your topic accessible to your peers. It can be a blog post, a recorded video, or an in-class presentation that explains an important concept from data science as it relates to economics. The purpose of the code-through tutorial is to demonstrate how data science tools can be used in economic applications. These tutorials can demonstrate how to use R tools to work with economic datasets or introduce classmates to a new package or function commonly used in economics research.
+You will pick one topic from the class that you want to learn more about, or that you think might provide value to your classmates. Create a short tutorial to make your topic accessible to your peers. It can be a blog post, a recorded video, or an in-class presentation that explains an important concept from data science as it relates to economics. The purpose of the code-through tutorial is to demonstrate how data science tools can be used in economic applications. These tutorials can explain how to use R tools to work with economic datasets or introduce classmates to a new package or function commonly used in economics research.
 
-The following criteria, description, and corresponding points are used to evaluate the project (30 points total):
+The following criteria, description, and corresponding points are used to evaluate the project (100 points total):
 
-  - **Novelty & Value:** Focuses on a new, valuable topic or expansion of existing course material (**6 pts**)
-  - **Exposition:** Topic is thoroughly explained, e.g. purpose, theory, framework, etc. (**6 pts**)
-  - **Appearance:** Consistent code conventions and style; proper spelling, formatting, etc. (**6 pts**)
-  - **Demonstration:** Includes examples of application and relevance; 75% or more is original (**6 pts**)
-  - **Resources:** Topic-related resources are provided, described, and organized (**6 pts**)
+  - **Novelty & Value:** Focuses on a new, valuable topic or expansion of existing course material (**20 pts**)
+  - **Exposition:** Topic is thoroughly explained, e.g., purpose, theory, framework, etc. (**20 pts**)
+  - **Appearance:** Consistent code conventions and style; proper spelling, formatting, etc. (**20 pts**)
+  - **Demonstration:** Includes examples of application and relevance; 75% or more is original (**20 pts**)
+  - **Resources:** Topic-related resources are provided, described, and organized (**20 pts**)
 
 **Note:** Proper in-line and closing attribution of works cited is mandatory. See III. A. for more information.
 
-### Final Dashboard Project (25%)  
+### Dashboard Project (20%)  
 
-This course will close with a final project that requires you to transform data and allow the exploration of new insights using interactive mechanisms in a pre-built data dashboard. It is designed to give you practice integrating material the we have covered throughout the course with latitude to implement creativity and your own data product style.
+The dashboard project requires you to transform data and allow the exploration of new insights using interactive mechanisms in a pre-built data dashboard. It is designed to give you practice integrating material that we have covered throughout the course, with latitude to implement creativity and your own data product style.
 
-The following criteria, description, and corresponding points are used to evaluate the project (30 points total):
+The following criteria, description, and corresponding points are used to evaluate the project (100 points total):
 
-  - **New Tabs Added:** Custom tabs successfully integrated; runs without errors **(7 pts)**
-  - **Widget Integration:** Widgets correctly linked; visual output is reactive **(7 pts)**
-  - **Data Reporting:** Value boxes, tables, graphics, or other reporting is provided, functional **(3 pts)**
-  - **Documentation:** Sufficient documentation provided on "About" tab **(3 pts)**
-  - **Style:** Content exceeds expectations in functionality, design, layout, analysis, or insights **(7 pts)**
-  - **Upload to Shinyapps.io:** Dashboard posted to Shinyapps.io and available through an active URL **(3 pts)**
+  - **New Tabs Added:** Custom tabs successfully integrated; runs without errors **(25 pts)**
+  - **Widget Integration:** Widgets correctly linked; visual output is reactive **(25 pts)**
+  - **Data Reporting:** Value boxes, tables, graphics, or other reporting is provided, functional **(10 pts)**
+  - **Documentation:** Sufficient documentation provided on "About" tab **(10 pts)**
+  - **Style:** Content exceeds expectations in functionality, design, layout, analysis, or insights **(20 pts)**
+  - **Upload to Shinyapps.io:** Dashboard posted to Shinyapps.io and available through an active URL **(10 pts)**
 
 ### Attendance (20%)
 
