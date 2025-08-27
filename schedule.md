@@ -9,7 +9,7 @@ canvas:
   yellowdig_url: 'https://gastate.view.usg.edu/d2l/le/3414105/discussions/List'
 
 lab-due-dates:
-  lab-01: 'TUES Sept 2'
+  lab-01: 'TUES Sept 9'
   lab-02: 'TUES Sept 16'
   lab-03: 'TUES Sept 30'
   lab-04: 'TUES Oct 14'
