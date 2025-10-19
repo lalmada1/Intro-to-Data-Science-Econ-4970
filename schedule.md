@@ -12,15 +12,15 @@ lab-due-dates:
   lab-01: 'TUES Sept 9'
   lab-02: 'TUES Sept 16'
   lab-03: 'TUES Sept 30'
-  lab-04: 'TUES Oct 14'
-  lab-05: 'TUES Oct 28'
+  lab-04: 'MON Oct 20'
+  lab-05: 'MON Nov 3'
   lab-06: 'Extra Credit Nov 11'
 
 code-through:
   due-date: 'TUES Dec 2'
   
 final-project:
-  due-date: 'TUES Nov 11'
+  due-date: 'TUES Nov 18'
 
 ---
 
