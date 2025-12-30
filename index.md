@@ -11,11 +11,11 @@ info:
  course_title: Intro to Data Science for Economists 
  course_number: Econ 4970
  course_level: Undergraduate
- course_website: https://gastate.view.usg.edu/d2l/home/3414105
- course_start_end_dates: August 25 - December 16, 2025
+ course_website: https://gastate.view.usg.edu/d2l/home/3531986
+ course_start_end_dates: Jan 12 - May 5, 2026
  course_prerequisites:  
- class_meets_when:  Tuesday 9:30am - Noon  
- class_meets_where: Langdale Hall | Room 518
+ class_meets_when:  Tuesday 12:45 PM - 3:15 PM
+ class_meets_where: Classroom South | Room 225
 
 instructor:
 -  name: Lorenzo Almada
