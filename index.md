@@ -11,7 +11,7 @@ info:
  course_title: Intro to Data Science for Economists 
  course_number: Econ 4970
  course_level: Undergraduate
- course_website: [https://gastate.view.usg.edu/d2l/home/3531986](https://gastate.view.usg.edu/d2l/home/3531986)
+ course_website: [https://gastate.view.usg.edu/d2l/home/3531986]
  course_start_end_dates: Jan 12 - May 5, 2026
  course_prerequisites:  
  class_meets_when:  Tuesday 12:45 PM - 3:15 PM
