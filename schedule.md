@@ -9,18 +9,18 @@ canvas:
   yellowdig_url: 'https://gastate.view.usg.edu/d2l/le/3531986/discussions/List'
 
 lab-due-dates:
-  lab-01: 'THUR Jan 29'
-  lab-02: 'THUR Feb 5'
-  lab-03: 'THUR Feb 19'
-  lab-04: 'THUR Mar 12'
-  lab-05: 'THUR Apr 2'
-  lab-06: 'THUR Apr 16'
+  lab-01: 'Thur Jan 29'
+  lab-02: 'Thur Feb 5'
+  lab-03: 'Thur Feb 19'
+  lab-04: 'Thur Mar 12'
+  lab-05: 'Thur Apr 2'
+  lab-06: 'Thur Apr 16'
 
 code-through:
-  due-date: 'THUR Apr 30'
+  due-date: 'Thur Apr 30'
   
 final-project:
-  due-date: 'THUR Apr 23'
+  due-date: 'Thur Apr 23'
 
 ---
 
