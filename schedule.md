@@ -9,18 +9,18 @@ canvas:
   yellowdig_url: 'https://gastate.view.usg.edu/d2l/le/3702598/discussions/List'
 
 lab-due-dates:
-  lab-01: 'Fri Sept 4'
-  lab-02: 'Fri Sept 18'
-  lab-03: 'Fri Oct 2'
-  lab-04: 'Fri Oct 16'
-  lab-05: 'Fri Oct 30'
-  lab-06: 'Fri Nov 13'
+  lab-01: 'Mon Sept 7'
+  lab-02: 'Mon Sept 21'
+  lab-03: 'Mon Oct 5'
+  lab-04: 'Mon Oct 19'
+  lab-05: 'Mon Nov 2'
+  lab-06: 'Mon Nov 16'
 
 code-through:
   due-date: 'Fri Dec 4'
   
 final-project:
-  due-date: 'Fri Nov 20'
+  due-date: 'Mon Nov 23'
 
 ---
 
