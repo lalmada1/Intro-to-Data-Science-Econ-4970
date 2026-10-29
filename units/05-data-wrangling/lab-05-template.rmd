@@ -140,10 +140,7 @@ The following provides brief exploratory summaries on key data points.
 
 ```{r}
 
-x <- sum(dat$day == "Mon", 
-         na.rm = TRUE)
-
-comma(x)                    # Example solution
+# Code
 
 ```
 
@@ -182,10 +179,7 @@ comma(x)                    # Example solution
 
 ```{r}
 
-dat %>%
-  filter(day == "Mon") %>%
-  count(Collisionmanner) %>%
-  arrange(desc(n))
+# Code
 
 ```
 
@@ -209,13 +203,7 @@ Significantly more accidents occur **[on weekdays or weekends?]**.
 
 ```{r}
 
-dat %>%
-  group_by(day) %>%
-  mutate(harm_acc = Totalinjuries > 0 | Totalfatalities > 0) %>%
-  summarize(n = n(),
-            injuries = sum(Totalinjuries),
-            fatalities = sum(Totalfatalities),
-            harm.rate = mean(harm_acc))
+# Code
 
 ```
 
