@@ -20,7 +20,7 @@ code-through:
   due-date: 'Fri Dec 4'
   
 final-project:
-  due-date: 'Mon Nov 30'
+  due-date: 'Tues Dec 1'
 
 ---
 
