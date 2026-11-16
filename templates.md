@@ -108,7 +108,7 @@ To download the lab templates make sure to right-click on the template link and 
 <button type="button" class="button"> FlexDash Demo 02 </button>
 </a>
   
-<a href='https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/07-dashboards/lab-07-dashboard-template-v3.rmd' target="_blank">
+<a href='https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/units/07-dashboards/lab-07-dashboard-template-v4.rmd' target="_blank">
 <button type="button" class="button"> DB Template </button>
 </a>
   
